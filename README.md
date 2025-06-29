@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Author-QQuante-blue.svg" alt="Author: QQuante" />
-  <img src="https://img.shields.io/badge/Organization-Quante_ParaDevs-lightgrey.svg" alt="Organization: ParaDevs" />
+  <img src="https://img.shields.io/badge/Organization-ParaDevs-lightgrey.svg" alt="Organization: ParaDevs" />
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" />
 </div>
 
