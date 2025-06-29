@@ -15,14 +15,10 @@ import requests
 import arxiv
 import semanticscholar as sch
 
-# --- Constants ---
-# HTTP Headers to mimic a browser visit, reducing the chance of being blocked.
 HTTP_HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 }
 
-# --- Logging Configuration ---
-# Sets up a robust logging system that outputs to both the console and a file.
 def setup_logging(log_path):
     """Configures file and stream logging."""
     logging.basicConfig(
@@ -33,8 +29,6 @@ def setup_logging(log_path):
             logging.StreamHandler()
         ]
     )
-
-# --- Core Functions ---
 
 def sanitize_filename(filename):
     """Removes invalid characters from a string to make it a valid filename."""
@@ -125,7 +119,7 @@ def main():
     """Main function to parse arguments and run the download process."""
     parser = argparse.ArgumentParser(
         description="AI Paper Collector - A tool to gather academic papers for AI training.",
-        epilog="Authored by QQuante (Quante ParaDevs)"
+        epilog="Authored by QQuante"
     )
     parser.add_argument('-q', '--query', type=str, required=True, help="Search query for finding papers.")
     parser.add_argument('-m', '--max-papers', type=int, default=100, help="Maximum number of papers to download.")
