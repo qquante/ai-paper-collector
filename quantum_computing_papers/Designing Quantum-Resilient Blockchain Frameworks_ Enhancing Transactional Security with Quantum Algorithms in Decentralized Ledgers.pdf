@@ -1,0 +1,858 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    
+    Designing Quantum-Resilient Blockchain Frameworks: Enhancing Transactional Security with Quantum Algorithms in Decentralized Ledgers
+
+</title>
+
+
+    
+    <meta name="title" content="Designing Quantum-Resilient Blockchain Frameworks: Enhancing Transactional Security with Quantum Algorithms in Decentralized Ledgers"/>
+    <meta name="description" content="Quantum computing is progressing at a fast rate and there is a real threat that classical cryptographic methods can be compromised and therefore impact the security of blockchain networks. All of the ways used to secure blockchain like Rivest–Shamir–Adleman (RSA), Elliptic Curve Cryptography (ECC) and Secure Hash Algorithm 256-bit (SHA256) are the characteristic of the traditional cryptographic techniques vulnerable to attack by quantum algorithms: Shor’s and Grover’s algorithms: can efficiently break asymmetric encryption and speed up brute force attacks. Because of this vulnerability, there exists a need to develop an advance quantum resilient blockchain framework to protect the decentralized ledgers from the future threats of the quantum. This research proposes Post-Quantum Cryptography (PQC), Quantum Key Distribution (QKD) and Quantum Random Number Generation (QRNG) as a formidable architectural integration, to fortify security of blockchain. Classical encryption is replaced with PQC, QKD with secure key exchange by detecting eavesdropping, and QRNG with improving cryptographic randomness to remove the predictable key vulnerability. Only with a small loss of transaction efficiency, we increase transaction encryption accuracy, key exchange security, and resistance to quantum attacks. In this quantum enhanced blockchain design, the idea is to preserve the decentralization, transparency and security and at the same time overcome the future quantum threat. By going through rigorous analysis and comparative evaluation, we demonstrate that the approach saves blockchain networks from the emerging quantum risks to make sure that the decentralized finance, smart contracts and cross chain transactions."/>
+    <meta name="keywords" content="Quantum resilience, blockchain security, Quantum Key Distribution (QKD), Post-Quantum Cryptography (PQC), Quantum Random Number Generation (QRNG), decentralized ledger"/>
+    <meta name="citation_title" content="Designing Quantum-Resilient Blockchain Frameworks: Enhancing Transactional Security with Quantum Algorithms in Decentralized Ledgers"/>
+    
+                    <meta name="citation_author" content="Meenal R Kale"/>
+                    
+            
+                    <meta name="citation_author" content="Yousef A.Baker El-Ebiary"/>
+                    
+            
+                    <meta name="citation_author" content="L. Sathiya"/>
+                    
+            
+                    <meta name="citation_author" content="Vijay Kumar Burugari"/>
+                    
+            
+                    <meta name="citation_author" content="Erkiniy Yulduz"/>
+                    
+            
+                    <meta name="citation_author" content="Elangovan Muniyandy"/>
+                    
+            
+                    <meta name="citation_author" content="Rakan Alanazi"/>
+                    
+            
+    <meta name="citation_issn" content="2156-5570"/>
+	<meta name="citation_journal_title" content="International Journal of Advanced Computer Science and Applications (ijacsa)"/>
+    
+    <meta name="citation_year" content="2025"/>
+    <meta name="citation_publication_date" content="2025/03/01" />
+    <meta name="citation_abstract" content="Quantum computing is progressing at a fast rate and there is a real threat that classical cryptographic methods can be compromised and therefore impact the security of blockchain networks. All of the ways used to secure blockchain like Rivest–Shamir–Adleman (RSA), Elliptic Curve Cryptography (ECC) and Secure Hash Algorithm 256-bit (SHA256) are the characteristic of the traditional cryptographic techniques vulnerable to attack by quantum algorithms: Shor’s and Grover’s algorithms: can efficiently break asymmetric encryption and speed up brute force attacks. Because of this vulnerability, there exists a need to develop an advance quantum resilient blockchain framework to protect the decentralized ledgers from the future threats of the quantum. This research proposes Post-Quantum Cryptography (PQC), Quantum Key Distribution (QKD) and Quantum Random Number Generation (QRNG) as a formidable architectural integration, to fortify security of blockchain. Classical encryption is replaced with PQC, QKD with secure key exchange by detecting eavesdropping, and QRNG with improving cryptographic randomness to remove the predictable key vulnerability. Only with a small loss of transaction efficiency, we increase transaction encryption accuracy, key exchange security, and resistance to quantum attacks. In this quantum enhanced blockchain design, the idea is to preserve the decentralization, transparency and security and at the same time overcome the future quantum threat. By going through rigorous analysis and comparative evaluation, we demonstrate that the approach saves blockchain networks from the emerging quantum risks to make sure that the decentralized finance, smart contracts and cross chain transactions."/>
+    <meta name="citation_volume" content="16"/>
+    <meta name="citation_issue" content="4"/>
+
+    
+    <meta name="citation_pdf_url" content="http://thesai.org/Downloads/Volume16No4/Paper_62-Designing_Quantum_Resilient_Blockchain_Frameworks.pdf"/>
+    <meta name="citation_doi" content="10.14569/IJACSA.2025.0160462"/>
+
+    <meta name="dc.source" content="International Journal of Advanced Computer Science and Applications" />
+    <meta name="dc.title" content="Designing Quantum-Resilient Blockchain Frameworks: Enhancing Transactional Security with Quantum Algorithms in Decentralized Ledgers" />
+    <meta name="dc.description" content="Quantum computing is progressing at a fast rate and there is a real threat that classical cryptographic methods can be compromised and therefore impact the security of blockchain networks. All of the ways used to secure blockchain like Rivest–Shamir–Adleman (RSA), Elliptic Curve Cryptography (ECC) and Secure Hash Algorithm 256-bit (SHA256) are the characteristic of the traditional cryptographic techniques vulnerable to attack by quantum algorithms: Shor’s and Grover’s algorithms: can efficiently break asymmetric encryption and speed up brute force attacks. Because of this vulnerability, there exists a need to develop an advance quantum resilient blockchain framework to protect the decentralized ledgers from the future threats of the quantum. This research proposes Post-Quantum Cryptography (PQC), Quantum Key Distribution (QKD) and Quantum Random Number Generation (QRNG) as a formidable architectural integration, to fortify security of blockchain. Classical encryption is replaced with PQC, QKD with secure key exchange by detecting eavesdropping, and QRNG with improving cryptographic randomness to remove the predictable key vulnerability. Only with a small loss of transaction efficiency, we increase transaction encryption accuracy, key exchange security, and resistance to quantum attacks. In this quantum enhanced blockchain design, the idea is to preserve the decentralization, transparency and security and at the same time overcome the future quantum threat. By going through rigorous analysis and comparative evaluation, we demonstrate that the approach saves blockchain networks from the emerging quantum risks to make sure that the decentralized finance, smart contracts and cross chain transactions." />
+    <meta name="dc.format" content="text/html" />
+    <meta name="dc.publisher" content="The Science and Information (SAI) Organization Limited" />
+    <meta name="dc.type" content="Articles" />
+    <meta name="dc.identifier" content="doi:10.14569/IJACSA.2025.0160462" />
+    <meta name="dc.language" content="en" />
+
+    <meta name="prism.volume" content="16" />
+    <meta name="prism.number" content="4" />
+    <meta name="prism.section" content="Articles" />
+    <meta name="prism.doi" content="10.14569/IJACSA.2025.0160462" />    <link rel="canonical" href="https://thesai.org/Publications/ViewPaper?Volume=16&Issue=4&Code=ijacsa&SerialNo=62" />
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="~/Content/layout/plugins/html5.js"></script>
+<![endif]-->
+<meta name="Robots" content="INDEX,FOLLOW">
+<link rel="publisher" href="https://plus.google.com/104737946641110758342">
+
+    <link rel="preload" href="/Content/layout/style.css" as="style" type="text/css">
+    <link rel="stylesheet" href="/Content/layout/style.css" type="text/css">
+
+
+<script data-cfasync="false" type="text/javascript" src="/Content/layout/js/jquery.js"></script>
+
+<script defer type="8f474bc284a10a42d52d1b5d-text/javascript" src="/Content/settings/js/jssor.js"></script>
+<script defer type="8f474bc284a10a42d52d1b5d-text/javascript" src="/Content/settings/js/jssor.slider.js"></script>
+
+<!-- PrettyPhoto start -->
+<link rel="stylesheet" href="/Content/layout/plugins/prettyphoto/css/prettyPhoto.css" type="text/css">
+<script type="8f474bc284a10a42d52d1b5d-text/javascript" src="/Content/layout/plugins/prettyphoto/jquery.prettyPhoto.js"></script>
+<!-- PrettyPhoto end -->
+
+<!-- jQuery tools start -->
+<script type="8f474bc284a10a42d52d1b5d-text/javascript" src="/Content/layout/plugins/tools/jquery.tools.min.js"></script>
+<!-- jQuery tools end -->
+
+<!-- Calendar start -->
+<link rel="stylesheet" href="/Content/layout/plugins/calendar/calendar.css" type="text/css">
+<script type="8f474bc284a10a42d52d1b5d-text/javascript" src="/Content/layout/plugins/calendar/calendar.js" defer></script>
+<!-- Calendar end -->
+
+<!-- ScrollTo start -->
+<script type="8f474bc284a10a42d52d1b5d-text/javascript" src="/Content/layout/plugins/scrollto/jquery.scroll.to.min.js" defer></script>
+<!-- ScrollTo end -->
+
+<!-- MediaElements start -->
+<link rel="stylesheet" href="/Content/layout/plugins/video-audio/mediaelementplayer.css">
+<script src="/Content/layout/plugins/video-audio/mediaelement-and-player.js" type="8f474bc284a10a42d52d1b5d-text/javascript"></script>
+<!-- MediaElements end -->
+
+<!-- FlexSlider start -->
+<link rel="stylesheet" href="/Content/layout/plugins/flexslider/flexslider.css" type="text/css"/>
+<script type="8f474bc284a10a42d52d1b5d-text/javascript" src="/Content/layout/plugins/flexslider/jquery.flexslider-min.js"></script>
+<!-- FlexSlider end -->
+
+<!-- iButtons start -->
+<link rel="stylesheet" href="/Content/layout/plugins/ibuttons/css/jquery.ibutton.css" type="text/css"/>
+<script type="8f474bc284a10a42d52d1b5d-text/javascript" src="/Content/layout/plugins/ibuttons/lib/jquery.ibutton.min.js" defer></script>
+<!-- iButtons end -->
+
+<!-- jQuery Form Plugin start -->
+<script type="8f474bc284a10a42d52d1b5d-text/javascript" src="/Content/layout/plugins/ajaxform/jquery.form.js" defer></script>
+<!-- jQuery Form Plugin end -->
+
+<script type="8f474bc284a10a42d52d1b5d-text/javascript" src="/Content/layout/js/main.js"></script>
+
+
+    <script type="8f474bc284a10a42d52d1b5d-text/javascript">
+        jQuery(document).ready(function ($) {
+            $('li#btnpublication').addClass("current_page_item");
+        });
+    </script>
+    
+
+
+    <script type="8f474bc284a10a42d52d1b5d-text/javascript"> var switchTo5x = true;</script>
+
+
+    <link href="https://plus.google.com/104737946641110758342" rel="publisher" />
+    <script type="8f474bc284a10a42d52d1b5d-text/javascript" defer src="https://apis.google.com/js/platform.js?publisherid=104737946641110758342">
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-RKKMRZYXMJ" type="8f474bc284a10a42d52d1b5d-text/javascript"></script>
+    <script type="8f474bc284a10a42d52d1b5d-text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-RKKMRZYXMJ');
+    </script>
+
+    <!-- Google Ads tag (gtag.js) -->
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=AW-959837401" type="8f474bc284a10a42d52d1b5d-text/javascript"></script>
+    <script type="8f474bc284a10a42d52d1b5d-text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-959837401');
+    </script>
+
+     <style>
+    .youtube-player {
+        position: relative;
+        padding-bottom: 56.23%;
+        /* Use 75% for 4:3 videos */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+        margin: 5px;
+    }
+    
+    .youtube-player iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: transparent;
+    }
+    
+    .youtube-player img {
+        bottom: 0;
+        display: block;
+        left: 0;
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        height: auto;
+        cursor: pointer;
+        -webkit-transition: .4s all;
+        -moz-transition: .4s all;
+        transition: .4s all;
+    }
+    
+    .youtube-player img:hover {
+        -webkit-filter: brightness(75%);
+    }
+    
+    .youtube-player .play {
+        height: 72px;
+        width: 72px;
+        left: 55%;
+        top: 60%;
+        margin-left: -36px;
+        margin-top: -36px;
+        position: absolute;
+        background: url("../../Content/layout/images/icon_play_1.png") no-repeat;
+        cursor: pointer;
+    }
+
+</style>
+
+        <!-- Youtube Script and Styles -->
+    <script defer type="8f474bc284a10a42d52d1b5d-text/javascript">
+
+    /* Light YouTube Embeds by @labnol */
+    /* Web: http://labnol.org/?p=27941 */
+
+        document.addEventListener("DOMContentLoaded",
+            function() {
+                var div, n,
+                    v = document.getElementsByClassName("youtube-player");
+                for (n = 0; n < v.length; n++) {
+                    div = document.createElement("div");
+                    div.setAttribute("data-id", v[n].dataset.id);
+                    div.innerHTML = labnolThumb(v[n].dataset.id);
+                    div.onclick = labnolIframe;
+                    v[n].appendChild(div);
+                }
+            });
+
+        function labnolThumb(id) {
+            var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" loading="lazy">',
+                play = '<div class="play"></div>';
+            return thumb.replace("ID", id) + play;
+        }
+
+        function labnolIframe() {
+            var iframe = document.createElement("iframe");
+            var embed = "https://www.youtube.com/embed/ID?autoplay=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1";
+            iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute("allowfullscreen", "1");
+            iframe.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
+            this.parentNode.replaceChild(iframe, this);
+        }
+
+    </script>
+</head>
+
+<body class="boxed">
+	<div class="wrapper sticky_footer">
+    	<!-- HEADER BEGIN -->
+        <header>
+            <div id="header">
+            	
+                
+            	<section class="bottom">
+                	<div class="inner">
+                    	<div id="logo_top"><a href="/"><img src="/Content/images/logo_top.png" alt="The Science and Information (SAI) Organization" title="The Science and Information (SAI) Organization"></a></div>
+                        
+                        
+                        
+                        <div class="fr">
+                        	<div class="block_languages">
+                            	
+                                
+                                <div class="clearboth"></div>
+                            </div>
+                            
+                            <div class="block_search_top">
+                            	<form action="/Home/Search" method="post">
+                                	<div class="field"><input type="text" name="searchtext" class="w_def_text" title="Search ..."></div>
+                                    <input type="submit" class="button" value="Search">
+                                    <div class="clearboth"></div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <div class="clearboth"></div>
+                    </div>
+                </section>
+                
+                <section class="section_main_menu">
+                	<div class="inner">
+                    	<nav class="main_menu">
+                        	<ul>
+								<li id="btnhome"><a href="/">Home</a></li>
+                                <li id="btnabout"><a href="/Home/About">About Us</a></li>
+							  	<li id="btnpublication" class="big_dropdown" data-content="publications"><a href="/Publications">Journals</a></li>
+							  	<li id="btnconferences" class="big_dropdown" data-content="conferences"><a href="http://SAIConference.com/">Conferences</a></li>
+							  	<li id="btncontact"><a href="/Home/Contact">Contact Us</a></li>
+                                
+							</ul>
+						</nav>
+                    </div>
+                </section>
+                
+                <section class="section_big_dropdown">
+                	<div class="inner">
+                    	<div class="block_big_dropdown" data-menu="publications">
+                        	<div class="content">
+                            	<div class="more">
+                                	<div class="title"><p>Publication Links</p></div>
+                                    <ul>
+                                    	<li><a href="/Publications/IJACSA">IJACSA</a></li>
+                                        
+                                        <li><a href="/Publications/Guidelines">Author Guidelines</a></li>
+                                        <li><a href="/Publications/Policies">Publication Policies</a></li>
+                                        <li><a href="/Publications/DigitalArchiving">Digital Archiving Policy</a></li>
+                                        <li><a href="/Publications/Promotion">Promote your Publication</a></li>
+                                        <li><a href="/Publications/OAI">Metadata Harvesting (OAI2)</a></li>
+                                    </ul>
+                                </div>
+                                <div class="line"></div>
+                                
+                                <div class="more">
+                                	<div class="title"><p>IJACSA</p></div>
+                                    <ul>
+                                    	<li><a href="/Publications/IJACSA" >About the Journal</a></li>
+                                        <li><a href="/Publications/CallForPaper?code=IJACSA">Call for Papers</a></li>
+                                        <li><a href="/Publications/EditorialBoard?code=IJACSA">Editorial Board</a></li>
+                                        <li><a href="/Publications/Guidelines">Author Guidelines</a></li>
+                                        <li><a href="/Publications/Submit?code=IJACSA">Submit your Paper</a></li>
+                                        <li><a href="/Publications/CurrentIssue?code=IJACSA" >Current Issue</a></li>
+                                        <li><a href="/Publications/Archives?code=IJACSA" >Archives</a></li>
+                                        <li><a href="/Publications/Citations?code=IJACSA" >Indexing</a></li>
+                                        <li><a href="/Publications/CallForPaper?code=IJACSA#Fees">Fees/ APC</a></li>
+                                        <li><a href="/Reviewers?current=1&amp;filter=A&amp;journal=IJACSA">Reviewers</a></li>
+                                        <li><a href="/Reviewers/Create">Apply as a Reviewer</a></li>
+                                    </ul>
+                                </div>
+                                <div class="line"></div>
+                                
+                                <div class="more">
+                                	<div class="title"><p>IJARAI</p></div>
+                                    <ul>
+                                    	<li><a href="/Publications/IJARAI">About the Journal</a></li>
+                                        
+                                        
+                                                                                            
+                                        <li><a href="/Publications/Archives?code=IJARAI" >Archives</a></li>                                            
+                                        <li><a href="/Publications/Citations?code=IJARAI" >Indexing & Archiving</a></li>
+                                        
+                                        
+                                        
+                                    </ul>
+                                </div>
+                                <div class="line"></div>
+                                
+                                <div class="more">
+                                	<div class="title"><p>Special Issues</p></div>
+                                    <ul>
+                                    	 <li><a href="/Publications/SpecialIssue">Home</a></li>
+                                         <li><a href="/Publications/Archives?code=SpecialIssue" >Archives</a></li>
+                                         <li><a href="/Publications/SpecialIssue#Proposals">Proposals</a></li>
+                                         <li><a href="/Publications/GuestEditors">Guest Editors</a></li>
+                                         <li><a href="/Publications/SUSAI_EE">SUSAI-EE 2025</a></li>
+                                         <li><a href="/Publications/ICONS_BA2025">ICONS-BA 2025</a></li>
+                                         <li><a href="/Publications/IoT_BLOCK">IoT-BLOCK 2025</a></li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="clearboth"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="block_big_dropdown" data-menu="conferences">
+                        	<div class="content">
+
+                                <div class="more">
+                                	<div class="title"><p>Future of Information and Communication Conference (FICC)</p></div>
+                                    <ul>
+                                    	<li><a href="http://SAIConference.com/FICC">Home</a></li>
+                                        <li><a href="http://SAIConference.com/FICC/CallforPapers">Call for Papers</a></li>
+                                        <li><a href="http://SAIConference.com/FICC/Submit">Submit your Paper/Poster</a></li>          
+                                        <li><a href="http://SAIConference.com/FICC/Register">Register</a></li>
+                                        <li><a href="http://SAIConference.com/FICC/Venue">Venue</a></li>
+                                        <li><a href="http://SAIConference.com/FICC/Contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="line"></div>
+
+                                <div class="more">
+                                	<div class="title"><p>Computing Conference</p></div>
+                                    <ul>
+                                    	<li><a href="http://SAIConference.com/Computing">Home</a></li>
+                                        <li><a href="http://SAIConference.com/Computing/CallforPapers">Call for Papers</a></li>
+                                        <li><a href="http://SAIConference.com/Computing/Submit">Submit your Paper/Poster</a></li>                                                  
+                                        <li><a href="http://SAIConference.com/Computing/Register">Register</a></li>
+                                        <li><a href="http://SAIConference.com/Computing/Venue">Venue</a></li> 
+                                        <li><a href="http://SAIConference.com/Computing/Contact">Contact</a></li>
+                                    </ul>
+                                </div>       
+                                <div class="line"></div>
+
+                                <div class="more">
+                                	<div class="title"><p>Intelligent Systems Conference (IntelliSys)</p></div>
+                                    <ul>
+                                    	<li><a href="http://SAIConference.com/IntelliSys">Home</a></li>
+                                        <li><a href="http://SAIConference.com/IntelliSys/CallforPapers">Call for Papers</a></li>
+                                        <li><a href="http://SAIConference.com/IntelliSys/Submit">Submit your Paper/Poster</a></li>          
+                                        <li><a href="http://SAIConference.com/IntelliSys/Register">Register</a></li>
+                                        <li><a href="http://SAIConference.com/IntelliSys/Venue">Venue</a></li>
+                                        <li><a href="http://SAIConference.com/IntelliSys/Contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="line"></div>
+
+                                <div class="more">
+                                	<div class="title"><p>Future Technologies Conference (FTC)</p></div>
+                                    <ul>
+                                    	<li><a href="http://SAIConference.com/FTC">Home</a></li>
+                                        <li><a href="http://SAIConference.com/FTC2024/CallforPapers">Call for Papers</a></li>
+                                        <li><a href="http://SAIConference.com/FTC2024/Submit">Submit your Paper/Poster</a></li>          
+                                        <li><a href="http://SAIConference.com/FTC2024/Register">Register</a></li>
+                                        <li><a href="http://SAIConference.com/FTC2024/Venue">Venue</a></li>
+                                        <li><a href="http://SAIConference.com/FTC2024/Contact">Contact</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="line"></div>
+                                
+                                <div class="clearboth"></div>
+                            </div>
+                        </div>
+                    </div>
+              	</section>
+                
+    
+
+        <section class="section_secondary_menu">
+            <div class="inner">
+                <nav class="secondary_menu">
+                    <ul>
+                        
+                            <li><a href="/Publications/IJACSA">Home</a></li>
+                            <li><a href="/Publications/CallForPaper?code=IJACSA">Call for Papers</a></li>
+                            <li><a href="/Publications/EditorialBoard?code=IJACSA">Editorial Board</a></li>     
+                            <li><a href="/Publications/Guidelines">Guidelines</a></li>
+                            <li><a href="/Publications/Submit?code=IJACSA">Submit</a></li>     
+                            <li><a href="/Publications/CurrentIssue?code=IJACSA">Current Issue</a></li>
+                            <li><a href="/Publications/Archives?code=IJACSA">Archives</a></li>    
+                            <li><a href="/Publications/Citations?code=IJACSA">Indexing</a></li>
+                            <li><a href="/Publications/CallForPaper?code=IJACSA#Fees">Fees</a></li>    
+                            <li><a href="/Reviewers?current=1&amp;filter=A&amp;journal=IJACSA">Reviewers</a></li>
+                            <li><a href="/feed/rss?code=IJACSA">Subscribe <img src="../../Content/images/RSS.png" width="15" /></a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    
+
+                
+            </div>
+        </header>
+    	<!-- HEADER END -->
+        
+        <!-- CONTENT BEGIN -->
+        
+    
+        <div id="content" class="right_sidebar">
+        	<div class="inner">
+            	<div class="general_content">
+                	<div class="main_content">
+                        
+<div id="content">
+    <div class="inner">
+        <div class="general_content">
+            <div class="main_content">
+                <p>
+                    <div class="inline">DOI: <a class="lnk_red" href="https://dx.doi.org/10.14569/IJACSA.2025.0160462">10.14569/IJACSA.2025.0160462</a></div>   
+                    <div><a target="_blank" class="general_button standart type_1 alignright" href="../../../Downloads/Volume16No4/Paper_62-Designing_Quantum_Resilient_Blockchain_Frameworks.pdf" title="PDF">PDF</a></div>
+                </p>
+            <h2 class="">
+                <a target="_blank" href="../../../Downloads/Volume16No4/Paper_62-Designing_Quantum_Resilient_Blockchain_Frameworks.pdf" title="PDF">Designing Quantum-Resilient Blockchain Frameworks: Enhancing Transactional Security with Quantum Algorithms in Decentralized Ledgers</a>     
+            </h2>
+            <div>
+                <p>           
+                
+                        <div class="post-author inline">Author 1: Meenal R Kale</div>
+                        
+                        <div class="post-author inline">Author 2: Yousef A.Baker El-Ebiary</div>
+                        
+                        <div class="post-author inline">Author 3: L. Sathiya</div>
+                        
+                        <div class="post-author inline">Author 4: Vijay Kumar Burugari</div>
+                        
+                        <div class="post-author inline">Author 5: Erkiniy Yulduz</div>
+                        
+                        <div class="post-author inline">Author 6: Elangovan Muniyandy</div>
+                        
+                        <div class="post-author inline">Author 7: Rakan Alanazi</div>
+                        
+                </p>
+            </div>
+            <div class="clearboth"></div>
+            
+            <div>
+                <p>
+                International Journal of Advanced Computer Science and Applications(ijacsa), Volume 16 Issue 4, 2025.
+                
+                </p>
+
+            </div>
+            <div class="clear"></div>
+
+            <div class="block_tabs_type_2">
+                <div class="tabs">
+                    <ul>
+                        <li><a href="#1" class="current">Abstract and Keywords</a></li><!-- tab link -->
+                        
+                        <li><a href="#2">How to Cite this Article</a></li><!-- tab link -->
+                        <li><a href="#3">{} BibTeX Source</a></li>
+                    </ul>
+                </div>
+                                        
+                <div class="tab_content">
+                    <p>Abstract: Quantum computing is progressing at a fast rate and there is a real threat that classical cryptographic methods can be compromised and therefore impact the security of blockchain networks. All of the ways used to secure blockchain like Rivest–Shamir–Adleman (RSA), Elliptic Curve Cryptography (ECC) and Secure Hash Algorithm 256-bit (SHA256) are the characteristic of the traditional cryptographic techniques vulnerable to attack by quantum algorithms: Shor’s and Grover’s algorithms: can efficiently break asymmetric encryption and speed up brute force attacks. Because of this vulnerability, there exists a need to develop an advance quantum resilient blockchain framework to protect the decentralized ledgers from the future threats of the quantum. This research proposes Post-Quantum Cryptography (PQC), Quantum Key Distribution (QKD) and Quantum Random Number Generation (QRNG) as a formidable architectural integration, to fortify security of blockchain. Classical encryption is replaced with PQC, QKD with secure key exchange by detecting eavesdropping, and QRNG with improving cryptographic randomness to remove the predictable key vulnerability. Only with a small loss of transaction efficiency, we increase transaction encryption accuracy, key exchange security, and resistance to quantum attacks. In this quantum enhanced blockchain design, the idea is to preserve the decentralization, transparency and security and at the same time overcome the future quantum threat. By going through rigorous analysis and comparative evaluation, we demonstrate that the approach saves blockchain networks from the emerging quantum risks to make sure that the decentralized finance, smart contracts and cross chain transactions.</p>
+                    <div class="post-category">
+                        Keywords: Quantum resilience; blockchain security; Quantum Key Distribution (QKD); Post-Quantum Cryptography (PQC); Quantum Random Number Generation (QRNG); decentralized ledger
+                    </div>   
+                </div>
+                                        
+                <div class="tab_content">
+                    
+
+                        <p>
+                        Meenal R Kale, Yousef A.Baker El-Ebiary, L. Sathiya, Vijay Kumar Burugari, Erkiniy Yulduz, Elangovan Muniyandy and Rakan Alanazi, “Designing Quantum-Resilient Blockchain Frameworks: Enhancing Transactional Security with Quantum Algorithms in Decentralized Ledgers” International Journal of Advanced Computer Science and Applications(ijacsa), 16(4), 2025. <a href="https://dx.doi.org/10.14569/IJACSA.2025.0160462">http://dx.doi.org/10.14569/IJACSA.2025.0160462</a>
+                                    
+                        </p>
+                        
+                </div>
+                    
+                <div class="tab_content">
+                    
+
+                        <p>
+                        
+
+                        @article{Kale2025,<br />
+                        title = {Designing Quantum-Resilient Blockchain Frameworks: Enhancing Transactional Security with Quantum Algorithms in Decentralized Ledgers},<br />
+                        journal = {International Journal of Advanced Computer Science and Applications},<br />
+                        doi = {10.14569/IJACSA.2025.0160462},<br />
+                        url = {http://dx.doi.org/10.14569/IJACSA.2025.0160462},<br />
+                        year  = {2025},<br />
+                        publisher = {The Science and Information Organization},<br />
+                        volume = {16},<br />
+                        number = {4},<br />
+                        author = {Meenal R Kale and Yousef A.Baker El-Ebiary and L. Sathiya and Vijay Kumar Burugari and Erkiniy Yulduz and Elangovan Muniyandy and Rakan Alanazi}<br />
+                        }
+                                    
+                        </p>
+                        
+                </div>
+                                        
+                <script type="8f474bc284a10a42d52d1b5d-text/javascript">
+                    $('.block_tabs_type_2 .tabs').tabs('.block_tabs_type_2 .tab_content', {
+                        initialIndex: 0
+                    });
+                </script>
+            </div>
+            <hr /><br />
+            <p class="general_subtitle">
+                Copyright Statement: This is an open access article licensed under a <a class="lnk_red" rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>, which permits unrestricted use, distribution, and reproduction in any medium, even commercially as long as the original work is properly cited. 
+            </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                    </div>
+                    
+                    <div class="sidebar">
+                        
+                        
+                    	
+                    	
+                       
+
+                       
+                        <div class="block_popular_stuff">
+                            
+                                <a href="/Publications/IJACSA"><img src="/Content/images/ijacsa_ad.png" alt="IJACSA"/></a>
+                            
+                        </div>
+                        <div class="line_2"></div>
+                        <div class="separator" style="height:15px;"></div>
+
+                        <h3>Upcoming Conferences</h3>
+                        
+                        <div class="block_home_post">
+                                            
+                            <div class="pic">
+                                <a target="_blank" href="http://SAIConference.com/IntelliSys" class="w_hover">
+                                    <img src="../Content/images/pic_home_news_1.jpg" alt="">
+                                    <span></span>
+                                </a>
+                            </div>
+                                                    
+                            <div class="text">
+                                <p class="title"><a target="_blank" href="http://SAIConference.com/IntelliSys">IntelliSys 2025</a></p>
+                                <div class="date"><p>28-29 August 2025</p></div>
+                                <div class="icons">
+                                    <ul>
+                                        <li><a class="views">Amsterdam, The Netherlands</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="line_3" style="margin:13px 0px 17px;"></div>
+
+                        <div class="block_home_post">
+                                            
+                            <div class="pic">
+                                <a target="_blank" href="http://SAIConference.com/FTC" class="w_hover">
+                                    <img src="../Content/images/pic_home_news_7.jpg" alt="">
+                                    <span></span>
+                                </a>
+                            </div>
+                                                    
+                            <div class="text">
+                                <p class="title"><a target="_blank" href="http://SAIConference.com/FTC">Future Technologies Conference 2025</a></p>
+                                <div class="date"><p>6-7 November 2025</p></div>
+                                <div class="icons">
+                                    <ul>
+                                        <li><a class="views">Munich, Germany</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="line_3" style="margin:13px 0px 17px;"></div>
+                        
+                        <div class="block_home_post">
+                                            
+                            <div class="pic">
+                                <a target="_blank" href="http://SAIConference.com/IntelliHealth" class="w_hover">
+                                    <img src="../Content/images/pic_home_news_5.jpg" alt="">
+                                    <span></span>
+                                </a>
+                            </div>
+                                                    
+                            <div class="text">
+                                <p class="title"><a target="_blank" href="http://SAIConference.com/IntelliHealth">Healthcare Conference 2026</a></p>
+                                <div class="date"><p>21-22 May 2026</p></div>
+                                <div class="icons">
+                                    <ul>
+                                        <li><a class="views">Amsterdam, The Netherlands</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="line_3" style="margin:13px 0px 17px;"></div>
+
+                        <div class="block_home_post">
+                                            
+                            <div class="pic">
+                                <a target="_blank" href="http://SAIConference.com/Computing" class="w_hover">
+                                    <img src="../Content/images/pic_home_news_4.jpg" alt="">
+                                    <span></span>
+                                </a>
+                            </div>
+                                                    
+                            <div class="text">
+                                <p class="title"><a target="_blank" href="http://SAIConference.com/Computing">Computing Conference 2026</a></p>
+                                <div class="date"><p>9-10 July 2026</p></div>
+                                <div class="icons">
+                                    <ul>
+                                        <li><a class="views">London, United Kingdom</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="line_3" style="margin:13px 0px 17px;"></div>
+
+                        <div class="block_home_post">
+                                            
+                            <div class="pic">
+                                <a target="_blank" href="http://SAIConference.com/IntelliSys" class="w_hover">
+                                    <img src="../Content/images/pic_home_news_1.jpg" alt="">
+                                    <span></span>
+                                </a>
+                            </div>
+                                                    
+                            <div class="text">
+                                <p class="title"><a target="_blank" href="http://SAIConference.com/IntelliSys">IntelliSys 2026</a></p>
+                                <div class="date"><p>3-4 September 2026</p></div>
+                                <div class="icons">
+                                    <ul>
+                                        <li><a class="views">Amsterdam, The Netherlands</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="line_3" style="margin:13px 0px 17px;"></div>
+                            
+                        <div class="block_home_post">
+                                            
+                            <div class="pic">
+                                <a target="_blank" href="http://SAIConference.com/CVC" class="w_hover">
+                                    <img src="../Content/images/pic_home_news_6.jpg" alt="">
+                                    <span></span>
+                                </a>
+                            </div>
+                                                    
+                            <div class="text">
+                                <p class="title"><a target="_blank" href="http://SAIConference.com/CVC">Computer Vision Conference 2026</a></p>
+                                <div class="date"><p>15-16 October 2026</p></div>
+                                <div class="icons">
+                                    <ul>
+                                        <li><a class="views">Berlin, Germany</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="line_3" style="margin:13px 0px 17px;"></div>
+
+                        
+                    </div>
+                    
+                	<div class="clearboth"></div>
+                </div>
+            </div>
+        </div>
+    
+
+    	<!-- CONTENT END -->
+        
+        <!-- FOOTER BEGIN -->
+        <footer>
+            <div id="footer">
+            	<section class="top">
+                	<div class="inner">
+                    	<div id="logo_bottom"><a href="/"><img src="/Content/images/logo_bottom.png" alt="The Science and Information (SAI) Organization"></a></div>
+                        
+                        <div class="block_to_top">
+                        	<a href="#">BACK TO TOP</a>
+                        </div>
+                    </div>
+                </section>
+                
+            	<section class="middle">
+                	<div class="inner">
+                    	<div class="line_1"></div>
+                        <div class="block_footer_widgets">
+                            <div class="column">
+                            	<h3>Computer Science Journal</h3>
+                                <ul class="list_5">
+                                    <li><a href="/Publications/IJACSA">About the Journal</a></li>
+                                    <li><a href="/Publications/CallForPaper?code=IJACSA">Call for Papers</a></li>
+                                    <li><a href="/Publications/Submit?code=IJACSA">Submit Paper</a></li>
+                                    <li><a href="/Publications/Citations?code=IJACSA">Indexing</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="column">
+                            	<h3>Our Conferences</h3>
+                                <ul class="list_5">
+                                    
+                                    <li><a href="http://SAIConference.com/Computing">Computing Conference</a></li>
+                                    <li><a href="http://SAIConference.com/IntelliSys">Intelligent Systems Conference</a></li>
+                                    <li><a href="http://SAIConference.com/FTC">Future Technologies Conference</a></li>
+                                    <li><a href="http://SAIConference.com/FICC">Communication Conference</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="column">
+                            	<h3>Help &amp; Support</h3>
+                                <ul class="list_5">
+                                    <li><a href="/Home/Contact">Contact Us</a></li>
+                                    <li><a href="/Home/About">About Us</a></li>
+                                    <li><a href="/Home/Terms">Terms and Conditions</a></li>
+                                    <li><a href="/Home/PrivacyPolicy">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                            <div class="column">
+                                
+                            </div>
+                            
+                            <div class="clearboth"></div>
+                        </div>
+                    </div>
+                </section>
+                
+            	<section class="bottom">
+                	<div class="inner">
+                    	<div class="line_1"></div>
+                        
+                        <div class="fr">
+                        	<div class="block_menu_footer">
+                            	
+                            </div>
+                            
+                            
+                        </div>
+                        
+                        <div class="block_copyrights">
+                            
+                            <p>&copy; The Science and Information (SAI) Organization Limited. All rights reserved. Registered in England and Wales. Company Number 8933205. <a href="https://thesai.org">thesai.org</a></p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </footer>
+        <!-- FOOTER END -->
+    </div>
+
+    
+ <!-- Facebook Pixel Code -->
+<script defer async type="8f474bc284a10a42d52d1b5d-text/javascript">
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1616918445243443');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1616918445243443&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+     <!-- Google Ads Conversion Code -->
+    <script type="8f474bc284a10a42d52d1b5d-text/javascript">
+    window.addEventListener("message", function(event) {
+    if (event.origin != "https://submit.jotform.com") return;
+    if (event.data && event.data.action && event.data.action == "submission-completed") {
+        gtag('event', 'conversion', {
+        'send_to': 'AW-959837401/9yPVCMflzaEYENnp18kD'
+        });
+     }
+    });
+
+    </script>
+    <!-- End Google Ads Conversion Code -->
+
+
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="8f474bc284a10a42d52d1b5d-|49" defer></script></body>
+</html>

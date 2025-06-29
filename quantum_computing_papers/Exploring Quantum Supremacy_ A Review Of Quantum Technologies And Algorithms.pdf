@@ -1,0 +1,612 @@
+
+<!doctype html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="&lt;div id=&quot;i-scholarabout&quot;&gt;&lt;img class=&quot;media-object&quot; style=&quot;width: 222px; float: left; margin: 0px 16px 15px 20px;&quot; src=&quot;http://bombaytechnologist.in/public/journals/286/cover_image.jpg&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Editor :&lt;/strong&gt; Nathalal Parekh Marg &lt;br /&gt;&lt;strong&gt;Online ISSN :&lt;/strong&gt; 0067-9925&lt;br /&gt;&lt;strong&gt;Print ISSN :&lt;/strong&gt; XXXX-XXXX&lt;br /&gt;&lt;strong&gt;Frequency :&lt;/strong&gt; Biannual&lt;br /&gt;&lt;strong&gt;Publisher/s :&lt;/strong&gt; Journal of Technological Association&lt;br /&gt;&lt;br /&gt;The Bombay Technologist is the in-house peer reviewed research Journal of the Institute of Chemical Technology published semi-annually.&lt;/p&gt;
+&lt;p&gt;It was started in 1951, by the erstwhile Technological Association, the highest decision making student body of the institute.Professor K. Venkatraman, a pioneer in Chemical Technology himself, envisioned the concept of an in-house research journal run by the institute and thus laid the foundation of Bombay Technologist.&lt;/p&gt;
+&lt;p&gt;The Institute of Chemical Technology is itself an internationally renowned center for research. It churns out hundreds of quality research publications and numerous patents every year solely in Chemical Engineering and Technology. Such a distinction is enjoyed by few, globally.&lt;br /&gt;Six decades later, there is no looking back. Over sixty volumes have been published since. The latest issue is Volume 64.&lt;/p&gt;
+&lt;/div&gt;">
+	<meta name="keywords" content="Exploring Quantum Supremacy: A Review Of Quantum Technologies And Algorithms, Open Journal Systems, OJS">
+	<title>
+		Exploring Quantum Supremacy: A Review Of Quantum Technologies And Algorithms
+							| The Bombay Technologist
+			</title>
+
+	
+<link rel="icon" href="https://bombaytechnologist.in/public/journals/286/favicon_en_US.png">
+<meta name="generator" content="Open Journal Systems 3.3.0.15">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Mathew Joseph"/>
+<meta name="DC.Creator.PersonalName" content="M. S. Dheeraj Murthy"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2025-04-11"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2025-03-17"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2025-04-11"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2025-04-11"/>
+<meta name="DC.Description" xml:lang="en" content="This review paper provides an in-depth exploration of quantum computing and the algorithms that drive its potential. It begins by introducing quantum computers and explores various types of quantum computers, focusing on the most prominent architectures. This paper also explains the concept of qubits, highlighting their unique properties such as superposition and entanglement, which differentiate quantum systems from classical computing. It discusses the specific properties of quantum computers that make them particularly suited to solving certain classes of problems, such as optimization, cryptography, and simulation. Additionally, the paper provides a detailed overview of key quantum algorithms, including Shor’s algorithm for integer factorization, Grover’s algorithm for unstructured search, and the use of quantum simulation in modelling complex physical systems. Through this review, we aim to showcase the evolving landscape of quantum computing, its capabilities, and the algorithms driving its future impact across various fields."/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="173220"/>
+<meta name="DC.Identifier.pageNumber" content="195-205"/>
+<meta name="DC.Identifier.DOI" content="10.36664/bt/2024/v71i1/173220"/>
+<meta name="DC.Identifier.URI" content="https://bombaytechnologist.in/index.php/bombaytechnologist/article/view/173220"/>
+<meta name="DC.Language" scheme="ISO639-1" content="en"/>
+<meta name="DC.Rights" content="Copyright (c) 2025 The Bombay Technologist"/>
+<meta name="DC.Rights" content=""/>
+<meta name="DC.Source" content="The Bombay Technologist"/>
+<meta name="DC.Source.ISSN" content="0067-9925"/>
+<meta name="DC.Source.URI" content="https://bombaytechnologist.in/index.php/bombaytechnologist"/>
+<meta name="DC.Subject" xml:lang="en" content="Qubits, Superposition, Entanglement, Interference."/>
+<meta name="DC.Title" content="Exploring Quantum Supremacy: A Review Of Quantum Technologies And Algorithms"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Review Article"/>
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="The Bombay Technologist"/>
+<meta name="citation_journal_abbrev" content="bt"/>
+<meta name="citation_issn" content="0067-9925"/> 
+<meta name="citation_author" content="Mathew Joseph"/>
+<meta name="citation_author_institution" content="Department of Computer Sciences and Engineering, International Institute of Information and Technology, Bangalore, 560100"/>
+<meta name="citation_author" content="M. S. Dheeraj Murthy"/>
+<meta name="citation_author_institution" content="Department of Computer Sciences and Engineering, International Institute of Information and Technology, Bangalore, 560100"/>
+<meta name="citation_title" content="Exploring Quantum Supremacy: A Review Of Quantum Technologies And Algorithms"/>
+<meta name="citation_language" content="en"/>
+<meta name="citation_date" content="2025/04/11"/>
+<meta name="citation_firstpage" content="195"/>
+<meta name="citation_lastpage" content="205"/>
+<meta name="citation_doi" content="10.36664/bt/2024/v71i1/173220"/>
+<meta name="citation_abstract_html_url" content="https://bombaytechnologist.in/index.php/bombaytechnologist/article/view/173220"/>
+<meta name="citation_keywords" xml:lang="en" content="Qubits, Superposition, Entanglement, Interference."/>
+<meta name="citation_pdf_url" content="https://bombaytechnologist.in/index.php/bombaytechnologist/article/download/173220/117186"/>
+<meta name="citation_reference" content="M.T. Dejpasand and M. Sasani Ghamsari, Quantum Rep. 2023, 5(3), 597-608"/>
+<meta name="citation_reference" content="Naeimeh Mohseni, Peter L. McMahon, and Tim Byrnes. Nature Reviews Physics, 2022, 4, (6), 363–379. [3] Yuhui Wang, J. Phys.: Conf. Ser. 2020, 1634, 012040."/>
+<meta name="citation_reference" content="James William Rohlf. Modern Physics from [Alpha] to Z0; New York: Wiley, 1994."/>
+<meta name="citation_reference" content="Josephson, B.D., Physics Letters, 1962, 1(7), 251–253."/>
+<meta name="citation_reference" content="IEEE. Quantum Computing: Whose Qubit Is Better? https://sscs.ieee.org/event/quantum-computing-whose-qubit-is-better/ (accessed January 2025)."/>
+<meta name="citation_reference" content="A. M. J. Zwerver, T. Krähenmann, T. F. Watson, L. Lampert, H. C. George, R. Pillarisetty, S. A. Bojarski, P. Amin, S. V. Amitonov, J. M. Boter, R. Caudillo, D. Correas-Serrano, J. P. Dehollain, G. Droulers, E. M. Henry, R. Kotlyar, M. Lodari, F. Lüthi, D. J. Michalak, B. K. Mueller, S. Neyens, J. Roberts, N. Samkharadze, G. Zheng, O. K. Zietz, G. Scappucci, M. Veldhorst, L. M. K. Vandersypen &amp; J. S. Clarke, Nat Electron, 2022, 5,184–190."/>
+<meta name="citation_reference" content="S. Krinner, S. Storz, P. Kurpiers, P. Magnard, J. Heinsoo, R. Keller, J. Lütolf, C. Eichler &amp; A. Wallraff, EPJ Quantum Technol. 2019, 6, 2."/>
+<meta name="citation_reference" content="Huang, S.; Lienhard, B.; Calusine, G.; Vepsäläinen, A.; Braumüller, J.; Kim, D. K.; Melville, A. J.; Niedzielski, B. M.; Yoder, J. L.; Kannan, B.; Orlando, T. P.; Gustavsson, S.; Oliver, W. D; PRX Quantum 2021, 2, 020306."/>
+<meta name="citation_reference" content="Google Quantum AI. https://quantumai.google. (accessed January 2025)."/>
+<meta name="citation_reference" content="IBM Quantum. https://research.ibm.com/quantum-computing. (accessed January 2025)."/>
+<meta name="citation_reference" content="Rigetti Computing. (accessed January 2025)."/>
+<meta name="citation_reference" content="Oxford Quantum https://rigetti.com, Circuits, https://oxfordquantumcircuits.com, (accessed January 2025)."/>
+<meta name="citation_reference" content="IQM Quantum https://meetiqm.com, Computers, (accessed January 2025)."/>
+<meta name="citation_reference" content="Pednault, E.; Gunnels, J. A.; Nannicini, G.; Horesh, L.; Wisnieff, R., arXiv:1910.09534 [quant-ph], 2019."/>
+<meta name="citation_reference" content="Arute F, Arya K, Babbush R, Bacon D, Bardin JC, Barends R, Biswas R, Boixo S, Brandao FGSL, Buell DA, Burkett B, Chen Y, Chen Z, Chiaro B, Collins R, Courtney W, Dunsworth A, Farhi E, Foxen B, Fowler A, Gidney C, Giustina M, Graff R, Guerin K, Habegger S, Harrigan MP, Hartmann MJ, Ho A, Hoffmann M, Huang T, Humble TS, Isakov SV, Jeffrey E, Jiang Z, Kafri D, Kechedzhi K, Kelly J, Klimov PV, Knysh S, Korotkov A, Kostritsa F, Landhuis D, Lindmark M, Lucero E, Lyakh D, Mandrà S, McClean JR, McEwen M, Megrant A, Mi X, Michielsen K, Mohseni M, Mutus J, Naaman O, Neeley M, Neill C, Niu MY, Ostby E, Petukhov A, Platt JC, Quintana C, Rieffel EG, Roushan P, Rubin NC, Sank D, Satzinger KJ, Smelyanskiy V, Sung KJ, Trevithick MD, Vainsencher A, Villalonga B, White T, Yao ZJ, Yeh P, Zalcman A, Neven H, Martinis JM., Nature, 2019, 574(7779), 505–510."/>
+<meta name="citation_reference" content="Kjaergaard, M.; Schwartz, M. E.; Braumüller, J.; Krantz, P.; Wang, J. I.-J..; Gustavsson, S.; Oliver, W. D., Annu. Rev. Condens. Matter Phys. 2020, 11 (1), 369–395."/>
+<meta name="citation_reference" content="[Paul, W.; Steinwedel, H, Z. Naturforsch. 1953, a8, 448–450."/>
+<meta name="citation_reference" content="F Schmidt-Kaler, S Gulde, M Riebe, T Deuschle, A Kreuter, G Lancaster, C Becher, J Eschner, H Häffner and R Blatt, J. Phys. B: At. Mol. Opt. Phys. 2003, 77.8, 789–792."/>
+<meta name="citation_reference" content="Huang, H.-L.; Wu, D.; Fan, D.; Zhu, X., Sci. China Inf. Sci. 2020, 63, 180501."/>
+<meta name="citation_reference" content="Harty, T. P.; Allcock, D. T. C.; Ballance, C. J.; Guidoni, L.; Janacek, H. A.; Linke, N. M.; Stacey, D. N.; Lucas, D. M, Phys. Rev. Lett. 2014, 113.22, 220501."/>
+<meta name="citation_reference" content="C. J. Ballance, T. P. Harty, N. M. Linke, M. A. Sepiol, and D. M. Lucas, Phys. Rev. Lett. 2016, 117(6), 060504."/>
+<meta name="citation_reference" content="Christopher Monroe and David J. Wineland. Science, 2013, 339.6124, 1164–1169."/>
+<meta name="citation_reference" content="IonQ; IonQ: Trapped Ion Quantum Computing, 2023, https://ionq.com, (accessed January 2025)"/>
+<meta name="citation_reference" content="Quantinuum; Quantinuum. 2023, https://www.quantinuum.com, (accessed January 2025)."/>
+<meta name="citation_reference" content="Alpine Quantum Technologies; Alpine Quantum Technologies, 2023, https://www.aqt.eu (accessed January 2025)."/>
+<meta name="citation_reference" content="Oxford Ionics; Oxford Ionics, 2023, https://www.oxionics.com, (accessed January 2025)."/>
+<meta name="citation_reference" content="Alvaro Ballon; Quantum Photonics Computers, https://pennylane.ai/qml/demos/tutorial_photonics (accessed January 2025)."/>
+<meta name="citation_reference" content="Slussarenko, S.; Pryde, G. J., Appl. Phys. Rev. 2019, 6 (4), 041303."/>
+<meta name="citation_reference" content="A. Sakaguchi, S. Konno, F. Hanamura, W. Asavanant, K. Takase, H. Ogawa, P. Marek, R. Filip, J.-i. Yoshikawa, E. Huntington, H. Yonezawa and A. Furusawa, Nat. Commun., 2023, 14, 3817."/>
+<meta name="citation_reference" content="Romero J, Milburn G, arXiv, 2024, preprint, DOI: arXiv:2404.03367v1 [quant-ph]."/>
+<meta name="citation_reference" content="Y Tsujimoto, K Wakui, T Kishimoto, S Miki, M Yabuno, H Terai, M Fujiwara, G Kato, arXiv, 2024, preprint, DOI: https://arxiv.org/abs/2411.17267v1 [quantph]."/>
+<meta name="citation_reference" content="Y. Li, T. Xiang, Y. Nie, M. Sang and X. Chen, Photonics Res., 2017, 5(4), 324."/>
+<meta name="citation_reference" content="PsiQuantum. PsiQuantum: Building the World’s First Useful Quantum Computer. 2023. URL: https://www.psiquantum.com/. (accessed January 2025)"/>
+<meta name="citation_reference" content="Xanadu. Xanadu Quantum Technologies. 2023, https://www.xanadu.ai/, (accessed January 2025)"/>
+<meta name="citation_reference" content="Quix Quantum. Quix Quantum. 2023, https://www.quix.tech/, (accessed January 2025)"/>
+<meta name="citation_reference" content="Orca Computing. ORCA Computing: Home. 2023, https://orcacomputing.com/, (accessed January 2025)."/>
+<meta name="citation_reference" content="Farhi E, Goldstone J, Gutmann S, Sipser M, arXiv, 2000, preprint, DOI: https://doi.org/10.48550/arXiv.quant-ph/0001106"/>
+<meta name="citation_reference" content="D-Wave Systems Inc. Understanding Quantum Annealing, 2022, https://www.dwavesys.com/quantum-annealing, (accessed January 2025)."/>
+<meta name="citation_reference" content="M. A. Nielsen and I. L. Chuang. Quantum Computation and Quantum Information, Cambridge University Press, Cambridge, U.K, 10, 2010."/>
+<meta name="citation_reference" content="P. W. Shor. “Algorithms for Quantum Computation: Discrete Logarithms and Factoring”, presented in part at the Proceedings 35th Annual Symposium on Foundations of Computer Science, Santa Fe, NM, USA: IEEE, 1994, pp. 124–134."/>
+<meta name="citation_reference" content="R. Cui, Z. Lyu, Theor. Nat. Sci., 2023, 10, 1."/>
+<meta name="citation_reference" content="R. P. Feynman, Int. J. Theor. Phys., 1982, 21, 467–488."/>
+<meta name="citation_reference" content="Shor’s Algorithm and Its Impact on Present-Day Cryptography, https://web.eecs.umich.edu/~aveliche/PDFs/RC_paper.pdf (accessed January 2025)."/>
+<meta name="citation_reference" content="R. Pereira da Silva, SSRN Oracle Quantum Algorithms: An Overview, SSRN Electron. J., 2024."/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap" type="text/css" /><link rel="stylesheet" href="https://bombaytechnologist.in/plugins/themes/gopher/css/fa_all.min.css?v=3.3.0.15" type="text/css" /><link rel="stylesheet" href="https://bombaytechnologist.in/plugins/themes/gopher/css/v4-font-face.css?v=3.3.0.15" type="text/css" /><link rel="stylesheet" href="https://bombaytechnologist.in/plugins/themes/gopher/css/bootstrap.min.css?v=3.3.0.15" type="text/css" /><link rel="stylesheet" href="https://bombaytechnologist.in/plugins/themes/gopher/css/custom.css?v=3.3.0.15" type="text/css" /><style type="text/css">:root { --color-primary: #7a0019;}</style><link rel="stylesheet" href="https://bombaytechnologist.in/plugins/generic/doiInSummary/styles/doi.css?v=3.3.0.15" type="text/css" /><link rel="stylesheet" href="https://bombaytechnologist.in/plugins/generic/citations/css/citations.css?v=3.3.0.15" type="text/css" /><link rel="stylesheet" href="https://bombaytechnologist.in/public/journals/286/styleSheet.css?d=2023-09-25+09%3A11%3A27" type="text/css" />
+</head>
+<body>
+<section class="header container-fluid py-4">
+	<div class="container px-3 px-md-4">
+		<div class="row align-items-center align-items-md-start">
+			<div class="col-sm-5 ps-md-3 p-0">
+							</div>
+			<div class="col-sm-7 text-end right-col pe-0 pe-md-2 mt-sm-0 mt-4">
+					                                			<a href="https://bombaytechnologist.in/index.php/bombaytechnologist/user/register">
+                Register
+			</a>
+			                                			<a href="https://bombaytechnologist.in/index.php/bombaytechnologist/login">
+                Login
+			</a>
+			                            
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="container shadow p-0">
+	<div class="container page-header py-3 py-lg-4 px-4">
+				<h1>
+            				<a class="heading-link" href="			https://bombaytechnologist.in/index.php/bombaytechnologist/index
+		"}>
+                	The Bombay Technologist
+				</a>
+            		</h1>
+	</div>
+	<div class="container border-bottom menu-row px-xl-4 px-2 position-relative">
+		<nav class="navbar navbar-expand-xl navbar-dark">
+			<div class="container-fluid p-0">
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#collapsibleNavbar"
+					aria-controls="collapsibleNavbar"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    	<ul id="" class="navbar-nav">
+																		<li class="nav-item">
+				<a class="nav-link" href="https://bombaytechnologist.in/">
+											Home
+									</a>
+				</li>
+																					<li class="nav-item">
+				<a class="nav-link" href="https://bombaytechnologist.in/index.php/bombaytechnologist/issue/current">
+											Current									</a>
+				</li>
+																					<li class="nav-item">
+				<a class="nav-link" href="https://bombaytechnologist.in/index.php/bombaytechnologist/issue/archive">
+											Archives
+									</a>
+				</li>
+																															<li class="nav-item">
+				<a class="nav-link" href="https://bombaytechnologist.in/public/journals/286/images/Bomaby_Technologist_Article_Template.pdf">
+											Authors Guidelines
+									</a>
+				</li>
+																					<li class="nav-item">
+				<a class="nav-link" href="https://bombaytechnologist.in/index.php/bombaytechnologist/cu">
+											Contact Us
+									</a>
+				</li>
+						</ul>
+
+				</div>
+			</div>
+		</nav>
+							<a href="https://bombaytechnologist.in/index.php/bombaytechnologist/search" class="btn btn-primary small">Search</a>
+			</div>
+
+    <div class="container px-4 pt-4">
+	<nav role="navigation" aria-label="You are here:">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item">
+				<a href="https://bombaytechnologist.in/index.php/bombaytechnologist/index">
+                    Home
+				</a>
+			</li>
+			<li class="breadcrumb-item">
+				<a href="https://bombaytechnologist.in/index.php/bombaytechnologist/issue/archive">
+                    Archives
+				</a>
+			</li>
+							<li class="breadcrumb-item">
+					<a href="https://bombaytechnologist.in/index.php/bombaytechnologist/issue/view/9786">
+                        Volume 71, Issue 1, March 2025
+					</a>
+				</li>
+						<li class="breadcrumb-item active" aria-current="page">
+				<span aria-current="page">
+				                    Review Article
+                			</span>
+			</li>
+		</ol>
+	</nav>
+</div>
+
+<article class="container mt-4 mt-md-5 px-4">
+	<div class="row flex-column-reverse flex-md-row g-md-5">
+				<div class="col-xxl-3 col-md-4 sidebar-left">
+			            
+										                    
+    
+                            
+
+
+<a class="btn btn-primary small article-btn w-100 mt-2" href="https://bombaytechnologist.in/index.php/bombaytechnologist/article/view/173220/117186">
+	<i class="fa-solid fa-file-pdf"></i>
+	    
+	PDF
+
+	    </a>
+													
+										<div class="container px-0 mt-4">
+					<h4>Published</h4>
+					<p>
+						                        							2025-04-11
+                                                    					</p>
+				</div>
+
+							
+							<div class="container px-0 mt-4">
+					<h4>Issue</h4>
+					<p>
+						<a href="https://bombaytechnologist.in/index.php/bombaytechnologist/issue/view/9786">
+							Volume 71, Issue 1, March 2025
+						</a>
+					</p>
+				</div>
+			
+							<div class="container px-0 mt-4">
+					<h4>Section</h4>
+					<p>
+						Review Article
+					</p>
+				</div>
+			
+			
+                        
+                        				<div class="container px-0 mt-4">
+					<h4>How to Cite</h4>
+					<div id="citationOutput" role="region" aria-live="polite">
+                        <div class="csl-bib-body">
+  <div class="csl-entry">Joseph, M., &#38; Dheeraj Murthy, M. S. (2025). Exploring Quantum Supremacy: A Review Of Quantum Technologies And Algorithms. <i>The Bombay Technologist</i>, <i>71</i>(1), 195–205. https://doi.org/10.36664/bt/2024/v71i1/173220</div>
+</div>
+					</div>
+					<div class="dropdown my-3">
+						<button
+								class="btn btn-secondary dropdown-toggle"
+								id="citationFormatsDropdown"
+								aria-controls="cslCitationFormats"
+								aria-expanded="false"
+								data-csl-dropdown="true"
+								data-bs-toggle="dropdown"
+								type="button"
+						>
+                            More Citation Formats
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="citationFormatsDropdown">
+                            								<li>
+									<a
+											class="dropdown-item"
+											aria-controls="citationOutput"
+											href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/acm-sig-proceedings?submissionId=173220&amp;publicationId=9490"
+											data-load-citation
+											data-json-href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/acm-sig-proceedings?submissionId=173220&amp;publicationId=9490&amp;return=json"
+									>
+                                        ACM
+									</a>
+								</li>
+                            								<li>
+									<a
+											class="dropdown-item"
+											aria-controls="citationOutput"
+											href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/acs-nano?submissionId=173220&amp;publicationId=9490"
+											data-load-citation
+											data-json-href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/acs-nano?submissionId=173220&amp;publicationId=9490&amp;return=json"
+									>
+                                        ACS
+									</a>
+								</li>
+                            								<li>
+									<a
+											class="dropdown-item"
+											aria-controls="citationOutput"
+											href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/apa?submissionId=173220&amp;publicationId=9490"
+											data-load-citation
+											data-json-href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/apa?submissionId=173220&amp;publicationId=9490&amp;return=json"
+									>
+                                        APA
+									</a>
+								</li>
+                            								<li>
+									<a
+											class="dropdown-item"
+											aria-controls="citationOutput"
+											href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=173220&amp;publicationId=9490"
+											data-load-citation
+											data-json-href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=173220&amp;publicationId=9490&amp;return=json"
+									>
+                                        ABNT
+									</a>
+								</li>
+                            								<li>
+									<a
+											class="dropdown-item"
+											aria-controls="citationOutput"
+											href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/chicago-author-date?submissionId=173220&amp;publicationId=9490"
+											data-load-citation
+											data-json-href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/chicago-author-date?submissionId=173220&amp;publicationId=9490&amp;return=json"
+									>
+                                        Chicago
+									</a>
+								</li>
+                            								<li>
+									<a
+											class="dropdown-item"
+											aria-controls="citationOutput"
+											href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/harvard-cite-them-right?submissionId=173220&amp;publicationId=9490"
+											data-load-citation
+											data-json-href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/harvard-cite-them-right?submissionId=173220&amp;publicationId=9490&amp;return=json"
+									>
+                                        Harvard
+									</a>
+								</li>
+                            								<li>
+									<a
+											class="dropdown-item"
+											aria-controls="citationOutput"
+											href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/ieee?submissionId=173220&amp;publicationId=9490"
+											data-load-citation
+											data-json-href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/ieee?submissionId=173220&amp;publicationId=9490&amp;return=json"
+									>
+                                        IEEE
+									</a>
+								</li>
+                            								<li>
+									<a
+											class="dropdown-item"
+											aria-controls="citationOutput"
+											href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/modern-language-association?submissionId=173220&amp;publicationId=9490"
+											data-load-citation
+											data-json-href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/modern-language-association?submissionId=173220&amp;publicationId=9490&amp;return=json"
+									>
+                                        MLA
+									</a>
+								</li>
+                            								<li>
+									<a
+											class="dropdown-item"
+											aria-controls="citationOutput"
+											href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=173220&amp;publicationId=9490"
+											data-load-citation
+											data-json-href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=173220&amp;publicationId=9490&amp;return=json"
+									>
+                                        Turabian
+									</a>
+								</li>
+                            								<li>
+									<a
+											class="dropdown-item"
+											aria-controls="citationOutput"
+											href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/vancouver?submissionId=173220&amp;publicationId=9490"
+											data-load-citation
+											data-json-href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/get/vancouver?submissionId=173220&amp;publicationId=9490&amp;return=json"
+									>
+                                        Vancouver
+									</a>
+								</li>
+                                                        								<li><hr class="dropdown-divider"></li>
+								<li><span class="dropdown-item">Download Citation</span></li>
+                                									<li>
+										<a
+												class="dropdown-item"
+												href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/download/ris?submissionId=173220&amp;publicationId=9490"
+										>
+											<span class="fa fa-download"></span>
+                                            Endnote/Zotero/Mendeley (RIS)
+										</a>
+									</li>
+                                									<li>
+										<a
+												class="dropdown-item"
+												href="https://bombaytechnologist.in/index.php/bombaytechnologist/citationstylelanguage/download/bibtex?submissionId=173220&amp;publicationId=9490"
+										>
+											<span class="fa fa-download"></span>
+                                            BibTeX
+										</a>
+									</li>
+                                                            						</ul>
+					</div>
+				</div>
+            
+			<div class="container px-0 mt-4">
+            	<div class="item citations-container" data-image-path="https://bombaytechnologist.in/plugins/generic/citations/images/" data-citations-url="https://bombaytechnologist.in/index.php/bombaytechnologist/citations/get?citationsId=10.36664%2Fbt%2F2024%2Fv71i1%2F173220&amp;citationsShowList=1&amp;citationsProvider=all"
+     data-citations-provider="all" data-citations-total="1" data-citations-list="1"
+     data-show-google="1" data-show-pmc="1">
+	<div id="citations-loader"></div>
+	<div class="citations-count">
+		<div class="citations-count-crossref">
+			<img class="img-fluid" src="https://bombaytechnologist.in/plugins/generic/citations/images/crossref.png" alt="Crossref"/>
+			<div class="badge_total"></div>
+		</div>
+		<div class="citations-count-scopus">
+			<img src="https://bombaytechnologist.in/plugins/generic/citations/images/scopus.png" alt="Scopus"/>
+			<br/>
+			<span class="badge_total"></span>
+		</div>
+		<div class="citations-count-google">
+			<a href="https://scholar.google.com/scholar?q=10.36664/bt/2024/v71i1/173220" target="_blank" rel="noreferrer">
+				<img src="https://bombaytechnologist.in/plugins/generic/citations/images/scholar.png" alt="Google Scholar"/>
+			</a>
+		</div>
+		<div class="citations-count-pmc">
+			<a href="http://europepmc.org/search?scope=fulltext&query=(REF:10.36664/bt/2024/v71i1/173220)" target="_blank" rel="noreferrer">
+				<img src="https://bombaytechnologist.in/plugins/generic/citations/images/pmc.png" alt="Europe PMC"/>
+				<br/>
+				<span class="badge_total"></span>
+			</a>
+		</div>
+	</div>
+	<div class="citations-list"></div>
+    		<style>
+			.citations-container {
+				overflow-y: auto;
+				overflow-x: hidden;
+				max-height: 800px;
+			}
+		</style>
+    </div>
+
+			<link rel="stylesheet" type="text/css" href="https://bombaytechnologist.in/plugins/generic/shariff/shariff-3.2.1/shariff.complete.css">
+			<link rel="stylesheet" type="text/css" href="">
+			<div><div>
+			<div class="shariff item" data-lang="en"
+				data-services="[twitter,facebook,linkedin,whatsapp,mail,telegram]"
+				data-mail-url="mailto:"
+				data-mail-body={url}
+				data-backend-url="https://bombaytechnologist.in/shariff-backend"
+				data-theme="standard"
+				data-orientation="horizontal"
+				data-url="https://bombaytechnologist.in/index.php/bombaytechnologist/article/view/173220">
+			</div>
+            </div>
+            </div>
+			<script src="https://bombaytechnologist.in/plugins/generic/shariff/shariff-3.2.1/shariff.complete.js"></script> <!-- Plum Analytics -->
+<a href="https://plu.mx/plum/a/?doi=10.36664/bt/2024/v71i1/173220" class="plumx-summary" data-hide-when-empty="false" data-orientation="horizontal" ></a>
+<!-- /Plum Analytics -->
+
+			</div>
+		</div>
+
+				<div class="col-xxl-9 col-md-8 ps-md-4 mb-4 mb-md-0">
+						<h2>
+				Exploring Quantum Supremacy: A Review Of Quantum Technologies And Algorithms
+			</h2>
+			
+																				<p class="bold mb-0">
+					<i class="fa fa-users" style="color: #083761;"> </i> 	Mathew Joseph
+					</p>
+																<p>
+							Department of Computer Sciences and Engineering, International Institute of Information and Technology, Bangalore, 560100
+													</p>
+																													<p class="bold mb-0">
+					<i class="fa fa-users" style="color: #083761;"> </i> 	M. S. Dheeraj Murthy
+					</p>
+																<p>
+							Department of Computer Sciences and Engineering, International Institute of Information and Technology, Bangalore, 560100
+													</p>
+																						
+																												<p>
+						<span class="bold">
+														DOI:
+						</span>
+						<a href="https://doi.org/10.36664/bt/2024/v71i1/173220">
+							https://doi.org/10.36664/bt/2024/v71i1/173220
+						</a>
+					</p>
+							
+										<p>
+					<span class="bold">
+												Keywords:
+					</span>
+											Qubits, Superposition, Entanglement, Interference.									</p>
+			
+										<hr class="mt-5">
+				<h3>Abstract</h3>
+				<p>This review paper provides an in-depth exploration of quantum computing and the algorithms that drive its potential. It begins by introducing quantum computers and explores various types of quantum computers, focusing on the most prominent architectures. This paper also explains the concept of qubits, highlighting their unique properties such as superposition and entanglement, which differentiate quantum systems from classical computing. It discusses the specific properties of quantum computers that make them particularly suited to solving certain classes of problems, such as optimization, cryptography, and simulation. Additionally, the paper provides a detailed overview of key quantum algorithms, including Shor’s algorithm for integer factorization, Grover’s algorithm for unstructured search, and the use of quantum simulation in modelling complex physical systems. Through this review, we aim to showcase the evolving landscape of quantum computing, its capabilities, and the algorithms driving its future impact across various fields.</p>
+			
+			<div class="item downloads_chart">
+	<h3 class="label">
+		Downloads
+	</h3>
+	<div class="value">
+		<canvas class="usageStatsGraph" data-object-type="Submission" data-object-id="173220"></canvas>
+		<div class="usageStatsUnavailable" data-object-type="Submission" data-object-id="173220">
+			Download data is not yet available.
+		</div>
+	</div>
+</div>
+
+
+                                                                                            			
+			
+		</div>
+	</div>
+								<hr class="mt-5">
+				<h3>References</h3>
+															<p>M.T. Dejpasand and M. Sasani Ghamsari, Quantum Rep. 2023, 5(3), 597-608 </p>
+											<p>Naeimeh Mohseni, Peter L. McMahon, and Tim Byrnes. Nature Reviews Physics, 2022, 4, (6), 363–379. [3] Yuhui Wang, J. Phys.: Conf. Ser. 2020, 1634, 012040. </p>
+											<p>James William Rohlf. Modern Physics from [Alpha] to Z0; New York: Wiley, 1994. </p>
+											<p>Josephson, B.D., Physics Letters, 1962, 1(7), 251–253. </p>
+											<p>IEEE. Quantum Computing: Whose Qubit Is Better? <a href="https://sscs.ieee.org/event/quantum-computing-whose-qubit-is-better/">https://sscs.ieee.org/event/quantum-computing-whose-qubit-is-better/</a> (accessed January 2025). </p>
+											<p>A. M. J. Zwerver, T. Krähenmann, T. F. Watson, L. Lampert, H. C. George, R. Pillarisetty, S. A. Bojarski, P. Amin, S. V. Amitonov, J. M. Boter, R. Caudillo, D. Correas-Serrano, J. P. Dehollain, G. Droulers, E. M. Henry, R. Kotlyar, M. Lodari, F. Lüthi, D. J. Michalak, B. K. Mueller, S. Neyens, J. Roberts, N. Samkharadze, G. Zheng, O. K. Zietz, G. Scappucci, M. Veldhorst, L. M. K. Vandersypen &amp; J. S. Clarke, Nat Electron, 2022, 5,184–190. </p>
+											<p>S. Krinner, S. Storz, P. Kurpiers, P. Magnard, J. Heinsoo, R. Keller, J. Lütolf, C. Eichler &amp; A. Wallraff, EPJ Quantum Technol. 2019, 6, 2. </p>
+											<p>Huang, S.; Lienhard, B.; Calusine, G.; Vepsäläinen, A.; Braumüller, J.; Kim, D. K.; Melville, A. J.; Niedzielski, B. M.; Yoder, J. L.; Kannan, B.; Orlando, T. P.; Gustavsson, S.; Oliver, W. D; PRX Quantum 2021, 2, 020306. </p>
+											<p>Google Quantum AI. <a href="https://quantumai.google">https://quantumai.google</a>. (accessed January 2025). </p>
+											<p>IBM Quantum. <a href="https://research.ibm.com/quantum-computing">https://research.ibm.com/quantum-computing</a>. (accessed January 2025). </p>
+											<p>Rigetti Computing. (accessed January 2025). </p>
+											<p>Oxford Quantum <a href="https://rigetti.com">https://rigetti.com</a>, Circuits, <a href="https://oxfordquantumcircuits.com">https://oxfordquantumcircuits.com</a>, (accessed January 2025). </p>
+											<p>IQM Quantum <a href="https://meetiqm.com">https://meetiqm.com</a>, Computers, (accessed January 2025). </p>
+											<p>Pednault, E.; Gunnels, J. A.; Nannicini, G.; Horesh, L.; Wisnieff, R., arXiv:1910.09534 [quant-ph], 2019. </p>
+											<p>Arute F, Arya K, Babbush R, Bacon D, Bardin JC, Barends R, Biswas R, Boixo S, Brandao FGSL, Buell DA, Burkett B, Chen Y, Chen Z, Chiaro B, Collins R, Courtney W, Dunsworth A, Farhi E, Foxen B, Fowler A, Gidney C, Giustina M, Graff R, Guerin K, Habegger S, Harrigan MP, Hartmann MJ, Ho A, Hoffmann M, Huang T, Humble TS, Isakov SV, Jeffrey E, Jiang Z, Kafri D, Kechedzhi K, Kelly J, Klimov PV, Knysh S, Korotkov A, Kostritsa F, Landhuis D, Lindmark M, Lucero E, Lyakh D, Mandrà S, McClean JR, McEwen M, Megrant A, Mi X, Michielsen K, Mohseni M, Mutus J, Naaman O, Neeley M, Neill C, Niu MY, Ostby E, Petukhov A, Platt JC, Quintana C, Rieffel EG, Roushan P, Rubin NC, Sank D, Satzinger KJ, Smelyanskiy V, Sung KJ, Trevithick MD, Vainsencher A, Villalonga B, White T, Yao ZJ, Yeh P, Zalcman A, Neven H, Martinis JM., Nature, 2019, 574(7779), 505–510. </p>
+											<p>Kjaergaard, M.; Schwartz, M. E.; Braumüller, J.; Krantz, P.; Wang, J. I.-J..; Gustavsson, S.; Oliver, W. D., Annu. Rev. Condens. Matter Phys. 2020, 11 (1), 369–395. </p>
+											<p>[Paul, W.; Steinwedel, H, Z. Naturforsch. 1953, a8, 448–450. </p>
+											<p>F Schmidt-Kaler, S Gulde, M Riebe, T Deuschle, A Kreuter, G Lancaster, C Becher, J Eschner, H Häffner and R Blatt, J. Phys. B: At. Mol. Opt. Phys. 2003, 77.8, 789–792. </p>
+											<p>Huang, H.-L.; Wu, D.; Fan, D.; Zhu, X., Sci. China Inf. Sci. 2020, 63, 180501. </p>
+											<p>Harty, T. P.; Allcock, D. T. C.; Ballance, C. J.; Guidoni, L.; Janacek, H. A.; Linke, N. M.; Stacey, D. N.; Lucas, D. M, Phys. Rev. Lett. 2014, 113.22, 220501. </p>
+											<p>C. J. Ballance, T. P. Harty, N. M. Linke, M. A. Sepiol, and D. M. Lucas, Phys. Rev. Lett. 2016, 117(6), 060504. </p>
+											<p>Christopher Monroe and David J. Wineland. Science, 2013, 339.6124, 1164–1169. </p>
+											<p>IonQ; IonQ: Trapped Ion Quantum Computing, 2023, <a href="https://ionq.com">https://ionq.com</a>, (accessed January 2025) </p>
+											<p>Quantinuum; Quantinuum. 2023, <a href="https://www.quantinuum.com">https://www.quantinuum.com</a>, (accessed January 2025). </p>
+											<p>Alpine Quantum Technologies; Alpine Quantum Technologies, 2023, <a href="https://www.aqt.eu">https://www.aqt.eu</a> (accessed January 2025). </p>
+											<p>Oxford Ionics; Oxford Ionics, 2023, <a href="https://www.oxionics.com">https://www.oxionics.com</a>, (accessed January 2025). </p>
+											<p>Alvaro Ballon; Quantum Photonics Computers, <a href="https://pennylane.ai/qml/demos/tutorial_photonics">https://pennylane.ai/qml/demos/tutorial_photonics</a> (accessed January 2025). </p>
+											<p>Slussarenko, S.; Pryde, G. J., Appl. Phys. Rev. 2019, 6 (4), 041303. </p>
+											<p>A. Sakaguchi, S. Konno, F. Hanamura, W. Asavanant, K. Takase, H. Ogawa, P. Marek, R. Filip, J.-i. Yoshikawa, E. Huntington, H. Yonezawa and A. Furusawa, Nat. Commun., 2023, 14, 3817. </p>
+											<p>Romero J, Milburn G, arXiv, 2024, preprint, DOI: arXiv:2404.03367v1 [quant-ph]. </p>
+											<p>Y Tsujimoto, K Wakui, T Kishimoto, S Miki, M Yabuno, H Terai, M Fujiwara, G Kato, arXiv, 2024, preprint, DOI: <a href="https://arxiv.org/abs/2411.17267v1">https://arxiv.org/abs/2411.17267v1</a> [quantph]. </p>
+											<p>Y. Li, T. Xiang, Y. Nie, M. Sang and X. Chen, Photonics Res., 2017, 5(4), 324. </p>
+											<p>PsiQuantum. PsiQuantum: Building the World’s First Useful Quantum Computer. 2023. URL: <a href="https://www.psiquantum.com/">https://www.psiquantum.com/</a>. (accessed January 2025) </p>
+											<p>Xanadu. Xanadu Quantum Technologies. 2023, <a href="https://www.xanadu.ai/">https://www.xanadu.ai/</a>, (accessed January 2025) </p>
+											<p>Quix Quantum. Quix Quantum. 2023, <a href="https://www.quix.tech/">https://www.quix.tech/</a>, (accessed January 2025) </p>
+											<p>Orca Computing. ORCA Computing: Home. 2023, <a href="https://orcacomputing.com/">https://orcacomputing.com/</a>, (accessed January 2025). </p>
+											<p>Farhi E, Goldstone J, Gutmann S, Sipser M, arXiv, 2000, preprint, DOI: <a href="https://doi.org/10.48550/arXiv.quant-ph/0001106">https://doi.org/10.48550/arXiv.quant-ph/0001106</a> </p>
+											<p>D-Wave Systems Inc. Understanding Quantum Annealing, 2022, <a href="https://www.dwavesys.com/quantum-annealing">https://www.dwavesys.com/quantum-annealing</a>, (accessed January 2025). </p>
+											<p>M. A. Nielsen and I. L. Chuang. Quantum Computation and Quantum Information, Cambridge University Press, Cambridge, U.K, 10, 2010. </p>
+											<p>P. W. Shor. “Algorithms for Quantum Computation: Discrete Logarithms and Factoring”, presented in part at the Proceedings 35th Annual Symposium on Foundations of Computer Science, Santa Fe, NM, USA: IEEE, 1994, pp. 124–134. </p>
+											<p>R. Cui, Z. Lyu, Theor. Nat. Sci., 2023, 10, 1. </p>
+											<p>R. P. Feynman, Int. J. Theor. Phys., 1982, 21, 467–488. </p>
+											<p>Shor’s Algorithm and Its Impact on Present-Day Cryptography, <a href="https://web.eecs.umich.edu/~aveliche/PDFs/RC_paper.pdf">https://web.eecs.umich.edu/~aveliche/PDFs/RC_paper.pdf</a> (accessed January 2025). </p>
+											<p>R. Pereira da Silva, SSRN Oracle Quantum Algorithms: An Overview, SSRN Electron. J., 2024. </p>
+												</article>
+
+<div id="articlesBySameAuthorList">
+				</div>
+<div id="articlesBySimilarityList">
+	</div>
+<!-- Plum Analytics -->
+<script type="text/javascript" src="//cdn.plu.mx/widget-all.js"></script>
+<!-- /Plum Analytics -->
+
+
+
+
+    <div class="container mt-5 px-4 pb-4">
+	</div>
+</section>
+
+<section class="footer container-fluid">
+	<div class="container py-3">
+		<div class="row">
+			<div class="col-12">
+          							<div id="footer">
+<div id="menu1" style="text-align: center;"><a style="color: #aed5fd;" href="#">Home</a> <!--a style="color: #aed5fd;" href="http://bombaytechnologist.in/index.php/bombaytechnologist/search/authors">Author Index</a--> | <a style="color: #aed5fd;" href="#">Editorial Board</a> | <a style="color: #aed5fd;" href="http://bombaytechnologist.in/index.php/bombaytechnologist/issue/archive">Archives</a> | <a style="color: #aed5fd;" href="#">Privacy Policy</a><!--a style="color: #aed5fd;" href="http://bombaytechnologist.in/index.php/bombaytechnologist/pages/view/pvc">Privacy Policy</a--> | <a style="color: #aed5fd;" href="#">Terms &amp; Conditions</a><!--a style="color: #aed5fd;" href="http://bombaytechnologist.in/index.php/bombaytechnologist/pages/view/t&amp;c">Terms &amp; Conditions</a--> | <a style="color: #aed5fd;" href="http://bombaytechnologist.in/index.php/bombaytechnologist/cu">Contact Us</a></div>
+<div id="menu1"><!--<a href="/index.php/bombaytechnologist/pages/view/fed">From the Editor's Desk</a> | <a href="/Archive/bombaytechnologist/Guidelines%20For%20Authors%20-%20PIJM.pdf">Guidelines For Authors</a> | <a href="/Archive/bombaytechnologist/Publication%20Ethics%20And%20Malpractice%20Statement%20-%20PIJM.pdf">Publication Ethics &amp; Malpractice Statement</a> | <a href="/index.php/bombaytechnologist/pages/view/ib">Indexing/Abstracting</a>--></div>
+<div id="menu2"><!--<a href="/index.php/bombaytechnologist/pages/view/ade">Advertise</a> | <a href="/Archive/bombaytechnologist/Digital%20Edition%20Brochure.pdf">Digital Edition</a> | <a href="/index.php/bombaytechnologist/pages/view/fci">Ahead of Print</a> | <a href="/index.php/bombaytechnologist/issue/current">Current Issue</a> | <a href="/index.php/bombaytechnologist/pages/view/sr">Subscription</a> | <a href="/index.php/bombaytechnologist/user/register">Registration</a>--></div>
+<div id="copy" style="text-align: center; color: white;">© The Bombay Technologist | All Rights Reserved Designed and developed by : <a href="http://www.informaticsglobal.com/" target="_blank" rel="noopener"><span style="text-decoration: underline; color: white;">Informatics Publishing Limited</span></a></div>
+<div id="ab"> </div>
+</div>
+							</div>
+			<div class="col-12 text-md-end text-center" role="complementary">
+				<a href="https://bombaytechnologist.in/index.php/bombaytechnologist/about/aboutThisPublishingSystem">
+					<img
+						class="pkp-brand-footer"
+						alt="More information about the publishing system, Platform and Workflow by OJS/PKP."
+						src="https://bombaytechnologist.in/templates/images/ojs_brand.png"
+					>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="row bottom-bar py-3"></div>
+</section>
+
+<script src="https://bombaytechnologist.in/plugins/themes/gopher/js/jquery.js?v=3.3.0.15" type="text/javascript"></script><script src="https://bombaytechnologist.in/plugins/themes/gopher/js/bootstrap.bundle.min.js?v=3.3.0.15" type="text/javascript"></script><script src="https://bombaytechnologist.in/plugins/themes/gopher/js/custom.js?v=3.3.0.15" type="text/javascript"></script><script src="https://bombaytechnologist.in/plugins/generic/citationStyleLanguage/js/articleCitation.js?v=3.3.0.15" type="text/javascript"></script><script src="https://bombaytechnologist.in/plugins/generic/citations/js/citations.js?v=3.3.0.15" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.data = pkpUsageStats.data || {};pkpUsageStats.data.Submission = pkpUsageStats.data.Submission || {};pkpUsageStats.data.Submission[173220] = {"data":{"2025":{"1":0,"2":0,"3":0,"4":10,"5":11,"6":9,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0}},"label":"All Downloads","color":"79,181,217","total":30};</script><script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.0.1/Chart.js?v=3.3.0.15" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.locale = pkpUsageStats.locale || {};pkpUsageStats.locale.months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];pkpUsageStats.config = pkpUsageStats.config || {};pkpUsageStats.config.chartType = "bar";</script><script src="https://bombaytechnologist.in/plugins/generic/usageStats/js/UsageStatsFrontendHandler.js?v=3.3.0.15" type="text/javascript"></script>
+
+
+</body>
+</html>

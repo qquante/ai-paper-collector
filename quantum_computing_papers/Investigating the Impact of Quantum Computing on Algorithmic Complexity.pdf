@@ -1,0 +1,1052 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Investigating the Impact of Quantum Computing on Algorithmic Complexity
+							| International Journal of Scientific Research and Management (IJSRM)
+			</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.4.0.8">
+<meta name="keywords" content="call for paper, social science journal, engineering journal, agriculture journal, human research journal, computer science journal, medical journal, journal of science, journal of education, economic journal journal,  international,  science,  ijsrm,  online journal, Fully Refereed, Peer Reviewed, research, publish,  paper,  research ijsr,  open access,  research paper, International Journal of Scientific Research and Management, Scientific, Research Journal, Management Research Journal, Open Access Journal, Peer-Reviewed Journal, Multidisciplinary Journal, Academic Journal, Scientific Publishing, Research and Management, Scientific Research and Development">
+
+<script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/c706618658e7b17fa42986792b24fae7.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MVWVCF8');</script>
+<!-- End Google Tag Manager -->
+
+<link rel="schema.DC" href="https://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content=" Mikita  Piastou"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2024-10-03"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2024-09-30"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2024-10-01"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2024-10-07"/>
+<meta name="DC.Description" xml:lang="en" content="This paper investigated the transformation that quantum computing brought into algorithmic complexity in the theoretical setting of computer science. This involved the appearance of new paradigm changes brought forth by quantum technologies, imposing on a glance at the performance of quantum algorithms in respect to classical models of computation regarding their effectiveness. Our contributions encompassed key quantum algorithms, specifically Shor&#039;s and Grover&#039;s algorithms, underlining the performance metrics of those algorithms. The mathematical modeling was supported by simulations using python libraries like Qiskit, which helped analyze the complexities of both algorithm types. From our simulations, it emerged that for smaller sizes of input, classical algorithms executed faster and illustrated their established efficiency. In contrast, quantum computing-algorithms like Grover&#039;s and Shor&#039;s - performed so much better for larger input sizes, showing potential advantages that may change the face of computational limitations. While promising much, it seemed from our findings that quantum computing would not show a quantum advantage for all computational tasks, because classical algorithms still remained robust and effective for many scenarios. This nuanced understanding underlines how complementary both the classical and quantum approaches are. Therefore, the insights gained through this work provide the basis for investigating where boundaries of computational capabilities evolve and what practical implications are of the integration of quantum technologies into existing systems."/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="5733"/>
+<meta name="DC.Identifier.pageNumber" content="1467-1476"/>
+<meta name="DC.Identifier.DOI" content="10.18535/ijsrm/v12i10.ec01"/>
+<meta name="DC.Identifier.URI" content="https://ijsrm.net/index.php/ijsrm/article/view/5733"/>
+<meta name="DC.Language" scheme="ISO639-1" content="en"/>
+<meta name="DC.Rights" content="Copyright (c) 2024  Mikita  Piastou"/>
+<meta name="DC.Rights" content="https://creativecommons.org/licenses/by/4.0"/>
+<meta name="DC.Source" content="International Journal of Scientific Research and Management (IJSRM)"/>
+<meta name="DC.Source.ISSN" content="2321-3418"/>
+<meta name="DC.Source.Issue" content="10"/>
+<meta name="DC.Source.Volume" content="12"/>
+<meta name="DC.Source.URI" content="https://ijsrm.net/index.php/ijsrm"/>
+<meta name="DC.Subject" xml:lang="en" content="Quantum computing, algorithm complexity, Shor&#039;s algorithm, Grover&#039;s algorithm, classical algorithm"/>
+<meta name="DC.Title" content="Investigating the Impact of Quantum Computing on Algorithmic Complexity"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Engineering and Computer Science"/>
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="International Journal of Scientific Research and Management (IJSRM)"/>
+<meta name="citation_journal_abbrev" content="int.jour.sci.res.mana"/>
+<meta name="citation_issn" content="2321-3418"/> 
+<meta name="citation_author" content=" Mikita  Piastou"/>
+<meta name="citation_title" content="Investigating the Impact of Quantum Computing on Algorithmic Complexity"/>
+<meta name="citation_language" content="en"/>
+<meta name="citation_date" content="2024/10/03"/>
+<meta name="citation_volume" content="12"/>
+<meta name="citation_issue" content="10"/>
+<meta name="citation_firstpage" content="1467"/>
+<meta name="citation_lastpage" content="1476"/>
+<meta name="citation_doi" content="10.18535/ijsrm/v12i10.ec01"/>
+<meta name="citation_abstract_html_url" content="https://ijsrm.net/index.php/ijsrm/article/view/5733"/>
+<meta name="citation_abstract" xml:lang="en" content="This paper investigated the transformation that quantum computing brought into algorithmic complexity in the theoretical setting of computer science. This involved the appearance of new paradigm changes brought forth by quantum technologies, imposing on a glance at the performance of quantum algorithms in respect to classical models of computation regarding their effectiveness. Our contributions encompassed key quantum algorithms, specifically Shor&#039;s and Grover&#039;s algorithms, underlining the performance metrics of those algorithms. The mathematical modeling was supported by simulations using python libraries like Qiskit, which helped analyze the complexities of both algorithm types. From our simulations, it emerged that for smaller sizes of input, classical algorithms executed faster and illustrated their established efficiency. In contrast, quantum computing-algorithms like Grover&#039;s and Shor&#039;s - performed so much better for larger input sizes, showing potential advantages that may change the face of computational limitations. While promising much, it seemed from our findings that quantum computing would not show a quantum advantage for all computational tasks, because classical algorithms still remained robust and effective for many scenarios. This nuanced understanding underlines how complementary both the classical and quantum approaches are. Therefore, the insights gained through this work provide the basis for investigating where boundaries of computational capabilities evolve and what practical implications are of the integration of quantum technologies into existing systems."/>
+<meta name="citation_keywords" xml:lang="en" content="Quantum computing, algorithm complexity, Shor&#039;s algorithm, Grover&#039;s algorithm, classical algorithm"/>
+<meta name="citation_pdf_url" content="https://ijsrm.net/index.php/ijsrm/article/download/5733/3552"/>
+<meta name="citation_reference" content="1. M. Moller, C. Vuik, “On the impact of quantum computing technology on future developments in high-performance scientific computing”, Ethics and Information Technology, vol. 19, pp. 253–269, Aug. 2017."/>
+<meta name="citation_reference" content="2. A. Holmes, S. Johri, G. Guerreschi, J. S. Clarke, and A. Y. Matsuura, “Impact of qubit connectivity on quantum algorithm performance”, Quantum Science and Technology, Mar. 2020."/>
+<meta name="citation_reference" content="3. J. R. Cruise, N. I. Gillespie, and B. Reid, “Practical Quantum Computing: The value of local computation”, Cornell University, Sep. 2020."/>
+<meta name="citation_reference" content="4. J. Singh, K. S. Bhangu, “Contemporary Quantum Computing Use Cases: Taxonomy, Review and Challenges”, Archives of Computational Methods in Engineering, vol. 30, pp. 615–638, Sep. 2023."/>
+<meta name="citation_reference" content="5. W. S. Ming, “The Role of Quantum Computing in Solving Complex Global Problems”, Hong Kong International Journal of Research Studies, vol. 1, no. 1, Dec. 2023."/>
+<meta name="citation_reference" content="6. S. Sharma, S. Solanki, and A. Yahya, Quantum Algorithms: Unleashing the Power of Quantum Computing, OORJA - International Journal of Management &amp; IT, vol. 21, no. 1, p. 28, 2023."/>
+<meta name="citation_reference" content="7. P. N. Singh, S. Aarthi, “Quantum Circuits - An Application in Qiskit-Python”, 2021 Third International Conference on Intelligent Communication Technologies and Virtual Mobile Networks (ICICV), Mar. 2021."/>
+<meta name="citation_reference" content="8. D. C. McKay, T. Alexander, L. Bello, M. J. Biercuk, and others, “Qiskit Backend Specifications for OpenQASM and OpenPulse Experiments”, Cornell University, Sep. 2018."/>
+<meta name="citation_reference" content="9. N. M. Linke, D. Maslov, M. Roetteler, and C. Monroe, “Experimental comparison of two quantum computing architectures”, National Academy of Sciences, vol. 114, no. 13, pp. 3305-3310. Feb. 2017."/>
+<meta name="citation_reference" content="10. C. H. Ugwuishiwu, U. E. Orji, C. I. Ugwu, and C. N. Asogwa, “An overview of Quantum Cryptography and Shor’s Algorithm”, International Journal of Advanced Trends in Computer Science and Engineering, vol. 9, no. 5, pp. 748 -7495, Oct. 2020."/>
+<meta name="citation_reference" content="11. S. Fluhrer, “Reassessing Grover&#039;s Algorithm”, Cryptology ePrint Archive, Aug. 2017."/>
+<meta name="citation_reference" content="12. R. H. Preston, “Applying Grover&#039;s Algorithm to Hash Functions: A Software Perspective”, IEEE Transactions on Quantum Engineering, vol. 3, Jan. 2023."/>
+<meta name="citation_reference" content="13. S. Pattanayak, “Quantum Machine Learning with Python”, Apress, 2021."/>
+<meta name="citation_reference" content="14. N. Kanazawa, D. J. Egger, Y. Ben-Haim, H. Zhang, W. E. Shanks, G. Aleksandrowicz, and C. J. Wood, “Qiskit Experiments: A Python package to characterize and calibrate quantum computers”, The Journal of Open Source Software, Apr. 2023."/>
+<meta name="citation_reference" content="15. T. Monz, D. Nigg, E. A. Martinez, M. F. Brandl, P. Schindler, R. Rines, S. X. Wang, I. L. Chuang, and R. Blatt, ”Realization of a scalable Shor algorithm”, Science, vol. 351, no. 6277, pp. 1068-1070, Mar. 2016."/>
+<meta name="citation_reference" content="16. R. L. Singleton Jr, M. L. Rogers, and D. L. Ostby, ‘Grover&#039;s Algorithm with Diffusion and Amplitude Steering”, Cornell University, Oct. 2021."/>
+<meta name="citation_reference" content="17. A. Mandviwalla, K. Ohshiro, B. Ji, “Implementing Grover’s Algorithm on the IBM Quantum Computers”, 2018 IEEE International Conference on Big Data, Dec. 2018."/>
+<meta name="citation_reference" content="18. A. Tulsi, “On the class of diffusion operators for fast quantum search”, Cornell University, Oct. 2016."/>
+<meta name="citation_reference" content="19. A. Javadi-Abhari, M. Treinish, K. Krsulich, C. J. Wood, J. Lishman, J. Gacon, S. Martiel, P. D. Nation, L. S. Bishop, A. W. Cross, B. R. Johnson, and J. M. Gambetta, “Quantum computing with Qiskit”, Cornell University, Jun. 2024."/>
+<meta name="citation_reference" content="20. IBM Quantum Documentation, “Circuit library” Angular, [Online]. Available: https://docs.quantum.ibm.com/guides/circuit-library. [Accessed: Jun. 21, 2024]."/>
+<meta name="citation_reference" content="21. L. Burgholzer, R. Raymond, R. Wille, “Verifying Results of the IBM Qiskit Quantum Circuit Compilation Flow”, 2020 IEEE International Conference on Quantum Computing and Engineering (QCE), Oct. 2020."/>
+<meta name="citation_reference" content="22. H. Y. Wong, “Shor’s Algorithm”, Introduction to Quantum Computing, pp. 289-298, Jun. 2023."/>
+<meta name="citation_reference" content="23. O. Dupouet, Y. Pitarch, M. Ferru, B. Bernela, “Community dynamics and knowledge production: forty years of research in quantum computing”, Journal of Knowledge Management, vol. 28, no. 3, Mar. 2024."/>
+<meta name="citation_reference" content="24. R. Wille, R. V. Meter, Y. Naveh, “IBM’s Qiskit Tool Chain: Working with and Developing for Real Quantum Computers”, 2019 Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), Mar. 2019."/>
+<meta name="citation_reference" content="25. V. Mavroeidis, K. Vishi, M. D. Zych, and A. Josang, “The Impact of Quantum Computing on Present Cryptography”, International Journal of Advanced Computer Science and Applications (IJACSA), vol. 9, no. 3, pp. 405-414, Mar. 2018."/>
+<meta name="citation_reference" content="26. J. Liu, D. Franklin, “Introduction to Quantum Computing for Everyone: Experience Report”, SIGCSE 2023: Proceedings of the 54th ACM Technical Symposium on Computer Science Education, vol. 1, pp. 1157-1163, Mar. 2023."/>
+<meta name="citation_reference" content="27. A. M. Dalzell, S. McArdle, M. Berta, P. Bienias, “Quantum algorithms: A survey of applications and end-to-end complexities”, Cornell University, Oct. 2023."/>
+<meta name="citation_reference" content="28. D. Chawla, P. S. Mehra, “A Survey on Quantum Computing for Internet of Things Security”, Procedia Computer Science, vol. 218, pp. 2191-2200, 2023."/>
+<meta name="citation_reference" content="29. G. Guerreschi, M. Smelyanskiy, “Practical optimization for hybrid quantum-classical algorithms”, Cornell University, Jan. 2017."/>
+<meta name="citation_reference" content="30. C. T. Holter, P. Inglesant, M. Jirotka, “Reading the road: challenges and opportunities on the path to responsible innovation in quantum computing”, Technology Analysis &amp; Strategic Management, vol. 35, no. 7, Sep. 2023."/>
+<meta name="citation_reference" content="31. J. R. McClean, J. Romero, R. Babbush, and A. Aspuru-Guzik, “The theory of variational hybrid quantum-classical algorithms”, New Journal of Physics, vol. 18, Feb. 2016."/>
+	<link rel="stylesheet" href="https://ijsrm.net/plugins/themes/bootstrap3/styles/stylesheet.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://ijsrm.net/plugins/themes/bootstrap3/styles/fontawesome/fontawesome.css_v=3.2.1.2.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://ijsrm.net/plugins/themes/bootstrap3/styles/aos.min.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://ijsrm.net/plugins/themes/bootstrap3/css/academicicon/css/academicons.min.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://ijsrm.net/plugins/themes/bootstrap3/styles/bundle.min.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://ijsrm.net/plugins/themes/bootstrap3/styles/noble-tailwind.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://ijsrm.net/plugins/themes/bootstrap3/styles/hover-noble.min.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://ijsrm.net/plugins/themes/bootstrap3/styles/la.min.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://ijsrm.net/plugins/themes/bootstrap3/styles/dstyleSheet.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" type="text/css" /><link rel="stylesheet" href="https://ijsrm.net/plugins/generic/citationStyleLanguage/css/citationStyleLanguagePlugin.css?v=3.4.0.8" type="text/css" />
+</head>
+
+
+
+<body class="pkp_page_article pkp_op_view has_site_logo bg-gray-200 dark:bg-gray-600" dir="ltr">
+	<div class="pkp_structure_page">
+				<div id="menu-mobile" class="touch-menu-la lg:hidden flex flex-col">
+			<div class="mobile-primary-menu mt-4">
+					<ul id="navigationPrimaryMobile" class="pkp_navigation_primary pkp_nav_list">
+														<li class=" menu-item-23">
+				<a href="https://ijsrm.net/index.php/ijsrm">
+					Home
+									</a>
+							</li>
+																					<li class=" menu-item-18 dropdown">
+				<a href="https://ijsrm.net/index.php/ijsrm/about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					About
+											<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu ">
+																					<li class=" menu-item-19">
+									<a href="https://ijsrm.net/index.php/ijsrm/about">
+										About the Journal
+									</a>
+								</li>
+																												<li class=" menu-item-21">
+									<a href="https://ijsrm.net/index.php/ijsrm/about/editorialTeam">
+										Editorial Team
+									</a>
+								</li>
+																												<li class=" menu-item-47">
+									<a href="https://ijsrm.net/index.php/ijsrm/reviewprocess">
+										Review Process
+									</a>
+								</li>
+																												<li class=" menu-item-54">
+									<a href="https://ijsrm.net/index.php/ijsrm/oa">
+										Open access
+									</a>
+								</li>
+																												<li class=" menu-item-57">
+									<a href="https://ijsrm.net/index.php/ijsrm/dap">
+										Digital Archiving Policy
+									</a>
+								</li>
+																												<li class=" menu-item-55">
+									<a href="https://ijsrm.net/index.php/ijsrm/rp">
+										Right and License
+									</a>
+								</li>
+																												<li class=" menu-item-61">
+									<a href="https://ijsrm.net/index.php/ijsrm/rg">
+										Reviewer Guideline
+									</a>
+								</li>
+																		</ul>
+							</li>
+														<li class=" menu-item-20">
+				<a href="https://ijsrm.net/index.php/ijsrm/about/submissions">
+					Submissions
+									</a>
+							</li>
+														<li class=" menu-item-15">
+				<a href="https://ijsrm.net/index.php/ijsrm/issue/current">
+					Current Issue
+									</a>
+							</li>
+														<li class=" menu-item-16">
+				<a href="https://ijsrm.net/index.php/ijsrm/issue/archive">
+					Archives
+									</a>
+							</li>
+														<li class=" menu-item-17">
+				<a href="https://ijsrm.net/index.php/ijsrm/announcement">
+					Announcements
+									</a>
+							</li>
+														<li class=" menu-item-22">
+				<a href="https://ijsrm.net/index.php/ijsrm/about/contact">
+					Contact
+									</a>
+							</li>
+			</ul>
+
+					<ul id="navigationUserMobile" class="pkp_navigation_primary pkp_nav_list">
+														<li class="profile-mobile menu-item-9">
+				<a href="https://ijsrm.net/index.php/ijsrm/login">
+					Login
+									</a>
+							</li>
+														<li class="profile-mobile menu-item-59">
+				<a href="https://ijsrm.net/index.php/ijsrm/user/register">
+					Register
+									</a>
+							</li>
+										</ul>
+
+			</div>
+
+		</div>
+		<div class="w-full bg-white dark:bg-gray-800 py-3">
+				<div class="pkp_site_name_wrapper flex items-center">
+										<div class="header-logo me-auto lg:me-0">
+																		<a href="						https://ijsrm.net/index.php/ijsrm/index
+						" class="is_img">
+							<img src="https://ijsrm.net/public/journals/1/pageHeaderLogoImage_en_US.png"
+								width="522" height="90" alt="logo"  />
+						</a>
+											</div>
+										<div class="ms-auto me-3 p-3 ps-6 hidden lg:block">
+														
+	<form class=" mb-0" action="https://ijsrm.net/index.php/ijsrm/search/search" method="get" role="search" aria-label="Article Search">
+		<input type="hidden" name="csrfToken" value="254b164f46f187d20b88b35c9e775ba3">
+				<div class="text-gray-600 flex border-2 border-primary border-opacity-50">
+				
+        <input class="bg-transparent text-black dark:text-white h-8 px-5 text-sm focus:outline-none w-48"
+          type="search" name="query" value="" placeholder="Search" aria-label="Search Query">
+				
+        <button type="submit" class="me-4">
+          <svg class="text-black dark:text-white h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
+            viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"
+            width="512px" height="512px">
+            <path
+              d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+          </svg>
+        </button>
+      </div>
+	</form>
+
+      											</div>
+					<div class="p-3 flex items-center lg:border-s lg:border-r" id="navigationUserWrapper">
+							<ul id="navigationUser" class="hidden lg:block pkp_nav_list">
+														<li class="profile menu-item-9">
+				<a href="https://ijsrm.net/index.php/ijsrm/login">
+					Login
+									</a>
+							</li>
+														<li class="profile menu-item-59">
+				<a href="https://ijsrm.net/index.php/ijsrm/user/register">
+					Register
+									</a>
+							</li>
+										</ul>
+
+					</div>
+					<button class="lg:hidden" id="menu-open">
+						<svg viewBox="0 0 100 80" width="30" height="30">
+								<rect width="100" height="15" rx="8"></rect>
+								<rect y="30" width="100" height="15" rx="8"></rect>
+								<rect y="60" width="100" height="15" rx="8"></rect>
+						</svg>
+					</button>
+				</div>
+			</div>
+		<header class="pkp_structure_head border-b-8 border-primary-bottom lg:sticky top-0 z-10 shadow-lg" id="headerNavigationContainer"
+			role="banner">
+						
+ <nav class="cmp_skip_to_content" aria-label="Jump to content links">
+	<a href="#pkp_content_main">Skip to main content</a>
+	<a href="#siteNav">Skip to main navigation menu</a>
+		<a href="#pkp_content_footer">Skip to site footer</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+				<nav class="pkp_site_nav_menu" aria-label="Site Navigation">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper text-base lg:flex lg:items-center">
+														<a href="						https://ijsrm.net/index.php/ijsrm/index
+						" class="is_img me-auto logo-navbar" style="display:none">
+								<img src="https://ijsrm.net/public/journals/1/pageHeaderLogoImage_en_US.png"
+									width="522" class="max-h-16" height="90" alt="logo"  />
+							</a>
+																								<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+														<li class=" menu-item-23">
+				<a href="https://ijsrm.net/index.php/ijsrm">
+					Home
+									</a>
+							</li>
+																					<li class=" menu-item-18 dropdown">
+				<a href="https://ijsrm.net/index.php/ijsrm/about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					About
+											<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu ">
+																					<li class=" menu-item-19">
+									<a href="https://ijsrm.net/index.php/ijsrm/about">
+										About the Journal
+									</a>
+								</li>
+																												<li class=" menu-item-21">
+									<a href="https://ijsrm.net/index.php/ijsrm/about/editorialTeam">
+										Editorial Team
+									</a>
+								</li>
+																												<li class=" menu-item-47">
+									<a href="https://ijsrm.net/index.php/ijsrm/reviewprocess">
+										Review Process
+									</a>
+								</li>
+																												<li class=" menu-item-54">
+									<a href="https://ijsrm.net/index.php/ijsrm/oa">
+										Open access
+									</a>
+								</li>
+																												<li class=" menu-item-57">
+									<a href="https://ijsrm.net/index.php/ijsrm/dap">
+										Digital Archiving Policy
+									</a>
+								</li>
+																												<li class=" menu-item-55">
+									<a href="https://ijsrm.net/index.php/ijsrm/rp">
+										Right and License
+									</a>
+								</li>
+																												<li class=" menu-item-61">
+									<a href="https://ijsrm.net/index.php/ijsrm/rg">
+										Reviewer Guideline
+									</a>
+								</li>
+																		</ul>
+							</li>
+														<li class=" menu-item-20">
+				<a href="https://ijsrm.net/index.php/ijsrm/about/submissions">
+					Submissions
+									</a>
+							</li>
+														<li class=" menu-item-15">
+				<a href="https://ijsrm.net/index.php/ijsrm/issue/current">
+					Current Issue
+									</a>
+							</li>
+														<li class=" menu-item-16">
+				<a href="https://ijsrm.net/index.php/ijsrm/issue/archive">
+					Archives
+									</a>
+							</li>
+														<li class=" menu-item-17">
+				<a href="https://ijsrm.net/index.php/ijsrm/announcement">
+					Announcements
+									</a>
+							</li>
+														<li class=" menu-item-22">
+				<a href="https://ijsrm.net/index.php/ijsrm/about/contact">
+					Contact
+									</a>
+							</li>
+			</ul>
+
+
+														<div class="lg:ms-auto issn">
+									<a href="https://portal.issn.org/resource/issn/2321-3418" class=""><span class="">ISSN : 2321-3418</span></a>
+							</div>
+								
+													</div>
+					</div>
+
+					
+
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+						
+		<div class="pkp_structure_content has_sidebar mt-4">
+			<div class="pkp_structure_main bg-white dark:bg-gray-800 my-4 pt-4 shadow-lg border-primary-bottom border-b-8" role="main">
+				<a id="pkp_content_main"></a>
+<div class="page page_article">
+			<nav class="cmp_breadcrumbs" role="navigation" aria-label="You are here:">
+	<ol>
+		<li>
+			<a href="https://ijsrm.net/index.php/ijsrm/index">
+				Home
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="https://ijsrm.net/index.php/ijsrm/issue/archive">
+				Archives
+			</a>
+			<span class="separator">/</span>
+		</li>
+					<li>
+				<a href="https://ijsrm.net/index.php/ijsrm/issue/view/143">
+					Vol. 12 No. 10 (2024)
+				</a>
+				<span class="separator">/</span>
+			</li>
+				<li class="current" aria-current="page">
+			<span aria-current="page">
+									Engineering and Computer Science
+							</span>
+		</li>
+	</ol>
+</nav>	
+				
+	
+
+<article class="obj_article_details">
+
+		
+	
+	<h1 class="page_title">
+		Investigating the Impact of Quantum Computing on Algorithmic Complexity
+	</h1>
+	
+	<div class="lg:flex lg:items-center mb-2">
+		<div class="doi">
+														<section class="item doi">
+						<span class="value">
+							<a href="https://doi.org/https://doi.org/10.18535/ijsrm/v12i10.ec01" class="break-words">
+								<i class="ai ai-doi" style="color:#fcb425"></i> https://doi.org/10.18535/ijsrm/v12i10.ec01
+							</a>
+						</span>
+					</section>
+			 		
+			
+		</div>
+		
+			<div class="crossmark ms-auto">
+				<span class="crossmark_button">
+					<!-- Start Crossmark Snippet v2.0 -->
+					<script async src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+					<a data-target="crossmark"><img class="h-8"
+							src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg" width="150" /></a>
+					<!-- End Crossmark Snippet -->
+				</span>
+			</div>
+	
+	</div>
+
+				<section class="item keywords" title="Keywords">
+			<span class="value">
+									<a href="https://ijsrm.net/index.php/ijsrm/search?query=Quantum computing, algorithm complexity, Shor's algorithm, Grover's algorithm, classical algorithm"
+						class="text-xs hover:text-white inline-block py-1 px-2 text-bg-secondary bg-secondary capitalize me-1 mb-1">
+						Quantum computing, algorithm complexity, Shor&#039;s algorithm, Grover&#039;s algorithm, classical algorithm</a>
+							</span>
+		</section>
+	
+	<div class="">
+		<div class="main_entry">
+							<section class="item authors">
+					<h2 class="pkp_screen_reader">Authors</h2>
+					<ul class="authors sm:grid sm:grid-auto-flow sm:grid-cols-2 gap-2">
+													<li>
+								<span class="name">
+									<a href="https://ijsrm.net/index.php/ijsrm/search?authors= Mikita  Piastou">
+										<i class="fa fa-fw fa-user"> </i>
+										 Mikita  Piastou
+									</a>
+								</span>
+																	
+																															</li>
+											</ul>
+				</section>
+			
+
+			<div class="flow-root">
+				<div class="share-button">
+					<div class="tip">Share</div>
+					<div class="share-window">
+						<div class="share-bar">
+							<div class="trigger"><a target="_blank" href="/cdn-cgi/l/email-protection#0e317d7b6c646b6d7a334760786b7d7a67696f7a6760692e7a666b2e47637e6f6d7a2e61682e5f7b6f607a7b632e4d61637e7b7a6760692e61602e4f6269617c677a6663676d2e4d61637e626b76677a77356c616a773367647d7c6320606b7a2167606a6b76207e667e2167647d7c63216f7c7a676d626b2178676b79213b393d3d"><i
+										class="fa fa-envelope-o"></i></a></div>
+							<div class="trigger"><a target="_blank" href="https://wa.me/?text=ijsrm.net/index.php/ijsrm/article/view/5733"><i
+										class="fa fa-whatsapp"></i></a></div>
+							<div class="trigger"><a target="_blank"
+									href="https://www.facebook.com/sharer.php?u=ijsrm.net/index.php/ijsrm/article/view/5733"><i class="fa fa-facebook"></i></a>
+							</div>
+							<div class="trigger"><a target="_blank"
+									href="https://twitter.com/intent/tweet?url=ijsrm.net/index.php/ijsrm/article/view/5733"><i class="fa fa-twitter"></i></a>
+							</div>
+							<div class="trigger"><a target="_blank"
+									href="https://www.linkedin.com/sharing/share-offsite/?url=ijsrm.net/index.php/ijsrm/article/view/5733"><i
+										class="fa fa-linkedin"></i></a></div>
+							<div class="trigger"><a target="_blank" href="https://telegram.me/share/url?url=ijsrm.net/index.php/ijsrm/article/view/5733"><i
+										class="fa fa-paper-plane"></i></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+										<div class="item issue">
+
+											<a class="issue" href="https://ijsrm.net/index.php/ijsrm/issue/view/143"
+							title="Issue">
+							Vol. 12 No. 10 (2024)
+						</a>
+					
+											<div class="section" title="Section">
+							Engineering and Computer Science
+						</div>
+									</div>
+			
+							<div class="item published" title="Published">
+					<section class="sub_item">
+						<div class="value">
+																						<span>October 3, 2024</span>
+																					</div>
+					</section>
+									</div>
+			
+			
+
+			
+				<div class="panel panel-default dimension_badge" title="Dimension Badge">
+					<span class="__dimensions_badge_embed__" data-doi="https://doi.org/10.18535/ijsrm/v12i10.ec01"
+						data-legend="always" data-style="small_circle"></span>
+					<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+				</div>
+			
+
+										<div class="item galleys" title="Downloads">
+					<h2 class="pkp_screen_reader">
+						Downloads
+					</h2>
+					<ul class="value galleys_links flex flex-wrap gap-2">
+													<li>
+								
+	
+							
+
+<a class="obj_galley_link pdf" href="https://ijsrm.net/index.php/ijsrm/article/view/5733/3552">
+
+		
+	PDF
+
+	</a>							</li>
+											</ul>
+				</div>
+			
+			
+						
+
+			
+
+
+			<div class="flex flex-wrap" id="tabs-id">
+				<div class="w-full">
+					<ul class="flex mb-0 lg:flex-none flex-auto list-none flex-wrap pt-3 flex-row">
+						<li class="-mb-px lg:me-2 lg:justify-start justify-evenly last:me-0 text-center border">
+							<a class="cursor-default text-xs font-bold uppercase px-5 py-3 block hover:text-white leading-normal text-white bg-base"
+								onclick="changeActiveTab(event,'tab-abstract')">
+								Abstract
+							</a>
+						</li>
+						<li
+							class="-mb-px lg:me-2 lg:justify-start justify-evenly flex-auto lg:flex-none last:me-0 text-center border">
+							<a class="cursor-default text-xs font-bold uppercase px-5 py-3 block leading-normal "
+								onclick="changeActiveTab(event,'tab-citation')">
+								How to Cite
+							</a>
+						</li>
+												<li
+							class="-mb-px lg:me-2 lg:justify-start justify-evenly flex-auto lg:flex-none last:me-0 text-center border">
+							<a class="cursor-default text-xs font-bold uppercase px-5 py-3 block leading-normal "
+								onclick="changeActiveTab(event,'tab-download')">
+								Metrics
+							</a>
+						</li>
+													<li
+								class="-mb-px lg:me-2 lg:justify-start justify-evenly flex-auto lg:flex-none last:me-0 text-center border">
+								<a class="cursor-default text-xs font-bold uppercase px-5 py-3 block leading-normal "
+									onclick="changeActiveTab(event,'tab-references')">
+									References
+								</a>
+							</li>
+																			<li
+								class="-mb-px lg:me-2 lg:justify-start justify-evenly flex-auto lg:flex-none last:me-0 text-center border">
+								<a class="cursor-default text-xs font-bold uppercase px-5 py-3 block leading-normal "
+									onclick="changeActiveTab(event,'tab-license')">
+									License
+								</a>
+							</li>
+											</ul>
+					<div class="relative flex flex-col min-w-0 break-words bg-white dark:bg-gray-800 w-full mb-6 border ">
+						<div class="px-4 py-5 flex-auto">
+							<div class="tab-content tab-space">
+								<div class="block" id="tab-abstract">
+																												<section class="abstract text-justify">
+											<p>This paper investigated the transformation that quantum computing brought into algorithmic complexity in the theoretical setting of computer science. This involved the appearance of new paradigm changes brought forth by quantum technologies, imposing on a glance at the performance of quantum algorithms in respect to classical models of computation regarding their effectiveness. Our contributions encompassed key quantum algorithms, specifically Shor's and Grover's algorithms, underlining the performance metrics of those algorithms. The mathematical modeling was supported by simulations using python libraries like Qiskit, which helped analyze the complexities of both algorithm types. From our simulations, it emerged that for smaller sizes of input, classical algorithms executed faster and illustrated their established efficiency. In contrast, quantum computing-algorithms like Grover's and Shor's - performed so much better for larger input sizes, showing potential advantages that may change the face of computational limitations. While promising much, it seemed from our findings that quantum computing would not show a quantum advantage for all computational tasks, because classical algorithms still remained robust and effective for many scenarios. This nuanced understanding underlines how complementary both the classical and quantum approaches are. Therefore, the insights gained through this work provide the basis for investigating where boundaries of computational capabilities evolve and what practical implications are of the integration of quantum technologies into existing systems.</p>
+										</section>
+																	</div>
+								<div class="hidden" id="tab-citation">
+																												<div class="citation">
+											<section class="sub_item citation_display">
+												<div class="value">
+													<div id="citationOutput" role="region" aria-live="polite">
+														<div class="csl-bib-body">
+  <div class="csl-entry">Piastou, Mikita , translator. “Investigating the Impact of Quantum Computing on Algorithmic Complexity”. <i>International Journal of Scientific Research and Management (IJSRM)</i>, vol. 12, no. 10, Oct. 2024, pp. 1467-76, <a href="https://doi.org/10.18535/ijsrm/v12i10.ec01">https://doi.org/10.18535/ijsrm/v12i10.ec01</a>.</div>
+</div>
+													</div>
+													<div class="citation_formats">
+														<button class="cmp_button citation_formats_button" aria-controls="cslCitationFormats"
+															aria-expanded="false" data-csl-dropdown="true">
+															More Citation Formats
+														</button>
+														<div id="cslCitationFormats" class="citation_formats_list" aria-hidden="true">
+															<ul class="citation_formats_styles">
+																																	<li>
+																		<a aria-controls="citationOutput"
+																			href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/acm-sig-proceedings?submissionId=5733&amp;publicationId=6706&amp;issueId=143"
+																			data-load-citation
+																			data-json-href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/acm-sig-proceedings?submissionId=5733&amp;publicationId=6706&amp;issueId=143&amp;return=json">
+																			ACM
+																		</a>
+																	</li>
+																																	<li>
+																		<a aria-controls="citationOutput"
+																			href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/acs-nano?submissionId=5733&amp;publicationId=6706&amp;issueId=143"
+																			data-load-citation
+																			data-json-href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/acs-nano?submissionId=5733&amp;publicationId=6706&amp;issueId=143&amp;return=json">
+																			ACS
+																		</a>
+																	</li>
+																																	<li>
+																		<a aria-controls="citationOutput"
+																			href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/apa?submissionId=5733&amp;publicationId=6706&amp;issueId=143"
+																			data-load-citation
+																			data-json-href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/apa?submissionId=5733&amp;publicationId=6706&amp;issueId=143&amp;return=json">
+																			APA
+																		</a>
+																	</li>
+																																	<li>
+																		<a aria-controls="citationOutput"
+																			href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=5733&amp;publicationId=6706&amp;issueId=143"
+																			data-load-citation
+																			data-json-href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=5733&amp;publicationId=6706&amp;issueId=143&amp;return=json">
+																			ABNT
+																		</a>
+																	</li>
+																																	<li>
+																		<a aria-controls="citationOutput"
+																			href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/chicago-author-date?submissionId=5733&amp;publicationId=6706&amp;issueId=143"
+																			data-load-citation
+																			data-json-href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/chicago-author-date?submissionId=5733&amp;publicationId=6706&amp;issueId=143&amp;return=json">
+																			Chicago
+																		</a>
+																	</li>
+																																	<li>
+																		<a aria-controls="citationOutput"
+																			href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/harvard-cite-them-right?submissionId=5733&amp;publicationId=6706&amp;issueId=143"
+																			data-load-citation
+																			data-json-href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/harvard-cite-them-right?submissionId=5733&amp;publicationId=6706&amp;issueId=143&amp;return=json">
+																			Harvard
+																		</a>
+																	</li>
+																																	<li>
+																		<a aria-controls="citationOutput"
+																			href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/ieee?submissionId=5733&amp;publicationId=6706&amp;issueId=143"
+																			data-load-citation
+																			data-json-href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/ieee?submissionId=5733&amp;publicationId=6706&amp;issueId=143&amp;return=json">
+																			IEEE
+																		</a>
+																	</li>
+																																	<li>
+																		<a aria-controls="citationOutput"
+																			href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/modern-language-association?submissionId=5733&amp;publicationId=6706&amp;issueId=143"
+																			data-load-citation
+																			data-json-href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/modern-language-association?submissionId=5733&amp;publicationId=6706&amp;issueId=143&amp;return=json">
+																			MLA
+																		</a>
+																	</li>
+																																	<li>
+																		<a aria-controls="citationOutput"
+																			href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=5733&amp;publicationId=6706&amp;issueId=143"
+																			data-load-citation
+																			data-json-href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=5733&amp;publicationId=6706&amp;issueId=143&amp;return=json">
+																			Turabian
+																		</a>
+																	</li>
+																																	<li>
+																		<a aria-controls="citationOutput"
+																			href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/vancouver?submissionId=5733&amp;publicationId=6706&amp;issueId=143"
+																			data-load-citation
+																			data-json-href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/vancouver?submissionId=5733&amp;publicationId=6706&amp;issueId=143&amp;return=json">
+																			Vancouver
+																		</a>
+																	</li>
+																																	<li>
+																		<a aria-controls="citationOutput"
+																			href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/ama?submissionId=5733&amp;publicationId=6706&amp;issueId=143"
+																			data-load-citation
+																			data-json-href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/get/ama?submissionId=5733&amp;publicationId=6706&amp;issueId=143&amp;return=json">
+																			AMA
+																		</a>
+																	</li>
+																															</ul>
+																															<div class="label">
+																	Download Citation
+																</div>
+																<ul class="citation_formats_styles">
+																																			<li>
+																			<a
+																				href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/download/ris?submissionId=5733&amp;publicationId=6706&amp;issueId=143">
+																				<span class="fa fa-download"></span>
+																				Endnote/Zotero/Mendeley (RIS)
+																			</a>
+																		</li>
+																																			<li>
+																			<a
+																				href="https://ijsrm.net/index.php/ijsrm/citationstylelanguage/download/bibtex?submissionId=5733&amp;publicationId=6706&amp;issueId=143">
+																				<span class="fa fa-download"></span>
+																				BibTeX
+																			</a>
+																		</li>
+																																	</ul>
+																													</div>
+													</div>
+												</div>
+											</section>
+										</div>
+																	</div>
+																<div class="hidden" id="tab-download">
+									
+																	
+				<section class="item downloads_chart">
+					<h2 class="label">
+						Downloads
+					</h2>
+					<div class="value">
+						<canvas class="usageStatsGraph" data-object-type="Submission" data-object-id="5733"></canvas>
+						<div class="usageStatsUnavailable" data-object-type="Submission" data-object-id="5733">
+							Download data is not yet available.
+						</div>
+					</div>
+				</section>
+												
+									
+								</div>
+																									<div class="hidden" id="tab-references">
+										<section class="item references">
+											<div class="value">
+																																							<p>1. M. Moller, C. Vuik, “On the impact of quantum computing technology on future developments in high-performance scientific computing”, Ethics and Information Technology, vol. 19, pp. 253–269, Aug. 2017.
+															</p>
+																											<p>2. A. Holmes, S. Johri, G. Guerreschi, J. S. Clarke, and A. Y. Matsuura, “Impact of qubit connectivity on quantum algorithm performance”, Quantum Science and Technology, Mar. 2020.
+															</p>
+																											<p>3. J. R. Cruise, N. I. Gillespie, and B. Reid, “Practical Quantum Computing: The value of local computation”, Cornell University, Sep. 2020.
+															</p>
+																											<p>4. J. Singh, K. S. Bhangu, “Contemporary Quantum Computing Use Cases: Taxonomy, Review and Challenges”, Archives of Computational Methods in Engineering, vol. 30, pp. 615–638, Sep. 2023.
+															</p>
+																											<p>5. W. S. Ming, “The Role of Quantum Computing in Solving Complex Global Problems”, Hong Kong International Journal of Research Studies, vol. 1, no. 1, Dec. 2023.
+															</p>
+																											<p>6. S. Sharma, S. Solanki, and A. Yahya, Quantum Algorithms: Unleashing the Power of Quantum Computing, OORJA - International Journal of Management &amp; IT, vol. 21, no. 1, p. 28, 2023.
+															</p>
+																											<p>7. P. N. Singh, S. Aarthi, “Quantum Circuits - An Application in Qiskit-Python”, 2021 Third International Conference on Intelligent Communication Technologies and Virtual Mobile Networks (ICICV), Mar. 2021.
+															</p>
+																											<p>8. D. C. McKay, T. Alexander, L. Bello, M. J. Biercuk, and others, “Qiskit Backend Specifications for OpenQASM and OpenPulse Experiments”, Cornell University, Sep. 2018.
+															</p>
+																											<p>9. N. M. Linke, D. Maslov, M. Roetteler, and C. Monroe, “Experimental comparison of two quantum computing architectures”, National Academy of Sciences, vol. 114, no. 13, pp. 3305-3310. Feb. 2017.
+															</p>
+																											<p>10. C. H. Ugwuishiwu, U. E. Orji, C. I. Ugwu, and C. N. Asogwa, “An overview of Quantum Cryptography and Shor’s Algorithm”, International Journal of Advanced Trends in Computer Science and Engineering, vol. 9, no. 5, pp. 748 -7495, Oct. 2020.
+															</p>
+																											<p>11. S. Fluhrer, “Reassessing Grover's Algorithm”, Cryptology ePrint Archive, Aug. 2017.
+															</p>
+																											<p>12. R. H. Preston, “Applying Grover's Algorithm to Hash Functions: A Software Perspective”, IEEE Transactions on Quantum Engineering, vol. 3, Jan. 2023.
+															</p>
+																											<p>13. S. Pattanayak, “Quantum Machine Learning with Python”, Apress, 2021.
+															</p>
+																											<p>14. N. Kanazawa, D. J. Egger, Y. Ben-Haim, H. Zhang, W. E. Shanks, G. Aleksandrowicz, and C. J. Wood, “Qiskit Experiments: A Python package to characterize and calibrate quantum computers”, The Journal of Open Source Software, Apr. 2023.
+															</p>
+																											<p>15. T. Monz, D. Nigg, E. A. Martinez, M. F. Brandl, P. Schindler, R. Rines, S. X. Wang, I. L. Chuang, and R. Blatt, ”Realization of a scalable Shor algorithm”, Science, vol. 351, no. 6277, pp. 1068-1070, Mar. 2016.
+															</p>
+																											<p>16. R. L. Singleton Jr, M. L. Rogers, and D. L. Ostby, ‘Grover's Algorithm with Diffusion and Amplitude Steering”, Cornell University, Oct. 2021.
+															</p>
+																											<p>17. A. Mandviwalla, K. Ohshiro, B. Ji, “Implementing Grover’s Algorithm on the IBM Quantum Computers”, 2018 IEEE International Conference on Big Data, Dec. 2018.
+															</p>
+																											<p>18. A. Tulsi, “On the class of diffusion operators for fast quantum search”, Cornell University, Oct. 2016.
+															</p>
+																											<p>19. A. Javadi-Abhari, M. Treinish, K. Krsulich, C. J. Wood, J. Lishman, J. Gacon, S. Martiel, P. D. Nation, L. S. Bishop, A. W. Cross, B. R. Johnson, and J. M. Gambetta, “Quantum computing with Qiskit”, Cornell University, Jun. 2024.
+															</p>
+																											<p>20. IBM Quantum Documentation, “Circuit library” Angular, [Online]. Available: <a href="https://docs.quantum.ibm.com/guides/circuit-library">https://docs.quantum.ibm.com/guides/circuit-library</a>. [Accessed: Jun. 21, 2024].
+															</p>
+																											<p>21. L. Burgholzer, R. Raymond, R. Wille, “Verifying Results of the IBM Qiskit Quantum Circuit Compilation Flow”, 2020 IEEE International Conference on Quantum Computing and Engineering (QCE), Oct. 2020.
+															</p>
+																											<p>22. H. Y. Wong, “Shor’s Algorithm”, Introduction to Quantum Computing, pp. 289-298, Jun. 2023.
+															</p>
+																											<p>23. O. Dupouet, Y. Pitarch, M. Ferru, B. Bernela, “Community dynamics and knowledge production: forty years of research in quantum computing”, Journal of Knowledge Management, vol. 28, no. 3, Mar. 2024.
+															</p>
+																											<p>24. R. Wille, R. V. Meter, Y. Naveh, “IBM’s Qiskit Tool Chain: Working with and Developing for Real Quantum Computers”, 2019 Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), Mar. 2019.
+															</p>
+																											<p>25. V. Mavroeidis, K. Vishi, M. D. Zych, and A. Josang, “The Impact of Quantum Computing on Present Cryptography”, International Journal of Advanced Computer Science and Applications (IJACSA), vol. 9, no. 3, pp. 405-414, Mar. 2018.
+															</p>
+																											<p>26. J. Liu, D. Franklin, “Introduction to Quantum Computing for Everyone: Experience Report”, SIGCSE 2023: Proceedings of the 54th ACM Technical Symposium on Computer Science Education, vol. 1, pp. 1157-1163, Mar. 2023.
+															</p>
+																											<p>27. A. M. Dalzell, S. McArdle, M. Berta, P. Bienias, “Quantum algorithms: A survey of applications and end-to-end complexities”, Cornell University, Oct. 2023.
+															</p>
+																											<p>28. D. Chawla, P. S. Mehra, “A Survey on Quantum Computing for Internet of Things Security”, Procedia Computer Science, vol. 218, pp. 2191-2200, 2023.
+															</p>
+																											<p>29. G. Guerreschi, M. Smelyanskiy, “Practical optimization for hybrid quantum-classical algorithms”, Cornell University, Jan. 2017.
+															</p>
+																											<p>30. C. T. Holter, P. Inglesant, M. Jirotka, “Reading the road: challenges and opportunities on the path to responsible innovation in quantum computing”, Technology Analysis &amp; Strategic Management, vol. 35, no. 7, Sep. 2023.
+															</p>
+																											<p>31. J. R. McClean, J. Romero, R. Babbush, and A. Aspuru-Guzik, “The theory of variational hybrid quantum-classical algorithms”, New Journal of Physics, vol. 18, Feb. 2016.
+															</p>
+																																				</div>
+										</section>
+									</div>
+																									<div class="hidden" id="tab-license">
+																				<div class="item copyright">
+																																																		<p>
+															Copyright (c) 2024  Mikita  Piastou
+														</p>
+																										<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+																																		
+										</div>
+									</div>
+															</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div><!-- .main_entry -->
+	</div><!-- .row -->
+
+</article>
+	
+
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left sticky top-14 mt-4" role="complementary" aria-label="Sidebar">
+												<div class="pkp_block block_custom" id="customblock-metrics">
+	<h2 class="title pkp_screen_reader">Metrics</h2>
+	<div class="content">
+		<table style="height: 109px;" width="223">
+<tbody data-v-13670c35="">
+<tr data-v-13670c35="">
+<td data-v-13670c35=""><a href="https://openalex.org/sources/s4210219273" target="_blank" rel="noopener"><strong>Citations</strong></a></td>
+<td data-v-13670c35=""><a href="https://openalex.org/sources/s4210219273" target="_blank" rel="noopener">3245</a></td>
+</tr>
+<tr data-v-13670c35="">
+<td data-v-13670c35=""><a href="https://openalex.org/sources/s4210219273" target="_blank" rel="noopener"><strong>2yr mean_citedness</strong></a></td>
+<td data-v-13670c35=""><a href="https://openalex.org/sources/s4210219273" target="_blank" rel="noopener">0.323</a></td>
+</tr>
+<tr data-v-13670c35="">
+<td data-v-13670c35=""><a href="https://openalex.org/sources/s4210219273" target="_blank" rel="noopener"><strong>h index</strong></a></td>
+<td data-v-13670c35=""><a href="https://openalex.org/sources/s4210219273" target="_blank" rel="noopener">21</a></td>
+</tr>
+<tr data-v-13670c35="">
+<td data-v-13670c35=""><a href="https://openalex.org/sources/s4210219273" target="_blank" rel="noopener"><strong>i10 index</strong></a></td>
+<td data-v-13670c35=""><a href="https://openalex.org/sources/s4210219273" target="_blank" rel="noopener">67</a></td>
+</tr>
+</tbody>
+</table>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-whatsapp">
+	<h2 class="title pkp_screen_reader">Whatsapp</h2>
+	<div class="content">
+		<p><a href="https://whatsapp.com/channel/0029VaESBvLJZg3zW58gcp1Y" target="_blank" rel="noopener"><strong>Join IJSRM.NET Channel</strong></a></p>
+	</div>
+</div>
+<div class="pkp_block block_make_submission">
+	<h2 class="pkp_screen_reader">
+		Make a Submission
+	</h2>
+
+	<div class="content">
+		<a class="block_make_submission_link" href="https://ijsrm.net/index.php/ijsrm/about/submissions">
+			Make a Submission
+		</a>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-author-desk">
+	<h2 class="title pkp_screen_reader">Author Desk</h2>
+	<div class="content">
+		<p class="grid gap-2 grid-cols-2 lg:grid-cols-1"><a class="border-2 border-primary p-2 hvr-sweep-to-right hvr-icon-grow" title="AUTHOR GUIDELINES" href="https://ijsrm.net/index.php/ijsrm/about/submissions"> Author Guidelines</a> <a class="border-2 border-primary p-2 hvr-sweep-to-right hvr-icon-grow" title="Peer REview Process" href="https://ijsrm.net/index.php/ijsrm/call">Call for paper</a> <a class="border-2 border-primary p-2 hvr-sweep-to-right hvr-icon-grow" title="Fee" href="https://ijsrm.net/index.php/ijsrm/fee">Publication fee</a> <a class="border-2 border-primary p-2 hvr-sweep-to-right hvr-icon-grow" title="mod" href="https://ijsrm.net/index.php/ijsrm/mod">Mode of Payment</a> <a class="border-2 border-primary p-2 hvr-sweep-to-right hvr-icon-grow" title="PUBLICATION ETHICS" href="https://ijsrm.net/index.php/ijsrm/indexing">Indexing</a> <a class="border-2 border-primary p-2 hvr-sweep-to-right hvr-icon-grow" title="ethics" href="https://ijsrm.net/index.php/ijsrm/ethics">Publication Ethics</a> <a class="border-2 border-primary p-2 hvr-sweep-to-right hvr-icon-grow" title="Rvp" href="https://ijsrm.net/index.php/ijsrm/reviewprocess">Review Process</a> <a class="border-2 border-primary p-2 hvr-sweep-to-right hvr-icon-grow" href="https://ijsrm.net/index.php/ijsrm/rp">Right and License</a> <a class="border-2 border-primary p-2 hvr-sweep-to-right hvr-icon-grow" href="https://ijsrm.net/index.php/ijsrm/dap">Digital Archiving</a></p>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-download">
+	<h2 class="title pkp_screen_reader">Download</h2>
+	<div class="content">
+		<p class="grid gap-2 grid-cols-2 lg:grid-cols-1"><a class="border-2 border-primary p-2 hvr-sweep-to-right hvr-icon-grow" title="AUTHOR GUIDELINES" href="https://ijsrm.net/images/doc/ijsrmtemplate.doc"> Manuscript Template</a> <a class="border-2 border-primary p-2 hvr-sweep-to-right hvr-icon-grow" title="Peer REview Process" href="https://ijsrm.net/images/doc/copyright.pdf" target="_blank" rel="noopener">Copyright form</a> <a class="border-2 border-primary p-2 hvr-sweep-to-right hvr-icon-grow" title="Fee" href="https://ijsrm.net/public/journals/1/homepageImage_en.jpg">Journal Cover Page</a></p>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-impct">
+	<h2 class="title pkp_screen_reader">i</h2>
+	<div class="content">
+		<p><a href="http://sjifactor.com/passport.php?id=1906">Impact Factor : 6.997</a></p>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-index">
+	<h2 class="title pkp_screen_reader">Indexig</h2>
+	<div class="content">
+		<h2 class="title">Indexing</h2>
+<div class="content">
+<ul>
+<li><a href="https://search.worldcat.org/search?q=International+Journal+of+Scientific+Research+and+Management+%28IJSRM%29&amp;offset=1" target="_blank" rel="noopener">WorldCat</a></li>
+<li><a href="https://scholar.google.com/scholar?q=International+Journal+of+Scientific+Research+and+Management+(IJSRM)&amp;hl=en&amp;as_sdt=0,5" target="_blank" rel="noopener">Google Schloar</a></li>
+<li><a href="https://openalex.org/sources/s4210219273" target="_blank" rel="noopener">OpenAlex.</a></li>
+<li><a href="https://www.researchgate.net/journal/International-Journal-of-Scientific-Research-and-Management-IJSRM-2321-3418" target="_blank" rel="noopener">ResearchGate</a></li>
+<li><a href="https://livre.cnen.gov.br/Inicial.asp" target="_blank" rel="noopener">LivRe</a></li>
+<li><a href="https://journals.indexcopernicus.com/search/details?id=32159&amp;lang=pl" target="_blank" rel="noopener"> Index Copernicus </a></li>
+<li><a href="https://portal.issn.org/resource/ISSN/2321-3418" target="_blank" rel="noopener"> ROAD </a></li>
+<li><a href="https://search.crossref.org/?q=2321-3418&amp;from_ui=yes" target="_blank" rel="noopener">CrossRef Member</a></li>
+<li><a href="https://www.sciencegate.app/app/document/download#10.18535/ijsrm" target="_blank" rel="noopener"> ScienceGate </a></li>
+<li><a href="https://scite.ai/journals/international-journal-of-scientific-research-68Mn9" target="_blank" rel="noopener"> Scite_ Index </a></li>
+<li><a href="https://independent.academia.edu/ijsrm" target="_blank" rel="noopener"> Academia.Edu</a></li>
+<li><a href="https://exaly.com/journal/47816/international-journal-of-scientific-research-and-management/" target="_blank" rel="noopener">Exaly</a></li>
+<li><a href="https://journal-index.org/index.php/asi/article/view/559" target="_blank" rel="noopener">Advanced Sciences Index</a></li>
+</ul>
+</div>
+	</div>
+</div>
+<div class="pkp_block block_information">
+	<h2 class="title">Information</h2>
+	<div class="content">
+		<ul>
+							<li>
+					<a href="https://ijsrm.net/index.php/ijsrm/information/readers">
+						For Readers
+					</a>
+				</li>
+										<li>
+					<a href="https://ijsrm.net/index.php/ijsrm/information/authors">
+						For Authors
+					</a>
+				</li>
+										<li>
+					<a href="https://ijsrm.net/index.php/ijsrm/information/librarians">
+						For Librarians
+					</a>
+				</li>
+					</ul>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer flex">
+		
+		<div class="pkp_footer_content">
+						<div class="pkp_structure_footer flex">
+<div class="sm:grid sm:grid-cols-4 gap-4">
+<div class="pkp_footer_content">
+<div class="row">
+<div class="col-md-3">
+<div class="footer-inner-text">
+<div class="row">
+<div class="col-md-7">
+<div id="top-footer" class="footer-widgets-wrapper clearfix  column4">
+<div class="mt-container">
+<div class="footer-widgets-area clearfix">
+<div class="mt-footer-widget-wrapper clearfix">
+<div class="mt-first-footer-widget mt-footer-widget">
+<section id="text-99" class="widget widget_text">
+<div class="textwidget"><strong><br />ABOUT US<br /></strong><span style="font-size: 0.875rem;">IJSRM, the premier online destination for researchers, scholars, and innovators. Our platform provides a global network of professionals and experts....</span><strong><br /></strong></div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-7"><strong><br />HEAD OFFICE</strong></div>
+<div class="col-md-7">24 Kialash Vihar <br />Mandsaur Near R.T.O. Office Mandsaur (M.P.) 458001 India</div>
+<div class="col-md-7"> </div>
+<div class="col-md-7"> </div>
+<div class="col-md-7"> </div>
+</div>
+</div>
+<div class="pt-8 text-left">
+<h3 class="text-base font-bold"><span style="border-left: 5px solid #808080;"> <span class="ml-2">Quick Menu</span> </span></h3>
+<ul class="mt-4 list_pro text-sm">
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm">Home</a></li>
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/about">About Us</a></li>
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/issue/current">Current Issue</a></li>
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/issue/archive">Archive</a></li>
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/oa">Open Access</a></li>
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/faq">Support &amp; FAQs</a></li>
+</ul>
+</div>
+<div class="pt-8 text-left">
+<h3 class="text-base font-bold"><span style="border-left: 5px solid #808080;"> <span class="ml-2">Information for</span> </span></h3>
+<ul class="mt-4 list_pro text-sm">
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/information/authors">Authors</a></li>
+<li class="py-1"><a href="#">Editors</a></li>
+<li class="py-1"><a href="#">Reviewers</a></li>
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/information/librarians">Librarians</a></li>
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/information/readers">Researchers</a></li>
+<li class="py-1"><a href="#">Societies</a></li>
+</ul>
+</div>
+<div class="pt-8 text-left">
+<h3 class="text-base font-bold"><span style="border-left: 5px solid #808080;"> <span class="ml-2">Journal &amp; Policies</span> </span></h3>
+<ul class="mt-4 list_pro text-sm">
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/ethics">Publication Ethics</a></li>
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/reviewprocess">Review Policy</a></li>
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/ethics">Publication Ethics</a></li>
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/dap">Licensing and Copyright</a></li>
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/oa">Open Access Policy</a></li>
+<li class="py-1"><a href="https://ijsrm.net/index.php/ijsrm/pp">Plagiarism Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+				</div>
+		
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div>
+<div class="bg-gray-300 py-4" style="border-bottom:10px solid #474747">
+    <div class="text-center">
+        <div class="grid sm:grid-cols-3 gap-4">
+            <div class="flex justify-center prokar self-center">
+                <a href="https://www.facebook.com/" target="_blank"><button class="bg-gray-700 text-white mx-1" style="border-radius: 50%; width:2.5rem; height:2.5rem;"><i class="fa fa-facebook text-xl" aria-hidden="true"></i></button></a>
+                <a href="#" target="_blank"><button class="bg-gray-700 text-white mx-1" style="border-radius: 50%; width:2.5rem; height:2.5rem;"><i class="fa fa-instagram text-xl" aria-hidden="true"></i></button></a>
+                <a href="#" target="_blank"><button class="bg-gray-700 text-white mx-1" style="border-radius: 50%; width:2.5rem; height:2.5rem;"><i class="fa fa-telegram text-xl" aria-hidden="true"></i></button></a>
+                <a href="https://wa.me/+918226024694" target="_blank"><button class="bg-gray-700 text-white mx-1" style="border-radius: 50%; width:2.5rem; height:2.5rem;"><i class="fa fa-whatsapp text-xl" aria-hidden="true"></i></button></a>
+            </div>
+            <div class="flex justify-center text-base font-medium self-center">
+                <p>Copyright © <script>document.write(new Date().getFullYear());</script> International Journal of Scientific Research and Management (IJSRM) - All Rights Reserved</p>
+            </div>
+            <div class="flex justify-center text-white text-xl self-center">
+                <span class="mx-2 bg-gray-700 rounded px-2 py-1"><i class="fa fa-cc-paypal" aria-hidden="true"></i></span>
+                <span class="mx-2 bg-gray-700 rounded px-2 py-1"><i class="fa fa-cc-visa" aria-hidden="true"></i></span>
+                <span class="mx-2 bg-gray-700 rounded px-2 py-1"><i class="fa fa-cc-discover" aria-hidden="true"></i></span>
+                <span class="mx-2 bg-gray-700 rounded px-2 py-1"><i class="fa fa-cc-mastercard" aria-hidden="true"></i></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- pkp_structure_page -->
+
+
+<script src="https://ijsrm.net/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/plugins/themes/bootstrap3/bootstrap/js/util.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/plugins/themes/bootstrap3/bootstrap/js/dropdown.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/plugins/themes/bootstrap3/bootstrap/js/jquery-replaceTag.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/plugins/themes/bootstrap3/bootstrap/js/aos_aos.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/plugins/themes/bootstrap3/bootstrap/js/swiper-bundle.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/plugins/themes/bootstrap3/bootstrap/js/gsap.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/plugins/themes/bootstrap3/bootstrap/js/touch-menu-la.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/plugins/themes/bootstrap3/bootstrap/js/hammer.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/plugins/themes/bootstrap3/bootstrap/js/instantpage-5.1.0.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/plugins/themes/bootstrap3/bootstrap/js/alpine.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/plugins/themes/bootstrap3/bootstrap/js/noble.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/plugins/themes/bootstrap3/bootstrap/js/default.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ijsrm.net/plugins/generic/citationStyleLanguage/js/articleCitation.js?v=3.4.0.8" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.data = pkpUsageStats.data || {};pkpUsageStats.data.Submission = pkpUsageStats.data.Submission || {};pkpUsageStats.data.Submission[5733] = {"data":{"2024":{"10":"29","11":"7","12":"3"},"2025":{"1":"4","2":"3","3":"9","4":"55","5":"6","6":"8"}},"label":"All Downloads","color":"79,181,217","total":124};</script><script src="https://ijsrm.net/lib/pkp/js/lib/Chart.min.js?v=3.4.0.8" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.locale = pkpUsageStats.locale || {};pkpUsageStats.locale.months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];pkpUsageStats.config = pkpUsageStats.config || {};pkpUsageStats.config.chartType = "bar";</script><script src="https://ijsrm.net/lib/pkp/js/usage-stats-chart.js?v=3.4.0.8" type="text/javascript"></script><script type="text/javascript">
+(function (w, d, s, l, i) { w[l] = w[l] || []; var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+j.src = 'https://www.googletagmanager.com/gtag/js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+function gtag(){dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config', i); })
+(window, document, 'script', 'dataLayer', 'UA-99600610-1');
+</script>
+
+
+</body>
+</html>

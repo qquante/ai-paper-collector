@@ -1,0 +1,877 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>TELKOMNIKA (Telecommunication Computing Electronics and Control)</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="generator" content="Open Journal Systems 2.4.4.1" />
+	
+		<link rel="stylesheet" href="https://telkomnika.uad.ac.id/lib/pkp/styles/pkp.css" type="text/css" />
+	<link rel="stylesheet" href="https://telkomnika.uad.ac.id/lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://telkomnika.uad.ac.id/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://telkomnika.uad.ac.id/styles/compiled.css" type="text/css" />
+
+	<!-- Base Jquery -->
+	<script type="text/javascript" src="//www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			<!--
+			// Provide a local fallback if the CDN cannot be reached
+			if (typeof google == 'undefined') {
+				document.write(unescape("%3Cscript src='https://telkomnika.uad.ac.id/lib/pkp/js/lib/jquery/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+				document.write(unescape("%3Cscript src='https://telkomnika.uad.ac.id/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js' type='text/javascript'%3E%3C/script%3E"));
+			} else {
+				google.load("jquery", "1.4.4");
+				google.load("jqueryui", "1.8.6");
+			}
+			// -->
+		</script>
+	
+	
+	
+	<link rel="stylesheet" href="https://telkomnika.uad.ac.id/styles/sidebar.css" type="text/css" />		<link rel="stylesheet" href="https://telkomnika.uad.ac.id/styles/rightSidebar.css" type="text/css" />	
+			<link rel="stylesheet" href="https://telkomnika.uad.ac.id/public/site/sitestyle.css" type="text/css" />
+			<link rel="stylesheet" href="https://telkomnika.uad.ac.id/public/journals/1/journalStyleSheet.css" type="text/css" />
+	
+	<!-- Default global locale keys for JavaScript -->
+	
+<script type="text/javascript">
+	jQuery.pkp = jQuery.pkp || { };
+	jQuery.pkp.locale = { };
+			
+				jQuery.pkp.locale.form_dataHasChanged = 'The data on this form has changed. Continue anyway?';
+	</script>
+	<!-- Compiled scripts -->
+			
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/functions/fontController.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/functions/general.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/functions/jqueryValidatorI18n.js"></script>
+
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/classes/Helper.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/classes/ObjectProxy.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/classes/Handler.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/classes/linkAction/LinkActionRequest.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/classes/features/Feature.js"></script>
+
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/controllers/SiteHandler.js"></script><!-- Included only for namespace definition -->
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/controllers/UrlInDivHandler.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/controllers/AutocompleteHandler.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/controllers/ExtrasOnDemandHandler.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/controllers/form/FormHandler.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/controllers/form/AjaxFormHandler.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/controllers/form/ClientFormHandler.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/controllers/grid/GridHandler.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/controllers/linkAction/LinkActionHandler.js"></script>
+
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/js/pages/search/SearchFormHandler.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/js/statistics/ReportGeneratorFormHandler.js"></script>
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/plugins/generic/lucene/js/LuceneAutocompleteHandler.js"></script>
+
+<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.pkp.js"></script>	
+	<!-- Form validation -->
+	<script type="text/javascript" src="https://telkomnika.uad.ac.id/lib/pkp/js/lib/jquery/plugins/validate/jquery.validate.js"></script>
+	<script type="text/javascript">
+		<!--
+		// initialise plugins
+		
+		$(function(){
+			jqueryValidatorI18n("https://telkomnika.uad.ac.id", "en_US"); // include the appropriate validation localization
+			
+			$(".tagit").live('click', function() {
+				$(this).find('input').focus();
+			});
+		});
+		// -->
+		
+	</script>
+
+		
+	<link rel="alternate" type="application/atom+xml" title="TELKOMNIKA (Telecommunication Computing Electronics and Control) (atom+xml)" href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/gateway/plugin/WebFeedGatewayPlugin/atom" />
+	<link rel="alternate" type="application/rdf+xml" title="TELKOMNIKA (Telecommunication Computing Electronics and Control) (rdf+xml)" href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/gateway/plugin/WebFeedGatewayPlugin/rss" />
+	<link rel="alternate" type="application/rss+xml" title="TELKOMNIKA (Telecommunication Computing Electronics and Control) (rss+xml)" href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/gateway/plugin/WebFeedGatewayPlugin/rss2" />
+</head>
+<body id="pkp-common-openJournalSystems">
+<div id="container">
+
+<div id="header">
+<div id="headerTitle">
+<h1>
+	<img src="https://telkomnika.uad.ac.id/public/journals/1/homeHeaderTitleImage_en_US.png" width="1072" height="98" alt="TELKOMNIKA (Telecommunication, Computing, Electronics and Control)" />
+</h1>
+</div>
+</div>
+
+<div id="body">
+
+	<div id="sidebar">
+							<div id="rightSidebar">
+				<div class="block" id="sidebarUser">
+			<span class="blockTitle">User</span>
+	
+						<form method="post" action="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/login/signIn">
+				<table>
+					<tr>
+						<td><label for="sidebar-username">Username</label></td>
+						<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
+					</tr>
+					<tr>
+						<td><label for="sidebar-password">Password</label></td>
+						<td><input type="password" id="sidebar-password" name="password" value="" size="12" maxlength="32" class="textField" /></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">Remember me</label></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" value="Login" class="button" /></td>
+					</tr>
+				</table>
+			</form>
+			</div><div class="block custom">
+	<p><span class="blockTitle">Quick Links</span></p>
+<ul>
+<li><a title="TELKOMNIKA Editorial Team" href="/index.php/TELKOMNIKA/pages/view/EditorialBoards" target="_blank">Editorial Boards</a></li>
+<li><a href="/index.php/TELKOMNIKA/pages/view/reviewers">Reviewers</a></li>
+<li><strong><a title="TELKOMNIKA guide of authors" href="/index.php/TELKOMNIKA/about/editorialPolicies#custom-1">Author Guidelines</a></strong></li>
+<li><strong><a title="Online Paper Submission" href="/index.php/TELKOMNIKA/about/submissions#onlineSubmissions" target="_blank">Online Submission</a></strong></li>
+<li><a title="Plagiarism screening policy" href="/index.php/TELKOMNIKA/pages/view/screen" target="_blank">Policy of Plagiarism Screening</a></li>
+<li><a title="Peer Review Process" href="/index.php/TELKOMNIKA/about/editorialPolicies#peerReviewProcess" target="_blank"><strong>Peer Review Process</strong></a></li>
+<li><a title="Publication Fee" href="/index.php/TELKOMNIKA/about/submissions#authorFees" target="_blank"><strong>Publication Fee</strong></a></li>
+<li><strong><a href="/index.php/TELKOMNIKA/pages/view/Indexing">Abstracting and Indexing</a></strong></li>
+<li><a title="Repository Policy" href="/index.php/TELKOMNIKA/pages/view/repo" target="_blank">Repository Policy</a></li>
+<li><a title=" Registration for TELKOMNIKA's Professional Reviewers" href="https://reviewer.iaes.or.id/telkomnika/" target="_blank"><strong>Register as Reviewer</strong></a></li>
+<li><a href="/index.php/TELKOMNIKA/about/editorialPolicies#custom-0">Publication Ethics</a></li>
+<li><a title="Visitors" href="http://statcounter.com/p10241713/?guest=1">Visitor Statistics</a></li>
+<li><a href="/index.php/TELKOMNIKA/about/contact">Contact Us</a></li>
+</ul>
+</div>	<div class="block" id="sidebarNavigation">
+	<span class="blockTitle">Journal Content</span>
+
+	<form id="simpleSearchForm" method="post" action="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/search/search">
+		<table id="simpleSearchInput">
+			<tr>
+				<td>
+													<label for="simpleQuery">Search <br />
+					<input type="text" id="simpleQuery" name="simpleQuery" size="15" maxlength="255" value="" class="textField" /></label>
+								</td>
+			</tr>
+			<tr>
+				<td><label for="searchField">
+				Search Scope
+				<br />
+				<select id="searchField" name="searchField" size="1" class="selectMenu">
+					<option label="All" value="query">All</option>
+<option label="Authors" value="authors">Authors</option>
+<option label="Title" value="title">Title</option>
+<option label="Abstract" value="abstract">Abstract</option>
+<option label="Index terms" value="indexTerms">Index terms</option>
+<option label="Full Text" value="galleyFullText">Full Text</option>
+
+				</select></label>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Search" class="button" /></td>
+			</tr>
+		</table>
+	</form>
+
+	<br />
+
+		<span class="blockSubtitle">Browse</span>
+	<ul>
+		<li><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/issue/archive">By Issue</a></li>
+		<li><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/search/authors">By Author</a></li>
+		<li><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/search/titles">By Title</a></li>
+		
+			</ul>
+	</div>
+
+			</div>
+			</div>
+
+<div id="main">
+<div id="navbar">
+	<ul class="menu">
+		<li id="home"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/index">Home</a></li>
+		<li id="about"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/about">About</a></li>
+
+					<li id="login"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/login">Login</a></li>
+							<li id="register"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/user/register">Register</a></li>
+												<li id="search"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/search">Search</a></li>
+		
+					<li id="current"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/issue/current">Current</a></li>
+			<li id="archives"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/issue/archive">Archives</a></li>
+		
+					<li id="announcements"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/announcement">Announcements</a></li>
+				
+
+								</ul>
+</div>
+
+<div id="breadcrumb">
+	<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/index">Home</a> &gt;
+			<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA" class="current">Vol 23, No 3</a></div>
+
+<h2>TELKOMNIKA (Telecommunication Computing Electronics and Control)</h2>
+
+
+<div id="content">
+
+<script>
+  (function(i,s,o,g,r,a,m),i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50868629-1', 'journal2.telkomnika.com');
+  ga('send', 'pageview');
+
+</script>
+
+	<div id="journalDescription"><p><strong>TELKOMNIKA (Telecommunication, Computing, Electronics and Control) ISSN: 1693-6930, e-ISSN: 2302-9293</strong> is a peer-reviewed, scientific journal published by <a title="UAD" href="https://uad.ac.id/en/" target="_blank">Universitas Ahmad Dahlan (UAD)</a>. The aim of this journal is to publish high-quality articles dedicated to all aspects of the latest outstanding developments in the field of electrical &amp; electronics engineering and computer science. Its scope encompasses the applications of Telecommunication, Computing, Electrical &amp; Electronics, and Instrumentation &amp; Control. It was first published in 2003. TELKOMNIKA started its publication as a bimonthly journal, releasing 6 issues per year, starting from issue 1 of volume 16 in 2018. The journal registered in the CrossRef system with Digital Object Identifier (DOI) prefix 10.12928.</p><p align="justify"><img style="display: none;" src="/public/site/images/hdytarf/cover-telkom.jpg" alt="" /></p><div style="overflow-x: auto;"><table style="width: 100%;"><tbody><tr><td><table class="row-content stack" style="margin: 0 auto; background-image: url('/public/site/images/hdytarf/cover-telkom.jpg'); background-repeat: no-repeat; background-size: cover; color: #000; width: 795px; table-layout: fixed;" width="900px" border="0" cellspacing="0" cellpadding="0" align="center"><tbody><tr><td class="column column-1" style="mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 0; padding-top: 0; vertical-align: top; border: 0;" width="100%"><div class="spacer_block block-1" style="height: 250px; line-height: 330px; font-size: 1px;"> </div><div class="spacer_block block-3" style="height: 105px; line-height: 35px; font-size: 1px;"> </div><table class="button_block block-4" style="mso-table-lspace: 0; mso-table-rspace: 0;" width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td class="pad" style="padding-left: 330px; text-align: left;"><div class="alignment" align="left"><a style="background-color: #fff; border-bottom: 0 solid transparent; border-left: 0 solid #495e57; border-radius: 0; border-right: 2px solid #495e57; border-top: 0 solid transparent; color: #45474b; display: inline-block; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; font-size: 12px; font-weight: 400; mso-border-alt: none; padding-bottom: 0; padding-top: 0; text-align: center; text-decoration: none; width: auto; word-break: keep-all;" onmouseover="this.style.backgroundColor=&quot;#0070BB&quot;,this.style.color=&quot;#ffffff&quot;" onmouseout="this.style.backgroundColor=&quot;#ffffff&quot;,this.style.color=&quot;#45474B&quot;" href="/index.php/TELKOMNIKA/about/submissions#onlineSubmissions" target="_blank"><span style="word-break: break-word; padding-left: 15px; padding-right: 15px; font-size: 12px; display: inline-block; letter-spacing: normal;"><span style="word-break: break-word; line-height: 28.8px;"><strong>Submit Now</strong></span></span></a><a style="background-color: #fff; border-bottom: 0 solid transparent; border-left: 0 solid #495e57; border-radius: 0; border-right: 2px solid #495e57; border-top: 0 solid transparent; color: #45474b; display: inline-block; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; font-size: 12px; font-weight: 400; mso-border-alt: none; text-align: center; text-decoration: none; width: auto; word-break: keep-all;" onmouseover="this.style.backgroundColor=&quot;#0070BB&quot;,this.style.color=&quot;#ffffff&quot;" onmouseout="this.style.backgroundColor=&quot;#ffffff&quot;,this.style.color=&quot;#45474B&quot;" href="https://www.youtube.com/watch?v=B9lB-4sZNI4" target="_blank"><span style="word-break: break-word; padding-left: 15px; padding-right: 15px; font-size: 12px; display: inline-block; letter-spacing: normal;"><span style="word-break: break-word; line-height: 28.8px;"><strong>How to Register</strong></span></span></a><a style="background-color: #fff; border-bottom: 0 solid transparent; border-left: 0 solid #495e57; border-radius: 0; border-right: 2px solid #495e57; border-top: 0 solid transparent; color: #45474b; display: inline-block; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; font-size: 12px; font-weight: 400; mso-border-alt: none; text-align: center; text-decoration: none; width: auto; word-break: keep-all;" onmouseover="this.style.backgroundColor=&quot;#0070BB&quot;,this.style.color=&quot;#ffffff&quot;" onmouseout="this.style.backgroundColor=&quot;#ffffff&quot;,this.style.color=&quot;#45474B&quot;" href="https://www.youtube.com/watch?v=hQD9-HeNy1k" target="_blank"><span style="word-break: break-word; padding-left: 15px; padding-right: 15px; font-size: 12px; display: inline-block; letter-spacing: normal;"><span style="word-break: break-word; line-height: 28.8px;"><strong>How to Submit</strong></span></span></a></div></td></tr></tbody></table><div class="spacer_block block-5" style="height: 75px; line-height: 50px; font-size: 1px;"> </div></td></tr></tbody></table></td></tr></tbody></table></div></div>
+
+
+
+
+<br />
+<div id="additionalHomeContent"><div id="additionalHomeContent">A submitted paper should be original and not have been presented or published previously. Submission for publication in this journal presumes that the paper is not being considered for publication elsewhere and is not under review by any other publication. To maintain the highest publishing standards, all articles go through a thorough evaluation process while following all ethical guidelines. The TELKOMNIKA Editors strictly reviews the suitability and originality of manuscripts for publication. Our editors maintain research transparency, assess manuscripts for scientific value, ensure that content is free from any manifestations of discrimination, and evaluate information objectively without any conflict of interest. Publication integrity is one of the principle responsibilities we take on.<p>Authors should <a title="Submit your paper through EDAS" href="/index.php/TELKOMNIKA/about/submissions#onlineSubmissions" rel="noopener" target="_blank">submit only papers</a> that have been carefully proofread and polished. Manuscripts are accepted with the understanding that they are an original or extended version of previously published papers in conferences and/or journals, and that, if the work received an official sponsorship, it has been duly released for open publication. Before submitting, please ensure that you prepare your paper using the journal paper template. For the writing format and style, the authors should consult the TELKOMNIKA Journal, which they can download and use as a template for their initial manuscript submission in either <strong><a title="TELKOMNIKA TEMPLATE" href="https://iaescore.com/gfa/telkomnika.docx" target="_blank">DOCX</a> or <a title="TELKOMNIKA TEMPLATE - LATEX" href="https://iaescore.com/gfa/telkomnika.rar" target="_blank">LATEX</a></strong> format. This will ensure fast processing and publication. We will not process any papers that do not meet the requirements outlined in the author guidelines. If you have any problems with the online submission, please send an email to telkomnika [at] ee.uad.ac.id (subject: Your Name: Problem with Online Submission) and cc: telkomnika [at] uad.ac.id.</p><p> </p><h2><span class="blockTitle">All Issues:</span></h2><ul><li><strong>2025: <a title="Vol 23, No 1 February 2025" href="/index.php/TELKOMNIKA/issue/view/1050" target="_blank">Vol. 23 No. 1</a><strong>, <a title="Vol 23, No 2 April 2025" href="/index.php/TELKOMNIKA/issue/view/1051" target="_blank">Vol. 23 No. 2</a>, Vol. 23 No. 3, Vol. 23 No. 4, Vol. 23 No. 5, Vol. 23 No. 6</strong></strong></li><li><strong>2024: <a title="Vol 22, No 1, February 2024" href="/index.php/TELKOMNIKA/issue/view/1036" target="_blank">Vol. 22 No. 1</a><strong>, <a title="Vol 22, No 2 April 2024" href="/index.php/TELKOMNIKA/issue/view/1037" target="_blank">Vol. 22 No. 2</a>, <a title="Vol 22, No 3 June 2024" href="/index.php/TELKOMNIKA/issue/view/1042" target="_blank">Vol. 22 No. 3</a>, <a title="Vol 22, No 4 August 2024" href="/index.php/TELKOMNIKA/issue/view/1045" target="_blank">Vol. 22 No. 4,</a> <a title="Vol 22, No 5 October 2024" href="/index.php/TELKOMNIKA/issue/view/1048" target="_blank">Vol. 22 No. 5</a>, <a title="Vol 22, No 6 December 2024" href="/index.php/TELKOMNIKA/issue/view/1049" target="_blank">Vol. 22 No. 6</a></strong></strong></li><li><strong>2023: <a title="Vol. 21, No. 1, February 2023" href="/index.php/TELKOMNIKA/issue/view/1030" target="_blank">Vol. 21 No. 1</a><strong>, <a title="Vol. 21, No. 2, April 2023" href="/index.php/TELKOMNIKA/issue/view/1031" target="_blank">Vol. 21 No. 2</a>, <a title="Vol. 21, No. 3, June 2023" href="/index.php/TELKOMNIKA/issue/view/1032" target="_blank">Vol. 21 No. 3</a>, <a title="Vol. 21, No. 4, August 2023" href="/index.php/TELKOMNIKA/issue/view/1033" target="_blank">Vol. 21 No. 4</a>, <a title="Vol 21, No 5, October 2023" href="/index.php/TELKOMNIKA/issue/view/1034" target="_blank">Vol. 21 No. 5</a>, <a title="Vol. 21, No. 6, December 2023" href="/index.php/TELKOMNIKA/issue/view/1035" target="_blank">Vol. 21 No. 6</a></strong></strong></li><li><strong>2022: <strong><a title="Vol. 20, No. 1, February 2022" href="/index.php/TELKOMNIKA/issue/view/969" target="_blank">Vol. 20 No. 1</a>,<a title="Vol. 20, No. 2, April 2022" href="/index.php/TELKOMNIKA/issue/view/991" target="_blank"> Vol. 20 No. 2</a>, <a title="Vol 20, No 3, June 2022" href="/index.php/TELKOMNIKA/issue/view/992" target="_blank">Vol. 20 No. 3</a>, <a title="Vol. 20, No. 4, August 2022" href="/index.php/TELKOMNIKA/issue/view/1027" target="_blank">Vol. 20 No. 4</a>, <a title="Vol. 20, No. 5, October 2022" href="/index.php/TELKOMNIKA/issue/view/1028" target="_blank">Vol. 20 No. 5</a>, <a title="Vol. 20, No. 6, December 2022" href="/index.php/TELKOMNIKA/issue/view/1029" target="_blank">Vol. 20 No. 6</a></strong></strong></li><li><strong>2021: <strong><a title="Vol. 19, No. 1, February 2021" href="/index.php/TELKOMNIKA/issue/view/768" target="_blank">Vol. 19 No. 1</a>, <a title="Vol. 19, No. 2, April 2021" href="/index.php/TELKOMNIKA/issue/view/844" target="_blank">Vol. 19 No. 2</a>, <a title="Vol. 19, No. 3, June 2021" href="/index.php/TELKOMNIKA/issue/view/861" target="_blank">Vol. 19 No. 3</a>, <a title="Vol. 19, No. 4, August 2021" href="/index.php/TELKOMNIKA/issue/view/866" target="_blank">Vol. 19 No. 4</a>, <a title="Vol. 19, No. 5, October 2021" href="/index.php/TELKOMNIKA/issue/view/918" target="_blank">Vol. 19 No. 5</a>, <a title="Vol. 19, No. 6, December 2021" href="/index.php/TELKOMNIKA/issue/view/919" target="_blank">Vol. 19 No. 6</a></strong></strong></li><li><strong>2020: <strong><a title="Vol. 18 No. 1, February 2020" href="/index.php/TELKOMNIKA/issue/view/688" target="_blank">Vol. 18 No. 1</a>, <a title="Vol. 18, No. 2, April 2020" href="/index.php/TELKOMNIKA/issue/view/689" target="_blank">Vol. 18 No. 2</a>, <a title="Vol. 18, No. 3, June 2020" href="/index.php/TELKOMNIKA/issue/view/690" target="_blank">Vol. 18 No. 3</a>, <a title="Vol. 18, No. 4, August 2020" href="/index.php/TELKOMNIKA/issue/view/691" target="_blank">Vol. 18 No. 4</a>, <a title="Vol. 18, No. 5, October 2020" href="/index.php/TELKOMNIKA/issue/view/692" target="_blank">Vol. 18 No. 5</a>, <a title="Vol. 18, No. 6, December 2020" href="/index.php/TELKOMNIKA/issue/view/693" target="_blank">Vol. 18 No. 6</a></strong></strong></li><li><strong>2019: <strong><a title="Vol. 17, No. 1, February 2019" href="/index.php/TELKOMNIKA/issue/view/635" target="_blank">Vol. 17 No. 1</a>, <a title="Vol. 17, No. 2, April 2019" href="/index.php/TELKOMNIKA/issue/view/636" target="_blank">Vol. 17 No. 2</a>, <a title="Vol. 17, No. 3, June 2019" href="/index.php/TELKOMNIKA/issue/view/637" target="_blank">Vol. 17 No. 3</a>, <a title="Vol. 17, N.o 4, August 2019" href="/index.php/TELKOMNIKA/issue/view/638" target="_blank">Vol. 17 No. 4</a>, <a title="Vol. 17, No. 5, October 2019" href="/index.php/TELKOMNIKA/issue/view/639" target="_blank">Vol. 17 No. 5</a>, <a title="Vol. 17, No. 6, December 2019" href="/index.php/TELKOMNIKA/issue/view/640" target="_blank">Vol. 17 No. 6</a></strong></strong></li><li><strong>2018: <strong><a title="Vol. 16, No. 1, February 2018" href="/index.php/TELKOMNIKA/issue/view/498" target="_blank">Vol. 16 No. 1</a>, <a title="Vol. 16, No. 2, April 2018" href="/index.php/TELKOMNIKA/issue/view/551" target="_blank">Vol. 16 No. 2</a>, <a title="Vol. 16, No. 3, June 2018" href="/index.php/TELKOMNIKA/issue/view/553" target="_blank">Vol. 16 No. 3</a>, <a title="Vol. 16, No. 4, August 2018" href="/index.php/TELKOMNIKA/issue/view/554" target="_blank">Vol. 16 No. 4</a>, <a title="Vol. 16, No. 5, October 2018" href="/index.php/TELKOMNIKA/issue/view/555" target="_blank">Vol. 16 No. 5</a>, <a title="Vol. 16, No. 6, December 2018" href="/index.php/TELKOMNIKA/issue/view/563" target="_blank">Vol. 16 No. 6</a></strong></strong></li><li><strong>2017: <strong><a title="Vol. 15, No. 1, March 2017" href="/index.php/TELKOMNIKA/issue/view/423" target="_blank">Vol. 15 No. 1</a>, <a title="Vol. 15, No. 2, June 2017" href="/index.php/TELKOMNIKA/issue/view/450" target="_blank">Vol. 15 No. 2</a>, <a title="Vol. 15, No. 3, September 2017" href="/index.php/TELKOMNIKA/issue/view/425" target="_blank">Vol. 15 No. 3</a>, <a title="Vol. 15, No. 4, December 2017" href="/index.php/TELKOMNIKA/issue/view/426" target="_blank">Vol. 15 No. 4</a></strong></strong></li><li><strong>2016: <strong><a title="Vol. 14, No. 1, March 2016" href="/index.php/TELKOMNIKA/issue/view/236" target="_blank">Vol. 14 No. 1</a>, <a title="Vol. 14, No. 2, June 2016" href="/index.php/TELKOMNIKA/issue/view/237" target="_blank">Vol. 14 No. 2</a>, <a title="Vol. 14, No. 3, September 2016" href="/index.php/TELKOMNIKA/issue/view/238" target="_blank">Vol. 14 No. 3</a>, <a title="Vol. 14, No. 4, December 2016" href="/index.php/TELKOMNIKA/issue/view/239" target="_blank">Vol. 14 No. 4</a></strong></strong></li><li><strong>2015: <strong><a title="Vol. 13, No. 1, March 2015" href="/index.php/TELKOMNIKA/issue/view/13" target="_blank">Vol. 13 No. 1</a>, <a title="Vol. 13, No. 2, June 2015" href="/index.php/TELKOMNIKA/issue/view/14" target="_blank">Vol. 13 No. 2</a>, <a title="Vol. 13, No. 3, September 2015" href="/index.php/TELKOMNIKA/issue/view/15" target="_blank">Vol. 13 No. 3</a>, <a title="Vol. 13, No. 4, December 2015" href="/index.php/TELKOMNIKA/issue/view/16" target="_blank">Vol. 13 No. 4</a></strong></strong></li><li><strong>2014: <strong><a title="Vol. 12, No. 1, March 2014" href="/index.php/TELKOMNIKA/issue/view/9" target="_blank">Vol. 12 No. 1</a>, <a title="Vol. 12, No. 2, June 2014" href="/index.php/TELKOMNIKA/issue/view/10" target="_blank">Vol. 12 No. 2</a>, <a title="Vol. 12, No. 3, September 2014" href="/index.php/TELKOMNIKA/issue/view/18" target="_blank">Vol. 12 No. 3</a>, <a title="Vol. 12, No. 4, December 2014" href="/index.php/TELKOMNIKA/issue/view/12" target="_blank">Vol. 12 No. 4</a></strong></strong></li><li><strong>2013: <strong><a title="Vol. 11, No. 1, March 2013" href="/index.php/TELKOMNIKA/issue/view/5" target="_blank">Vol. 11 No. 1</a>, <a title="Vol. 11, No. 2, June 2013" href="/index.php/TELKOMNIKA/issue/view/6" target="_blank">Vol. 11 No. 2</a>, <a title="Vol. 11, No. 3, September 2013" href="/index.php/TELKOMNIKA/issue/view/7" target="_blank">Vol. 11 No. 3</a>, <a title="Vol. 11, No. 4, December 2013" href="/index.php/TELKOMNIKA/issue/view/8" target="_blank">Vol. 11 No. 4</a></strong></strong></li><li><strong><strong>2012: <a title="Vol. 10, No. 1, March 2012" href="/index.php/TELKOMNIKA/issue/view/1" target="_blank">Vol. 10 No. 1</a>, <a title="Vol. 10, No. 2, June 2012" href="/index.php/TELKOMNIKA/issue/view/2" target="_blank">Vol. 10 No. 2</a>, <a title="Vol. 10, No. 3, September 2012" href="/index.php/TELKOMNIKA/issue/view/3" target="_blank">Vol. 10 No. 3</a>, <a title="Vol. 10, No. 4, December 2012" href="/index.php/TELKOMNIKA/issue/view/4" target="_blank">Vol. 10 No. 4</a></strong></strong></li><li><strong><strong>2011: <strong><a title="Vol. 9, No. 1, April 2011" href="/index.php/TELKOMNIKA/issue/view/87" target="_blank">Vol. 9 No. 1</a>, <a title="Vol. 9, No. 2, August 2011" href="/index.php/TELKOMNIKA/issue/view/88" target="_blank">Vol. 9 No. 2</a>, <a title="Vol. 9, No. 3, December 2011" href="/index.php/TELKOMNIKA/issue/view/89" target="_blank">Vol. 9 No. 3</a></strong></strong></strong></li><li><strong><strong>2010: <strong><a title="Vol. 8, No. 1, April 2010" href="/index.php/TELKOMNIKA/issue/view/90" target="_blank">Vol. 8 No. 1</a>, <a title="Vol. 8, No. 2, August 2010" href="/index.php/TELKOMNIKA/issue/view/91" target="_blank">Vol. 8 No. 2</a>, <a title="Vol. 8, No. 3, December 2010" href="/index.php/TELKOMNIKA/issue/view/92" target="_blank">Vol. 8 No. 3</a></strong></strong></strong></li><li><strong><strong>2009: <strong><a title="Vol. 7, No. 1, April 2009" href="/index.php/TELKOMNIKA/issue/view/93" target="_blank">Vol. 7 No. 1</a>, <a title="Vol. 7, No. 2, August 2009" href="/index.php/TELKOMNIKA/issue/view/94" target="_self">Vol. 7 No. 2</a>, <a title="Vol. 7, No. 3, December 2009" href="/index.php/TELKOMNIKA/issue/view/95" target="_blank">Vol. 7 No. 3</a></strong></strong></strong></li><li><strong><strong>2008: <strong><a title="Vol. 6, No. 1, April 2008" href="/index.php/TELKOMNIKA/issue/view/96" target="_blank">Vol. 6 No. 1</a>, <a title="Vol. 6, No. 2, August 2008" href="/index.php/TELKOMNIKA/issue/view/97" target="_blank">Vol. 6 No. 2</a>, <a title="Vol. 6, No. 3, December 2008" href="/index.php/TELKOMNIKA/issue/view/98" target="_blank">Vol. 6 No. 3</a></strong></strong></strong></li><li><strong><strong>2007: <strong><a title="Vol. 5, No. 1, April 2007" href="/index.php/TELKOMNIKA/issue/view/106" target="_blank">Vol. 5 No. 1</a>, <a title="Vol. 5, No. 2, August 2007" href="/index.php/TELKOMNIKA/issue/view/107" target="_blank">Vol. 5 No. 2</a>, <a title="Vol. 5, No. 3, December 2007" href="/index.php/TELKOMNIKA/issue/view/108" target="_blank">Vol. 5 No. 3</a></strong></strong></strong></li><li><strong><strong>2006: <strong><a title="Vol .4, No. 1, April 2006" href="/index.php/TELKOMNIKA/issue/view/109" target="_blank">Vol. 4 No. 1</a>, <a title="Vol. 4, No. 2, August 2006" href="/index.php/TELKOMNIKA/issue/view/110" target="_blank">Vol. 4 No. 2</a>, <a title="Vol. 4, No. 3, December 2006" href="/index.php/TELKOMNIKA/issue/view/111" target="_blank">Vol. 4 No. 3</a></strong></strong></strong></li><li><strong><strong>2005: <strong><a title="Vol. 3, No. 1, April 2005" href="/index.php/TELKOMNIKA/issue/view/112" target="_blank">Vol. 3 No. 1</a>, <a title="Vol. 3, No. 2, August 2005" href="/index.php/TELKOMNIKA/issue/view/113" target="_blank">Vol. 3 No. 2</a>, <a title="Vol. 3, No. 3, December 2005" href="/index.php/TELKOMNIKA/issue/view/114" target="_blank">Vol. 3 No. 3</a></strong></strong></strong></li><li><strong><strong>2004: <a title="Vol. 2, No. 1, April 2004" href="/index.php/TELKOMNIKA/issue/view/178" target="_blank">Vol. 2 No. 1</a>, <a title="Vol. 2, No. 2, August 2004" href="/index.php/TELKOMNIKA/issue/view/179" target="_blank">Vol. 2 No. 2</a>, <a title="Vol. 2, No. 3, December 2004" href="/index.php/TELKOMNIKA/issue/view/180" target="_blank">Vol. 2 No. 3</a></strong></strong></li></ul></div><div id="gtx-trans" style="position: absolute; left: 43px; top: 402.974px;"> </div></div>
+
+		<div id="announcementsHome">
+		<h3>Announcements</h3>
+		<table class="announcements">
+	<tr>
+		<td colspan="2" class="headseparator">&nbsp;</td>
+	</tr>
+
+
+			<tr class="title">
+					<td class="title"><h4>Authors need to know</h4></td>
+					<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="description">
+			<td class="description">1. A journal differs from a conference. A journal follows a regular publication schedule and publishes a set number of papers in each issue and each year. In a journal, the number of published papers must be reasonable and understandable for each issue and year, as announced on the website.<br /><br />2. During the review process, each author competes with the others. Authors should utilize the time allocated by the editor to revise and update their work when necessary, considering feedback from reviewers and editors, with the goal of winning the competition. Authors should be aware that the publication quota of a journal is limited. The journal will only publish the best papers, rejecting all others due to the limitation.<br /><br />3. Once a manuscript receives acceptance, it still requires additional processing, such as preparing the final camera-ready paper and proofreading, among other things. Authors should be aware and cooperative with all processes. Even after the processing has been completed, authors should exercise patience in waiting for the publication scheduling due to point number 1.<br /><br />4.Scopus has three metrics (SJR, CiteScore, and SNIP). ScimagoJR announces the SJR and quartile every year around May, while Scopus directly announces the other metrics, CiteScore and SNIP. Scopus also will classify quartiles based on CiteScore. So, metrics and quartiles of a journal can fluctuate every year.<br /><br />5. A journal indexed by Scopus can be flagged by CSAB Scopus for reevaluation at any time due to radar (mainly self-citations and bursts of published papers), metrics, etc. When Scopus flags a journal, the process of adding published papers to it remains pending. The re-evaluation decision can either pass or fail, and time for re-evaluation varies, either consuming fast or long times (some weeks, some months, or even more than 1 year). If the re-evaluation result is passed, published papers will continue to be added to the Scopus database, but if it fails, the journal will be discontinued for inclusion, and there will be no added new published papers to the Scopus database.<br /><br />6. Authors should be aware of the above matters; therefore, the cooperation of authors and editors is needed to maintain, establish, and accelerate the journal's performance.</td>
+			<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="details">
+			<td class="posted">Posted: 2025-02-17</td>
+					</tr>
+		<tr>
+		<td colspan="2" class="separator">&nbsp;</td>
+	</tr>
+	
+			<tr class="title">
+					<td class="title"><h4>Should you cite yourself or not? avoid citing your published papers in this publisher whenever possible in the future</h4></td>
+					<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="description">
+			<td class="description"><p>Self-citation in academic publishing is a complex issue that can have a significant impact on how people perceive scholarly work. Institutional frameworks may unintentionally encourage authors to cite themselves, reducing the value of their work. This raises concerns about academic integrity and the possibility of technical plagiarism. Researchers should consider why authors self-cite and promote honesty in scholarly communication in order to reduce self-citation and increase credibility. Authors should exercise caution when citing their own work, particularly if they write for the same publisher. This can raise concerns about academic integrity and result in biased research dissemination. Avoiding self-citation not only improves the credibility of their work, but it also encourages a more comprehensive engagement with a larger body of scholarship. Understanding proper citation techniques strengthens an author's adherence to ethical scholarly practices. Navigating the nuances of academic citation practices is critical for scholars seeking integrity and clarity in their work. Over-reliance on one's own publications may unintentionally indicate a lack of interaction with the broader scholarly community. Scholars from various backgrounds may face unique challenges in understanding academic integrity conventions, particularly those involving self-referential citations. To maintain objectivity and credibility, authors should use a strategic approach when referencing their own work. Overreliance on previous papers can give the impression of self-validation and reduce the impact of research within the larger academic discourse. As a result, authors should avoid citing their published papers from this publisher whenever possible in the future.</p></td>
+			<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="details">
+			<td class="posted">Posted: 2025-02-16</td>
+							<td class="more"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/announcement/view/68">More...</a></td>
+					</tr>
+		<tr>
+		<td colspan="2" class="separator">&nbsp;</td>
+	</tr>
+	
+			<tr class="title">
+					<td class="title"><h4>M.Eng. (S2) in Electrical Engineering (Intelligent Systems Engineering)</h4></td>
+					<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="description">
+			<td class="description"><strong>Want to study Master's Program of Electrical Engineering at Universitas Ahmad Dahlan, Yogyakarta?</strong> <br /><br />We are pleased to announce that the Indonesia Ministry of Education, Culture, Research, and Technology has approved (<a title="Ministry Decree" href="https://s.id/1G0RL" target="_blank">https://s.id/1G0RL</a>) the establishment of the Master of Electrical Engineering in Intelligent Systems Engineering (ISE) Program at Universitas Ahmad Dahlan. In our Master in Intelligent Systems Engineering, you will gain technical expertise in computational engineering and artificial intelligence—the future of engineering and problem solving. For more information, please take a look at: https://mee.uad.ac.id</td>
+			<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="details">
+			<td class="posted">Posted: 2023-04-01</td>
+					</tr>
+		<tr>
+		<td colspan="2" class="separator">&nbsp;</td>
+	</tr>
+	
+			<tr class="title">
+					<td class="title"><h4>Improving Quality of the TELKOMNIKA</h4></td>
+					<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="description">
+			<td class="description"><p>Dear Authors,<br /><br />In <strong>2022</strong><em></em>, we plan to publish <strong>6 issues </strong> <em>(as in 2018-2021)</em>, and <strong>each issue is about 25 papers</strong>. We will publish high quality original/research articles only, and some review papers by invitation. We intend to maintain, improve the high standards of excellence, visibility and further develop of the journal. The goal is to maintain journal indexation in the Scopus and to get indexation in the Web of Science, with the continuous increasing the quality of the journal articles and visibility of the journal.</p><p>We would be more than happy to receive any suggestions for improving our Journal.<br /><br />Than you<br /><br />Best Regards,<br />Tole Sutikno<br /><em>Editor-in-Chief</em></p></td>
+			<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="details">
+			<td class="posted">Posted: 2021-04-02</td>
+							<td class="more"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/announcement/view/63">More...</a></td>
+					</tr>
+		<tr>
+		<td colspan="2" class="separator">&nbsp;</td>
+	</tr>
+	
+			<tr class="title">
+					<td class="title"><h4>We does not accept any papers suggestion from conference organizer</h4></td>
+					<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="description">
+			<td class="description">Dear Sir/Madam,<br /><br />Due to huge regular papers submission, we apologize that this journal does not accept any papers suggestion from other conference organizers. <br /><br />Your attention and cooperation is very highly appreciated.<br /><br />Best Regards,<br />TELKOMNIKA Editorial Office</td>
+			<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="details">
+			<td class="posted">Posted: 2020-06-03</td>
+							<td class="more"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/announcement/view/57">More...</a></td>
+					</tr>
+		<tr>
+		<td colspan="2" class="endseparator">&nbsp;</td>
+	</tr>
+	
+</table>	
+		<table class="announcementsMore">
+			<tr>
+				<td><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/announcement">More Announcements...</a></td>
+			</tr>
+		</table>
+	</div>
+
+		<br />
+	<h3>Vol 23, No 3: June 2025</h3>
+		<div id="issueDescription"></div>
+		<h3>Table of Contents</h3>
+	
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26706">Enhanced microwave absorption in partition walls using rice husk biomass composites</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26706/12061" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Norhayati Mohamad Noor,							Hasnain Abdullah@Idris,							Mohd Nasir Taib,							Nurin Sabihah Shamshul Bahari,							Linda Mohd Kasim,							Azizah Ahmad,							Nazirah Mohamat Kasim,							Noor Azila Ismail,							Nur Shafikah Rosli						</td>
+	<td class="tocPages">563-573</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26344">Design and simulation of rectangular patch antenna arrays with high bandwidth for 2.4 GHz ISM band applications</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26344/12062" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Kymbat Kopbay,							Madiyar Nurgaliyev,							Ahmet Saymbetov,							Nurzhigit Kuttybay,							Askhat Bolatbek,							Sayat Orynbassar,							Batyrbek Zholamanov						</td>
+	<td class="tocPages">574-587</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26161">A compact triband patch antenna design at terahertz frequencies</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26161/12087" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Youssef Amraoui,							Imane Halkhams,							Rachid El Alami,							Mohammed Ouazzani Jamil,							Hassan Qjidaa						</td>
+	<td class="tocPages">588-596</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26551">A multiband sub-6 THz patch antenna with high gain for IoT and 6G communication</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26551/12064" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Redwan Al Mahmud Bin Asad Ananta,							Md. Sharif Ahammed,							Md Ashraful Haque,							Narinderjit Singh Sawaran Singh,							Kamal Hossain Nahin,							Jamal Hossain Nirob,							Md. Kawsar Ahmed,							Liton Chandra Paul						</td>
+	<td class="tocPages">597-606</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26563">Performance optimization of MIMO-NOMA systems in Nakagami-m fading environments</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26563/12065" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Rubab Ahmmed,							Md. Humayun Kabir,							Md. Alomgir Kabir,							Kasira Tut-Tarfi						</td>
+	<td class="tocPages">607-618</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/25605">Jacobian approximation of the Sum-Alpha stopping criterion</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/25605/12066" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Aissa Ouardi						</td>
+	<td class="tocPages">619-628</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26526">A 6G THz MIMO antenna with high gain and wide bandwidth for high-speed wireless communication</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26526/12067" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Redwan Al Mahmud Bin Asad Ananta,							Md. Sharif Ahammed,							Md. Ashraful Haque,							Md. Kawsar Ahmed,							Narinderjit Singh Sawaran Singh,							Jamal Hossain Nirob,							Kamal Hossain Nahin,							Liton Chandra Paul						</td>
+	<td class="tocPages">629-638</td>
+</tr>
+</table>
+
+
+<div class="separator"></div>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26490">Adulterated beef detection with redundant gas sensor using optimized convolutional neural network</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26490/12068" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Ardani Cesario Zuhri,							Agus Widodo,							Mario Ardhany,							Danny Mokhammad Gandana,							Galang Ilman Islami,							Galuh Prihantoro						</td>
+	<td class="tocPages">639-652</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26176">Leveraging technology to improve tuberculosis patient adherence: a comprehensive review</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26176/12069" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Almas Fahrana,							Sri Hernawati,							Saiful Bukhori,							Al Munawir,							Bayu Taruna Widjaja Putra						</td>
+	<td class="tocPages">653-663</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26409">Integrating artificial intelligence into accounting systems: a qualitative study on user experiences and challenges</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26409/12070" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Andhika Andhika,							Lawrence Adi Supriyono						</td>
+	<td class="tocPages">664-672</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26451">Addressing overfitting in comparative study for deep learning-based classification</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26451/12071" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Jing-Yee Ong,							Lee-Yeng Ong,							Meng-Chew Leow						</td>
+	<td class="tocPages">673-681</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26059">Convolutional neural network-based real-time drowsy driver detection for accident prevention</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26059/12072" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Nippon Datta,							Tanjim Mahmud,							Manoara Begum,							Mohammad Tarek Aziz,							Dilshad Islam,							Md. Faisal Bin Abdul Aziz,							Khudaybergen Kochkarov,							Temur Eshchanov,							Valisher Sapayev Odilbek Uglu,							Sobir Parmanov,							Mohammad Shahadat Hossain,							Karl Andersson						</td>
+	<td class="tocPages">682-693</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26554">XGBoost optimization using hybrid Bayesian optimization and nested cross validation for calorie prediction</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26554/12073" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Budiman Budiman,							Nur Alamsyah,							Titan Parama Yoga,							R Yadi Rakhman Alamsyah,							Elia Setiana						</td>
+	<td class="tocPages">694-702</td>
+</tr>
+</table>
+
+
+<div class="separator"></div>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26569">Novel internet of things-spectroscopy methods for targeted water pollutants in household point-of-use environments</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26569/12074" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Syahidah Nurani Zulkifli,							Herlina Abdul Rahim,							Nurul Adilla Mohd Subha						</td>
+	<td class="tocPages">703-715</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26426">Website-based: smart goat farm monitoring cages</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26426/12075" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Dwinanda Hafid Wicaksana,							Wella Wella						</td>
+	<td class="tocPages">716-726</td>
+</tr>
+</table>
+
+
+<div class="separator"></div>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26310">Reversible data hiding with selective bits difference expansion and modulus function</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26310/12076" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Aulia Arham,							Hanung Adi Nugroho,							Domi Sepri						</td>
+	<td class="tocPages">727-737</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26626">Neuromarketing case study: recognition of sweet and sour taste in beverage products based on EEG signal features</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26626/12077" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Yuri Pamungkas,							Riva Satya Radiansyah,							Padma Nyoman Crisnapati,							Yamin Thwe						</td>
+	<td class="tocPages">738-747</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26640">Deep learning approaches for accurate wood species recognition</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26640/12078" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Heshalini Rajagopal,							Nicky Christian,							Devika Sethu,							Mohd. Azwan Ramlan,							Hanis Farhah Jamahori,							Mardhiah Awalludin,							Norul Ashikin Norzain,							Renuka Devi Rajagopal,							Narayanan Ganesh						</td>
+	<td class="tocPages">748-757</td>
+</tr>
+</table>
+
+
+<div class="separator"></div>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26617">Integration of image processing with 6-degrees-of-freedom robotic arm for advanced automation</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26617/12088" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Paanthong Sroymuk,							Paramust Juntarakod,							Viroch Sukontanakarn						</td>
+	<td class="tocPages">758-769</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26652">Hybrid methodology for parameter algebraic identification in spatial/time domain for switched reluctance motors</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26652/12080" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Carlos Vergara-Ramírez,							John Cortés-Romero,							Horacio Coral-Enriquez						</td>
+	<td class="tocPages">770-780</td>
+</tr>
+</table>
+
+
+<div class="separator"></div>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26647">Clustering of swamp land types against soil resistivity and grounding resistance</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26647/12081" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Dian Eka Putra,							Muhammad Irfan Jambak,							Zainuddin Nawawi						</td>
+	<td class="tocPages">781-788</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26656">The use of dolomite to overcome grounding resistance in acidic swamp land</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26656/12082" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Dian Eka Putra,							Muhammad Irfan Jambak,							Zainuddin Nawawi						</td>
+	<td class="tocPages">789-796</td>
+</tr>
+</table>
+
+
+<div class="separator"></div>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/27076">Recognition and understanding of construction safety signs by final year engineering students</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/27076/12083" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Frank Kulor,							Elisha D. Markus,							Michael W. Apprey,							Divine Novieto						</td>
+	<td class="tocPages">797-806</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/24994">Indonesian continuous speech recognition optimization with convolution bidirectional long short-term memory architecture</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/24994/12084" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Sukmawati Nur Endah,							Rismiyati Rismiyati,							Priyo Sidik Sasongko,							Anwar Petrus F Noiborhu						</td>
+	<td class="tocPages">807-815</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26304">Implementation of ICMP flood detection and mitigation system based on software-defined network and sFlow-RT</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26304/12085" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Rikie Kartadie,							Adi Kusjani,							Rangga Warsito,							Yudhi Kusnanto,							Lucia Nugraheni Harnaningrum						</td>
+	<td class="tocPages">816-824</td>
+</tr>
+</table>
+
+	
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		
+
+				
+					
+	<td class="tocTitle"><a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26494">Earthquake magnitude prediction based on radon cloud data near Grindulu fault, Indonesia using the statistical method</a></td>
+	<td class="tocGalleys">
+									<a href="https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26494/12086" class="file">PDF</a>
+													</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Sunarno Sunarno,							Thomas Oka Pratama,							Faridah Faridah,							Nugroho Ananto,							Hermin Kartika Sari,							Rony Wijaya,							Memory Motivanisman Waruwu						</td>
+	<td class="tocPages">825-836</td>
+</tr>
+</table>
+
+
+
+	<br /><br />
+	<div id="pageFooter"><p><strong>TELKOMNIKA Telecommunication, Computing, Electronics and Control</strong><br />ISSN: 1693-6930, e-ISSN: 2302-9293<br /><span class="LrzXr"><a title="UAD" href="https://uad.ac.id/en/" target="_blank">Universitas Ahmad Dahlan</a>, 4th Campus<br />Jl. Ringroad Selatan, Kragilan, Tamanan, Banguntapan, Bantul, Yogyakarta, Indonesia 55191<br />Phone: +62 (274) 563515, 511830, 379418, 371120<br />Fax: <span class="LrzXr">+62 </span>274 564604</span></p><p><!-- Default Statcounter code for TELKOMNIKA
+http://www.journal.uad.ac.id/index.php/TELKOMNIKA --><script type="text/javascript">// <![CDATA[
+var sc_project=10241713; 
+var sc_invisible=0; 
+var sc_security="0b6069be"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+// ]]></script></p><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div class="statcounter"&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a title="Web Analytics" href="http://statcounter.com/" target="_blank"&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img class="statcounter" src="//c.statcounter.com/10241713/0/0b6069be/0/" alt="Web Analytics"&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- End of Statcounter Code --> <a href="http://statcounter.com/p10241713/?guest=1">View TELKOMNIKA Stats</a></div>
+
+</div><!-- content -->
+</div><!-- main -->
+</div><!-- body -->
+
+
+
+</div><!-- container -->
+</body>
+</html>

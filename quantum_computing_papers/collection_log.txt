@@ -1,0 +1,111 @@
+2025-06-29 10:55:14,777 [INFO] - ==================================================
+2025-06-29 10:55:14,777 [INFO] - AI Paper Collector Initialized
+2025-06-29 10:55:14,778 [INFO] - Query: ''Shor's Algorithm' OR 'Grover's Algorithm''
+2025-06-29 10:55:14,778 [INFO] - Maximum papers: 15
+2025-06-29 10:55:14,778 [INFO] - Output directory: quantum_computing_papers
+2025-06-29 10:55:14,778 [INFO] - --------------------------------------------------
+2025-06-29 10:55:14,779 [INFO] - --- Starting Semantic Scholar Search ---
+2025-06-29 10:55:15,877 [INFO] - HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=%27Shor%27s+Algorithm%27+OR+%27Grover%27s+Algorithm%27&fields=abstract%2Cauthors%2CcitationCount%2CcitationStyles%2CcorpusId%2CexternalIds%2CfieldsOfStudy%2CinfluentialCitationCount%2CisOpenAccess%2Cjournal%2CopenAccessPdf%2CpaperId%2CpublicationDate%2CpublicationTypes%2CpublicationVenue%2CreferenceCount%2Cs2FieldsOfStudy%2Ctitle%2Curl%2Cvenue%2Cyear&offset=0&limit=100 "HTTP/1.1 429 "
+2025-06-29 10:55:46,754 [INFO] - HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=%27Shor%27s+Algorithm%27+OR+%27Grover%27s+Algorithm%27&fields=abstract%2Cauthors%2CcitationCount%2CcitationStyles%2CcorpusId%2CexternalIds%2CfieldsOfStudy%2CinfluentialCitationCount%2CisOpenAccess%2Cjournal%2CopenAccessPdf%2CpaperId%2CpublicationDate%2CpublicationTypes%2CpublicationVenue%2CreferenceCount%2Cs2FieldsOfStudy%2Ctitle%2Curl%2Cvenue%2Cyear&offset=0&limit=100 "HTTP/1.1 429 "
+2025-06-29 10:56:17,659 [INFO] - HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=%27Shor%27s+Algorithm%27+OR+%27Grover%27s+Algorithm%27&fields=abstract%2Cauthors%2CcitationCount%2CcitationStyles%2CcorpusId%2CexternalIds%2CfieldsOfStudy%2CinfluentialCitationCount%2CisOpenAccess%2Cjournal%2CopenAccessPdf%2CpaperId%2CpublicationDate%2CpublicationTypes%2CpublicationVenue%2CreferenceCount%2Cs2FieldsOfStudy%2Ctitle%2Curl%2Cvenue%2Cyear&offset=0&limit=100 "HTTP/1.1 429 "
+2025-06-29 10:56:48,558 [INFO] - HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=%27Shor%27s+Algorithm%27+OR+%27Grover%27s+Algorithm%27&fields=abstract%2Cauthors%2CcitationCount%2CcitationStyles%2CcorpusId%2CexternalIds%2CfieldsOfStudy%2CinfluentialCitationCount%2CisOpenAccess%2Cjournal%2CopenAccessPdf%2CpaperId%2CpublicationDate%2CpublicationTypes%2CpublicationVenue%2CreferenceCount%2Cs2FieldsOfStudy%2Ctitle%2Curl%2Cvenue%2Cyear&offset=0&limit=100 "HTTP/1.1 429 "
+2025-06-29 10:57:20,506 [INFO] - HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=%27Shor%27s+Algorithm%27+OR+%27Grover%27s+Algorithm%27&fields=abstract%2Cauthors%2CcitationCount%2CcitationStyles%2CcorpusId%2CexternalIds%2CfieldsOfStudy%2CinfluentialCitationCount%2CisOpenAccess%2Cjournal%2CopenAccessPdf%2CpaperId%2CpublicationDate%2CpublicationTypes%2CpublicationVenue%2CreferenceCount%2Cs2FieldsOfStudy%2Ctitle%2Curl%2Cvenue%2Cyear&offset=0&limit=100 "HTTP/1.1 200 OK"
+2025-06-29 10:57:21,052 [WARNING] - 'Comparison of time complexity in factorizing large bi prime numbers using Grover’s and Shor’s algorithm' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:21,053 [WARNING] - 'Shor's Algorithm and Grover's Algorithm in Quantum Computing' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:21,053 [INFO] - Downloading from Semantic Scholar: 'Provable advantages of kernel-based quantum learners and quantum preprocessing based on Grover's algorithm'
+2025-06-29 10:57:21,881 [INFO] - -> Saved as quantum_computing_papers\Provable advantages of kernel-based quantum learners and quantum preprocessing based on Grover's algorithm.pdf
+2025-06-29 10:57:23,883 [WARNING] - 'Exploring the Evolution of Quantum Computing: A Comparative Study of Grover’s Algorithm and Conventional Binary Search' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:23,883 [INFO] - Downloading from Semantic Scholar: 'Grover’s Algorithm – Implementations and Implications'
+2025-06-29 10:57:25,842 [INFO] - -> Saved as quantum_computing_papers\Grovers Algorithm  Implementations and Implications.pdf
+2025-06-29 10:57:27,843 [WARNING] - 'Computing models: basics, complexity, Shor's algorithm, Grover's algorithm' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:27,843 [WARNING] - 'Implementation Of Grover's and Shor's Algorithms In Quantum Machine Learning' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:27,844 [INFO] - Downloading from Semantic Scholar: 'Web-app realization of Shor’s quantum factoring algorithm and Grover’s quantum search algorithm'
+2025-06-29 10:57:35,527 [INFO] - -> Saved as quantum_computing_papers\Web-app realization of Shors quantum factoring algorithm and Grovers quantum search algorithm.pdf
+2025-06-29 10:57:37,530 [WARNING] - 'QUANTUM CRYPTOGRAPHY - BREAKING RSA ENCRYPTION USING QUANTUM COMPUTING WITH SHOR’S ALGORITHM' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:37,530 [WARNING] - 'Web-app realization of Shor’s quantum factoring algorithm and Grover’s quantum search algorithm' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:37,531 [WARNING] - 'A Brief Introduction to Quantum Algorithms An Exploration of Grover’s and Shor’s Algorithms' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:37,532 [INFO] - Downloading from Semantic Scholar: 'Is Grover’s Algorithm a Quantum Hidden Subgroup Algorithm?'
+2025-06-29 10:57:37,857 [INFO] - -> Saved as quantum_computing_papers\Is Grovers Algorithm a Quantum Hidden Subgroup Algorithm_.pdf
+2025-06-29 10:57:39,859 [WARNING] - 'More On Grover's Algorithm' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:39,860 [WARNING] - 'Evolution of Quantum Computing Based on Grover's Search Algorithm' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:39,861 [WARNING] - 'Analysis of Classical and Quantum Computing Based on Grover and Shor Algorithm' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:39,862 [WARNING] - 'Classical computing, quantum computing, and Shor's factoring algorithm' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:39,862 [INFO] - Downloading from Semantic Scholar: 'Quantum Related-Key Attack Based on Simon's Algorithm and Its Applications'
+2025-06-29 10:57:40,017 [WARNING] - Failed to download 'Quantum Related-Key Attack Based on Simon's Algorithm and Its Applications'. Reason: 403 Client Error: Forbidden for url: https://www.mdpi.com/2073-8994/15/5/972/pdf?version=1682336742
+2025-06-29 10:57:40,017 [WARNING] -   - Attempted URL: https://www.mdpi.com/2073-8994/15/5/972/pdf?version=1682336742
+2025-06-29 10:57:40,018 [WARNING] - 'Quantum Apps: simulació dels algorismes de Shor i Grover en un dispositiu mòbil (iPAD)' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:40,018 [INFO] - Downloading from Semantic Scholar: 'Unlocking New Computational Paradigms: The Role of Quantum Mechanics in Algorithm Development'
+2025-06-29 10:57:42,679 [INFO] - -> Saved as quantum_computing_papers\Unlocking New Computational Paradigms_ The Role of Quantum Mechanics in Algorithm Development.pdf
+2025-06-29 10:57:44,680 [WARNING] - 'Implementing Post-Quantum Cryptography Algorithm in Blockchain' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:44,680 [WARNING] - 'QUANTUM COMPUTING AND SHOR ’ S FACTORING ALGORITHM' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:44,681 [INFO] - Downloading from Semantic Scholar: 'Developing a Model for Predicting Lung Cancer Using Variational Quantum-Classical Algorithm: A Survey'
+2025-06-29 10:57:46,362 [INFO] - -> Saved as quantum_computing_papers\Developing a Model for Predicting Lung Cancer Using Variational Quantum-Classical Algorithm_ A Survey.pdf
+2025-06-29 10:57:48,363 [WARNING] - 'ANALYSIS OF RESISTANCE POPULAR CRYPTOSYSTEMS AGAINST QUANTUM CRYPTANALYSIS BASED ON GROVER ' S ALGORITHM' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:48,365 [WARNING] - 'Implementing qubit validation framework based on phase estimation algorithm' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:57:48,367 [INFO] - Downloading from Semantic Scholar: 'Post-Quantum Blockchain Security for the Internet of Things: Survey and Research Directions'
+2025-06-29 10:57:48,939 [WARNING] - Failed to download 'Post-Quantum Blockchain Security for the Internet of Things: Survey and Research Directions'. Reason: 403 Client Error: Forbidden for url: https://www.techrxiv.org/articles/preprint/Post_Quantum_Blockchain_Security_for_the_Internet_of_Things_Survey_and_Research_Directions/22821692/1/files/40573898.pdf
+2025-06-29 10:57:48,941 [WARNING] -   - Attempted URL: https://www.techrxiv.org/articles/preprint/Post_Quantum_Blockchain_Security_for_the_Internet_of_Things_Survey_and_Research_Directions/22821692/1/files/40573898.pdf
+2025-06-29 10:57:48,943 [INFO] - Downloading from Semantic Scholar: 'Quantum computing in molecular magnets'
+2025-06-29 10:57:49,226 [INFO] - -> Saved as quantum_computing_papers\Quantum computing in molecular magnets.pdf
+2025-06-29 10:57:51,228 [INFO] - Downloading from Semantic Scholar: 'Quantum Computing: Circuits, Algorithms, and Applications'
+2025-06-29 10:58:01,427 [INFO] - -> Saved as quantum_computing_papers\Quantum Computing_ Circuits, Algorithms, and Applications.pdf
+2025-06-29 10:58:03,428 [WARNING] - 'Quantum Computing For Cryptographic Security With Artificial Intelligence' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:03,428 [WARNING] - 'Quantum Key Distribution Algorithm for Network Security' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:03,429 [WARNING] - 'Post Quantum Cryptography: A Review of Techniques, Challenges and Standardizations' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:03,429 [WARNING] - 'Advancements in quantum computing and their implications for software development' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:03,430 [WARNING] - 'Exact search algorithm to factorize large biprimes and a triprime on IBM quantum computer' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:03,430 [INFO] - Downloading from Semantic Scholar: 'Multi-Phase Quantum Resistant Framework for Secure Communication in SCADA Systems'
+2025-06-29 10:58:06,374 [INFO] - -> Saved as quantum_computing_papers\Multi-Phase Quantum Resistant Framework for Secure Communication in SCADA Systems.pdf
+2025-06-29 10:58:08,374 [WARNING] - 'Enhancing Transportation Cyber-Physical Systems Security: A Shift to Post-Quantum Cryptography' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:08,375 [INFO] - Downloading from Semantic Scholar: 'Enhancing Cybersecurity for Renewable Energy with Quantum Algorithms and Cloud-Based AI'
+2025-06-29 10:58:09,599 [WARNING] - Failed to download 'Enhancing Cybersecurity for Renewable Energy with Quantum Algorithms and Cloud-Based AI'. Reason: 403 Client Error: Forbidden for url: https://journaljamcs.com/index.php/JAMCS/article/view/1944
+2025-06-29 10:58:09,600 [WARNING] -   - Attempted URL: https://doi.org/10.9734/jamcs/2024/v39i111944
+2025-06-29 10:58:09,600 [WARNING] - 'A Comprehensive Review of MI-HFE and IPHFE Cryptosystems: Advances in Internal Perturbations for Post-Quantum Security' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:09,600 [WARNING] - 'Resource-Efficient and Self-Adaptive Quantum Search in a Quantum-Classical Hybrid System' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:09,600 [INFO] - Downloading from Semantic Scholar: 'Halving the cost of quantum addition'
+2025-06-29 10:58:12,475 [INFO] - -> Saved as quantum_computing_papers\Halving the cost of quantum addition.pdf
+2025-06-29 10:58:14,477 [WARNING] - 'Quantum-Resistant Security Analysis of Blockchain Networks with PoS Consensus' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:14,478 [WARNING] - 'Applications of Harmonic Analysis in Quantum Computing' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:14,480 [WARNING] - 'Quantum Computing and the Implications on Online Security' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:14,481 [WARNING] - 'A study on Post Quantum- Recent Techniques, Challenges and Bibliometric analysis' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:14,482 [WARNING] - 'Breakthrough Solutions for Post-Quantum Security with QC-MDPC Codes' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:14,483 [WARNING] - 'Quantum-Enhanced Elliptic Curve Cryptography Implementations for IoT: A Comparative Analysis' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:14,484 [WARNING] - 'Quantum-Resistant Security for Healthcare Data: Integrating Lamport n-Times Signatures Scheme with Blockchain Technology' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:14,485 [WARNING] - 'Applying Polynomials for Developing Post Quantum Cryptography Algorithms to Secure Online Information - An Initial Hypothesis' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:14,485 [INFO] - Downloading from Semantic Scholar: 'Investigating the Impact of Quantum Computing on Algorithmic Complexity'
+2025-06-29 10:58:16,504 [INFO] - -> Saved as quantum_computing_papers\Investigating the Impact of Quantum Computing on Algorithmic Complexity.pdf
+2025-06-29 10:58:18,507 [WARNING] - 'Next-generation financial encryption using image analyzer algorithms: A design and implementation approach' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:18,507 [WARNING] - 'QcAssert: Quantum Device Testing with Concurrent Assertions' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:18,508 [WARNING] - 'Quantum Computing and Cryptography in Cybersecurity: A Disruptive Synergy' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:18,508 [WARNING] - 'Evaluating the Impact of Quantum Algorithms on Modern Cybersecurity Mechanisms' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:18,508 [INFO] - Downloading from Semantic Scholar: 'Exploring Quantum Supremacy: A Review Of Quantum Technologies And Algorithms'
+2025-06-29 10:58:21,698 [INFO] - -> Saved as quantum_computing_papers\Exploring Quantum Supremacy_ A Review Of Quantum Technologies And Algorithms.pdf
+2025-06-29 10:58:23,699 [WARNING] - 'Fundamentals of Modern Quantum Computing: A Technical Overview' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:23,700 [WARNING] - 'QUANTUM CRYPTOGRAPHY: SECURING DATA IN THE POST-QUANTUM COMPUTING ERA – A COMPREHENSIVE EXPLORATION OF THE FUTURE OF CYBERSECURITY' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:23,702 [INFO] - Downloading from Semantic Scholar: 'AHP-Based Approach in Quantum Computing Difficulties in the Software Sector'
+2025-06-29 10:58:25,225 [WARNING] - Failed to download 'AHP-Based Approach in Quantum Computing Difficulties in the Software Sector'. Reason: 404 Client Error: Not Found for url: https://jisem-journal.com/index.php/journal/article/view/3443
+2025-06-29 10:58:25,226 [WARNING] -   - Attempted URL: https://doi.org/10.52783/jisem.v10i21s.3443
+2025-06-29 10:58:25,226 [WARNING] - 'Crypto Code Constructions in Post-Quantum Cryptography' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:25,226 [INFO] - Downloading from Semantic Scholar: 'Designing Quantum-Resilient Blockchain Frameworks: Enhancing Transactional Security with Quantum Algorithms in Decentralized Ledgers'
+2025-06-29 10:58:26,421 [INFO] - -> Saved as quantum_computing_papers\Designing Quantum-Resilient Blockchain Frameworks_ Enhancing Transactional Security with Quantum Algorithms in Decentralized Ledgers.pdf
+2025-06-29 10:58:28,423 [INFO] - Downloading from Semantic Scholar: 'Quantum Approximate Counting, Simplified'
+2025-06-29 10:58:28,544 [WARNING] - Failed to download 'Quantum Approximate Counting, Simplified'. Reason: 403 Client Error: Forbidden for url: https://epubs.siam.org/doi/pdf/10.1137/1.9781611976014.5
+2025-06-29 10:58:28,545 [WARNING] -   - Attempted URL: https://epubs.siam.org/doi/pdf/10.1137/1.9781611976014.5
+2025-06-29 10:58:28,545 [WARNING] - 'CSE 599 d-Quantum Computing Grover ’ s Algorithm' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:28,545 [WARNING] - 'Quadratic Sieve Factorization Quantum Algorithm and its Simulation' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:28,546 [WARNING] - 'Quantum technology’s role in cybersecurity' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:28,546 [INFO] - Downloading from Semantic Scholar: 'Automated quantum oracle synthesis with a minimal number of qubits'
+2025-06-29 10:58:29,265 [INFO] - -> Saved as quantum_computing_papers\Automated quantum oracle synthesis with a minimal number of qubits.pdf
+2025-06-29 10:58:31,266 [INFO] - Downloading from Semantic Scholar: 'Maintaining Secure Level on Symmetric Encryption under Quantum Attack'
+2025-06-29 10:58:31,411 [WARNING] - Failed to download 'Maintaining Secure Level on Symmetric Encryption under Quantum Attack'. Reason: 403 Client Error: Forbidden for url: https://www.mdpi.com/2076-3417/13/11/6734/pdf?version=1685692758
+2025-06-29 10:58:31,413 [WARNING] -   - Attempted URL: https://www.mdpi.com/2076-3417/13/11/6734/pdf?version=1685692758
+2025-06-29 10:58:31,414 [WARNING] - 'PQC Secure: Strategies for Defending Against Quantum Threats' listed as Open Access, but no PDF URL was provided. Skipping.
+2025-06-29 10:58:31,416 [INFO] - Downloading from Semantic Scholar: 'quAssert: Automatic Generation of Quantum Assertions'
+2025-06-29 10:58:31,628 [INFO] - -> Saved as quantum_computing_papers\quAssert_ Automatic Generation of Quantum Assertions.pdf
+2025-06-29 10:58:33,631 [INFO] - Target number of papers reached. Stopping Semantic Scholar search.
+2025-06-29 10:58:33,633 [INFO] - ==================================================
+2025-06-29 10:58:33,634 [INFO] - Collection Complete
+2025-06-29 10:58:33,635 [INFO] - Total papers downloaded: 15
+2025-06-29 10:58:33,636 [INFO] - Output saved in 'quantum_computing_papers'
+2025-06-29 10:58:33,637 [INFO] - Log file available at 'quantum_computing_papers\collection_log.txt'
+2025-06-29 10:58:33,637 [INFO] - ==================================================
